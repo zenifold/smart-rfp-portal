@@ -370,9 +370,11 @@
 
 **Your competitive advantage:**
 - Corporate Ethnography methodology
-- Guardian oversight model
+- **Implementation Partnership model** (hands-on technical leadership, not just oversight)
 - Firm-fixed pricing
-- 15+ years experience
+- **15+ years hands-on ERP migration experience** (actual implementation, not just consulting)
+- **Quantitative data analysis** with measurable outcomes
+- **Enterprise data products** (dashboards, integrations, automated workflows)
 
 **Your vulnerabilities:**
 - Timing: Less than 30 days
