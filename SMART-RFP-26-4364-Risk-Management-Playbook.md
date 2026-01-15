@@ -13,20 +13,20 @@ ERP projects are inherently risky. Industry statistics show:
 - **70%** fail to achieve expected benefits
 - **40%** have significant user adoption issues
 
-Our approach fundamentally changes these odds through:
-- **Guardian Oversight Model** - Independent monitoring and protection
+My approach fundamentally changes these odds through:
+- **Implementation Partnership Model** - Hands-on technical leadership throughout
 - **Corporate Ethnography** - Understanding real user needs
 - **Firm-Fixed Pricing** - Eliminating budget risk for SMART
 - **24-Month Risk-Adjusted Timeline** - No unrealistic promises
 - **Data Hygiene First** - Preventing data quality failures
 
-This playbook details our proactive risk management approach.
+This playbook details my proactive risk management approach.
 
 ---
 
 ## Risk Categories
 
-### Category 1: Project Scope & Requirements
+### Category1: Project Scope & Requirements
 
 ### Risk 1.1: Scope Creep During Implementation
 **Probability:** High  
@@ -52,16 +52,16 @@ This playbook details our proactive risk management approach.
    - Vendor penalties for non-delivery
    - Scope change process defined in contract
    
-3. **Guardian Oversight (Phase 6)**
-   - All vendor-proposed changes require Guardian analysis
-   - SMART only sees changes that Guardian recommends
+3. **Implementation Partnership (Phase 6)**
+   - All vendor-proposed changes require my analysis
+   - SMART only sees changes that I recommend
    - Change impact analysis (time, cost, benefit) before approval
 
 **Response Protocol:**
 - If scope creep occurs:
-  1. Guardian documents requested change
-  2. Guardian analyzes against original requirements
-  3. Guardian provides SMART with recommendation (approve/reject/negotiate)
+  1. I document requested change
+  2. I analyze against original requirements
+  3. I provide SMART with recommendation (approve/reject/negotiate)
   4. If approved, vendor must absorb cost or negotiate separately
   5. Update risk register and lesson learned log
 
@@ -102,7 +102,7 @@ This playbook details our proactive risk management approach.
   1. Document gap and impact
   2. Assess severity (critical/major/minor)
   3. Determine if addressed in current phase or future enhancement
-  4. Guardian negotiates with vendor if scope change required
+  4. I negotiate with vendor if scope change required
   5. Update requirements documentation and risk register
 
 ---
@@ -124,11 +124,11 @@ This playbook details our proactive risk management approach.
 
 **Mitigation Strategies:**
 1. **Integration Architecture Design (Phase 5)**
-   - Guardian validates integration design before implementation
+   - I validate integration design before implementation
    - Comprehensive API documentation requirements
    - Data mapping specifications reviewed by SMART IT
    
-2. **Integration Handshake Testing (Unique to Our Approach)**
+2. **Integration Handshake Testing (Unique to My Approach)**
    - Positive path testing: Normal conditions
    - Negative path testing: System failures, timeouts, network issues
    - Failure recovery testing: Graceful degradation, data consistency
@@ -141,10 +141,10 @@ This playbook details our proactive risk management approach.
 
 **Response Protocol:**
 - If integration failure occurs:
-  1. Guardian isolates specific failure point
-  2. Guardian determines root cause (vendor issue vs. SMART issue)
-  3. Guardian requires vendor fix with SLA timeline
-  4. Guardian validates fix with regression testing
+  1. I isolate specific failure point
+  2. I determine root cause (vendor issue vs. SMART issue)
+  3. I require vendor fix with SLA timeline
+  4. I validate fix with regression testing
   5. If vendor unable, escalate to contract penalties
   6. Update risk register and lesson learned
 
@@ -164,7 +164,7 @@ This playbook details our proactive risk management approach.
 - Insufficient validation testing
 
 **Mitigation Strategies:**
-1. **Data Hygiene First Methodology (Unique to Our Approach)**
+1. **Data Hygiene First Methodology (Unique to My Approach)**
    - **Phase 1 Assessment**: Identify data quality issues
    - **Phase 2 Cleansing**: Clean data BEFORE vendor import
    - **Phase 3 Validation**: Three-phase migration testing
@@ -177,7 +177,7 @@ This playbook details our proactive risk management approach.
 3. **Three-Phase Migration Testing**
    - Test migration: Small subset of data
    - Pilot migration: Larger subset, full verification
-   - Production migration: Full migration with Guardian monitoring
+   - Production migration: Full migration with my monitoring
    
 4. **Vendor Migration Experience Requirement**
    - Vendor must provide 3+ successful migration references
@@ -186,9 +186,9 @@ This playbook details our proactive risk management approach.
 **Response Protocol:**
 - If data migration error occurs:
   1. Immediate rollback to backup system
-  2. Guardian documents error scope and impact
-  3. Guardian determines root cause (data quality vs. vendor error)
-  4. Guardian requires vendor remediation plan
+  2. I document error scope and impact
+  3. I determine root cause (data quality vs. vendor error)
+  4. I require vendor remediation plan
   5. Re-test with validation before re-migration
   6. Update risk register and lesson learned
 
@@ -215,7 +215,7 @@ This playbook details our proactive risk management approach.
    - Performance SLA in vendor contract
    
 2. **Infrastructure Assessment (Phase 5)**
-   - Guardian validates hardware/network sizing
+   - I validate hardware/network sizing
    - SMART IT confirms infrastructure capacity
    - Cloud vs. on-premises evaluation
    
@@ -227,11 +227,11 @@ This playbook details our proactive risk management approach.
 
 **Response Protocol:**
 - If performance issues occur:
-  1. Guardian identifies performance bottleneck
-  2. Guardian requires vendor optimization plan (24-hour SLA)
+  1. I identify performance bottleneck
+  2. I require vendor optimization plan (24-hour SLA)
   3. Temporary workarounds documented if critical
   4. Vendor implements optimization
-  5. Guardian validates improvement
+  5. I validate improvement
   6. If unable, contract penalties apply
 
 ---
@@ -252,7 +252,7 @@ This playbook details our proactive risk management approach.
 - System doesn't match real workflows
 
 **Mitigation Strategies:**
-1. **Corporate Ethnography (Unique to Our Approach)**
+1. **Corporate Ethnography (Unique to My Approach)**
    - Observe real workflows before system design
    - Design software that adapts to people
    - Incorporate Shadow ERP insights into UX design
@@ -271,8 +271,8 @@ This playbook details our proactive risk management approach.
 
 **Response Protocol:**
 - If low adoption observed:
-  1. Guardian identifies adoption barriers
-  2. Guardian requires vendor UX improvements if design issue
+  1. I identify adoption barriers
+  2. I require vendor UX improvements if design issue
   3. Additional training sessions scheduled
   4. User champions provide peer support
   5. Executive communication reinforces importance
@@ -306,14 +306,14 @@ This playbook details our proactive risk management approach.
    
 3. **System Superiority**
    - ERP system must be easier than workarounds
-   - If workaround persists, Guardian investigates why
+   - If workaround persists, I investigate why
    - Vendor required to improve if system inferior
 
 **Response Protocol:**
 - If workarounds persist:
-  1. Guardian documents workaround frequency and types
-  2. Guardian interviews users about workaround reasons
-  3. Guardian requires vendor improvement if system issue
+  1. I document workaround frequency and types
+  2. I interview users about workaround reasons
+  3. I require vendor improvement if system issue
   4. Management reinforcement through executive communication
   5. Update risk register and lesson learned
 
@@ -341,10 +341,10 @@ This playbook details our proactive risk management approach.
    - Request demonstration of specific features
    - Require proof of successful integrations
    
-2. **Guardian Oversight Throughout Implementation**
+2. **Implementation Partnership Throughout Implementation**
    - Vendor deliverables tested independently
-   - Guardian validates against contract requirements
-   - No vendor deliverable accepted without Guardian approval
+   - I validate against contract requirements
+   - No vendor deliverable accepted without my approval
    
 3. **Contract Protections**
    - Specific performance metrics with SLA
@@ -354,9 +354,9 @@ This playbook details our proactive risk management approach.
 
 **Response Protocol:**
 - If vendor underdelivers:
-  1. Guardian documents gap between promise and delivery
-  2. Guardian determines severity (critical/major/minor)
-  3. Guardian requires vendor remediation plan
+  1. I document gap between promise and delivery
+  2. I determine severity (critical/major/minor)
+  3. I require vendor remediation plan
   4. Contract penalties applied if timeline not met
   5. If vendor unable, SMART may terminate with cause
   6. Update risk register and lesson learned
@@ -381,11 +381,11 @@ This playbook details our proactive risk management approach.
    - Named project manager (cannot change without SMART approval)
    - Minimum resource levels by phase
    - Transit industry experience requirements for key roles
-   - Staffing plan reviewed and approved by Guardian
+   - Staffing plan reviewed and approved by me
    
-2. **Guardian Resource Monitoring**
+2. **Implementation Partnership Resource Monitoring**
    - Weekly resource level reviews
-   - Guardian verifies vendor staff expertise
+   - I verify vendor staff expertise
    - Early warning if resources insufficient
    
 3. **Vendor Selection Criteria (Phase 4)**
@@ -395,8 +395,8 @@ This playbook details our proactive risk management approach.
 
 **Response Protocol:**
 - If vendor resource shortage occurs:
-  1. Guardian documents specific shortage
-  2. Guardian requires vendor remedy plan (72-hour SLA)
+  1. I document specific shortage
+  2. I require vendor remedy plan (72-hour SLA)
   3. If vendor cannot provide resources, contract penalties apply
   4. SMART may bring in external resources at vendor expense
   5. Update risk register and lesson learned
@@ -421,7 +421,7 @@ This playbook details our proactive risk management approach.
 **Mitigation Strategies:**
 1. **FTA Compliance Matrix (See Dedicated Document)**
    - Every FTA requirement mapped to deliverable
-   - Guardian validates compliance throughout implementation
+   - I validate compliance throughout implementation
    - Pre-audit readiness review (Month 23)
    
 2. **Financial Module Design**
@@ -431,17 +431,17 @@ This playbook details our proactive risk management approach.
    - FTA report generation capability
    
 3. **DBE Compliance**
-   - Joint venture with Building Beloved Communities, LLC
+   - Building Better Communities, LLC as DBE-certified entity
    - DBE participation requirements in vendor RFP
-   - Guardian monitors DBE subcontractor performance
+   - I monitor DBE subcontractor performance
 
 **Response Protocol:**
 - If FTA audit findings occur:
-  1. Guardian documents finding and impact
-  2. Guardian determines if vendor issue or SMART process issue
-  3. Guardian requires remediation plan
+  1. I document finding and impact
+  2. I determine if vendor issue or SMART process issue
+  3. I require remediation plan
   4. If vendor responsible, vendor absorbs cost
-  5. Guardian supports FTA audit response
+  5. I support FTA audit response
   6. Update risk register and lesson learned
 
 ---
@@ -461,7 +461,7 @@ This playbook details our proactive risk management approach.
 
 **Mitigation Strategies:**
 1. **Financial Module Validation**
-   - Guardian tests all grant allocation scenarios
+   - I test all grant allocation scenarios
    - Mandatory grant code on transactions
    - Automated cost allocation rules
    - Exception alerts for unusual allocations
@@ -471,7 +471,7 @@ This playbook details our proactive risk management approach.
    - Cost allocation process training
    - Grant code assignment best practices
    
-3. **Guardian Monitoring**
+3. **Implementation Partnership Monitoring**
    - Monthly grant allocation review
    - Random transaction audits
    - Exception reporting to SMART finance
@@ -479,8 +479,8 @@ This playbook details our proactive risk management approach.
 **Response Protocol:**
 - If misallocation discovered:
   1. Immediate identification of misallocated funds
-  2. Guardian determines root cause (system vs. user error)
-  3. Guardian requires system fix if validation issue
+  2. I determine root cause (system vs. user error)
+  3. I require system fix if validation issue
   4. Additional training if user error
   5. Corrective entries documented with FTA justification
   6. Update risk register and lesson learned
@@ -500,10 +500,10 @@ This playbook details our proactive risk management approach.
 **Firm-Fixed Pricing Model ($434,500)**
 - No hourly billing for SMART
 - Payment tied to deliverables, not hours
-- All overrun costs absorbed by us
+- All overrun costs absorbed by me
 - Budget certainty for SMART
 
-**Note:** This risk is completely eliminated for SMART through our pricing model.
+**Note:** This risk is completely eliminated for SMART through my pricing model.
 
 ---
 
@@ -526,21 +526,21 @@ This playbook details our proactive risk management approach.
    - Conservative estimates based on transit agency benchmarks
    - Phased approach allows parallel workstreams
    
-2. **Guardian Schedule Monitoring**
+2. **Implementation Partnership Schedule Monitoring**
    - Weekly schedule reviews
    - Early warning for slippage
-   - Guardian requires vendor catch-up plans
+   - I require vendor catch-up plans
    
 3. **Contingency Planning**
    - Critical path identification
    - Resource reallocation options
-   - Phase overlap if needed (with Guardian approval)
+   - Phase overlap if needed (with my approval)
 
 **Response Protocol:**
 - If schedule delay occurs:
-  1. Guardian documents delay cause and impact
-  2. Guardian determines if vendor responsible
-  3. Guardian requires vendor recovery plan
+  1. I document delay cause and impact
+  2. I determine if vendor responsible
+  3. I require vendor recovery plan
   4. Contract penalties if vendor-caused delay
   5. Schedule adjustments with SMART approval
   6. Update risk register and lesson learned
@@ -549,7 +549,7 @@ This playbook details our proactive risk management approach.
 
 ## Risk Monitoring & Reporting
 
-### Monthly Risk Reviews (Guardian Oversight)
+### Monthly Risk Reviews (Implementation Partnership)
 
 **Format:**
 1. **Risk Register Update**
@@ -581,18 +581,19 @@ This playbook details our proactive risk management approach.
 
 | Risk ID | Category | Risk Description | Probability | Impact | Risk Score | Mitigation Strategy | Owner | Status | Last Updated |
 |-----------|-----------|-------------------|--------------|----------|--------------|---------------|----------|--------------|
-| R1.1 | Scope | Scope creep during implementation | High | High | 9/10 | Guardian oversight, detailed RFP | Guardian | Active | 01/15/2026 |
-| R2.1 | Technical | Integration failures | High | High | 9/10 | Handshake testing, API validation | Guardian | Active | 01/15/2026 |
-| R3.1 | Adoption | Low user adoption | High | High | 9/10 | Ethnography, comprehensive training | Guardian | Active | 01/15/2026 |
+| R1.1 | Scope | Scope creep during implementation | High | High | 9/10 | Implementation partnership oversight, detailed RFP | Implementation Partner | Active | 01/15/2026 |
+| R2.1 | Technical | Integration failures | High | High | 9/10 | Handshake testing, API validation | Implementation Partner | Active | 01/15/2026 |
+| R3.1 | Adoption | Low user adoption | High | High | 9/10 | Ethnography, comprehensive training | Implementation Partner | Active | 01/15/2026 |
 | [Add new risks as identified] |
+
 
 ---
 
 ## Conclusion
 
-Our Risk Management Playbook is proactive, not reactive. Key differentiators:
+My Risk Management Playbook is proactive, not reactive. Key differentiators:
 
-1. **Guardian Oversight Model** - Independent monitoring throughout implementation
+1. **Implementation Partnership Model** - Hands-on technical leadership throughout implementation
 2. **Corporate Ethnography** - Understand real needs before system design
 3. **Data Hygiene First** - Prevent migration failures before they occur
 4. **Integration Handshake Testing** - Test negative scenarios, not just positive
@@ -600,9 +601,9 @@ Our Risk Management Playbook is proactive, not reactive. Key differentiators:
 6. **Risk-Adjusted Timeline** - 24 months with contingency built-in
 7. **FTA Compliance Focus** - Protect SMART's grant funding
 
-We don't just identify risks. We actively manage and mitigate them throughout the project, ensuring SMART's ERP System Upgrade succeeds.
+I don't just identify risks. I actively manage and mitigate them throughout project, ensuring SMART's ERP System Upgrade succeeds.
 
 ---
 
-**Building Beloved Communities, LLC & Maximilian Murphy**  
-*January 15, 2026*
+**Building Better Communities, LLC & Maximilian Murphy**  
+*February 13, 2026*
