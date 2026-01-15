@@ -1,0 +1,7 @@
+# Set proper MIME types for markdown files
+*.md
+  Content-Type: text/markdown; charset=utf-8
+
+# Allow CORS for all files
+/*
+  Access-Control-Allow-Origin: *
