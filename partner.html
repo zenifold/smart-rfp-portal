@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner Dashboard | SMART RFP 26-4364</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/partner.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="index.html" style="text-decoration: none;">
+                    <span class="brand-text">Partner Dashboard</span>
+                    <span class="brand-subtitle">Building Beloved Communities</span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="#overview">Overview</a>
+                <a href="#progress">Progress</a>
+                <a href="#tasks">Tasks</a>
+                <a href="#documents">Documents</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero partner-hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Partnership Opportunity</h1>
+            <p class="hero-subtitle">SMART RFP 26-4364 - Enterprise Resource Planning System Upgrade Consultant</p>
+            
+            <!-- Countdown Timer -->
+            <div class="countdown-container">
+                <p class="countdown-label">Submission Deadline</p>
+                <div id="countdown" class="countdown"></div>
+            </div>
+        </div>
+        
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="section">
+        <div class="container">
+            <h2 class="section-title">Project Overview</h2>
+            <p class="section-subtitle">Joint venture opportunity with Maximilian Murphy - Lead ERP Migration Program Manager</p>
+            
+            <div class="overview-grid">
+                <div class="overview-card fade-in">
+                    <div class="card-header">
+                        <i class="fas fa-handshake card-icon"></i>
+                        <h3>Partnership Structure</h3>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Lead Consultant:</strong> Maximilian Murphy</p>
+                        <p><strong>Submitting Organization:</strong> Building Beloved Communities, LLC</p>
+                        <p><strong>Role:</strong> Joint venture for SMART RFP submission</p>
+                        <p><strong>Contract Value:</strong> $434,500 (Firm-Fixed Price)</p>
+                    </div>
+                </div>
+                
+                <div class="overview-card fade-in">
+                    <div class="card-header">
+                        <i class="fas fa-users card-icon"></i>
+                        <h3>Why Partner With Us</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>✓ 15+ years ERP implementation experience</li>
+                            <li>✓ Human-Centered Design methodology</li>
+                            <li>✓ Firm-fixed pricing (no scope creep)</li>
+                            <li>✓ Guardian oversight model protects your organization</li>
+                            <li>✓ Complete proposal package ready</li>
+                            <li>✓ Minimal administrative burden for you</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="overview-card fade-in">
+                    <div class="card-header">
+                        <i class="fas fa-chart-line card-icon"></i>
+                        <h3>Revenue Opportunity</h3>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Project Duration:</strong> 24 months</p>
+                        <p><strong>Total Contract:</strong> $434,500</p>
+                        <p><strong>Your Role:</strong> Administrative submission entity</p>
+                        <p><strong>Revenue Share:</strong> <em>To be discussed</em></p>
+                        <p><em>Low time commitment, high partnership value</em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Dashboard -->
+    <section id="progress" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Progress Dashboard</h2>
+            <p class="section-subtitle">Real-time status of joint venture submission</p>
+            
+            <!-- Overall Progress -->
+            <div class="progress-overview fade-in">
+                <div class="progress-circle">
+                    <svg viewBox="0 0 36 36" class="progress-ring">
+                        <path class="progress-ring-bg"
+                              d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                              fill="none" stroke="#e9ecef" stroke-width="3"/>
+                        <path class="progress-ring-circle"
+                              d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                              fill="none" stroke="url(#gradient)" stroke-width="3"
+                              stroke-dasharray="75, 100" stroke-linecap="round"/>
+                        <defs>
+                            <linearGradient id="gradient">
+                                <stop offset="0%" stop-color="#00a8e8"/>
+                                <stop offset="100%" stop-color="#1a365d"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <div class="progress-text">
+                        <span class="progress-value">75%</span>
+                        <span class="progress-label">Complete</span>
+                    </div>
+                </div>
+                <div class="progress-stats">
+                    <div class="stat-item">
+                        <span class="stat-value" id="completed-tasks">11</span>
+                        <span class="stat-label">Completed Tasks</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="pending-tasks">14</span>
+                        <span class="stat-label">Your Pending Tasks</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">29</span>
+                        <span class="stat-label">Days Remaining</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Timeline -->
+            <div class="timeline fade-in">
+                <h3>Application Process Timeline</h3>
+                <div class="timeline-items">
+                    <div class="timeline-item active">
+                        <div class="timeline-marker">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Phase 1: Proposal Preparation</h4>
+                            <p>Jan 15 - Jan 25</p>
+                            <span class="status-badge status-completed">Completed</span>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item active">
+                        <div class="timeline-marker">
+                            <i class="fas fa-spinner fa-spin"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Phase 2: Partner Review & Approvals</h4>
+                            <p>Jan 26 - Feb 10</p>
+                            <span class="status-badge status-inprogress">In Progress</span>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Phase 3: Final Submission</h4>
+                            <p>Feb 11 - Feb 13</p>
+                            <span class="status-badge status-pending">Pending</span>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Phase 4: Award Notification</h4>
+                            <p>Feb 14+</p>
+                            <span class="status-badge status-pending">Pending</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Task Tracker -->
+    <section id="tasks" class="section">
+        <div class="container">
+            <h2 class="section-title">Task Tracker</h2>
+            <p class="section-subtitle">Maximilian's completed work vs. Your action items</p>
+            
+            <div class="task-tracker">
+                <!-- Maximilian's Tasks (Completed) -->
+                <div class="task-column">
+                    <h3 class="column-header">
+                        <i class="fas fa-user-check"></i>
+                        Maximilian's Tasks (Completed)
+                    </h3>
+                    <div class="task-list completed-tasks">
+                        <div class="task-item task-completed">
+                            <div class="task-status">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="task-content">
+                                <h4>Technical Proposal with Corporate Ethnography</h4>
+                                <p>Complete methodology with human-centered design approach</p>
+                            </div>
+                        </div>
+                        
+                        <div class="task-item task-completed">
+                            <div class="task-status">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="task-content">
+                                <h4>24-Month Guardian Roadmap</h4>
+                                <p>Implementation oversight model and timeline</p>
+                            </div>
+                        </div>
+                        
+                        <div class="task-item task-completed">
+                            <div class="task-status">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="task-content">
+                                <h4>Pricing Proposal</h4>
+                                <p>Firm-fixed pricing at $434,500 with deliverable breakdown</p>
+                            </div>
+                        </div>
+                        
+                        <div class="task-item task-completed">
+                            <div class="task-status">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="task-content">
+                                <h4>All Required Forms</h4>
+                                <p>Forms 3.04-3.14 completed and formatted</p>
+                            </div>
+                        </div>
+                        
+                        <div class="task-item task-completed">
+                            <div class="task-status">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="task-content">
+                                <h4>Execution Action Plan</h4>
+                                <p>Comprehensive 29-day timeline with all tasks</p>
+                            </div>
+                        </div>
+                        
+                        <div class="task-item task-completed">
+                            <div class="task-status">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="task-content">
+                                <h4>Submission Checklist</h4>
+                                <p>Complete verification checklist for final submission</p>
+                            </div>
+                        </div>
+                        
+                        <div class="task-item task-completed">
+                            <div class="task-status">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="task-content">
+                                <h4>Portal Development</h4>
+                                <p>Interactive collaboration dashboard</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Partner Tasks (Action Items) -->
+                <div class="task-column">
+                    <h3 class="column-header">
+                        <i class="fas fa-exclamation-circle"></i>
+                        Your Action Items (Urgent)
+                    </h3>
+                    <div class="task-list pending-tasks">
+                        <div class="task-item task-pending high-priority">
+                            <div class="task-status">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                            <div class="task-content">
+                                <h4>Provide Company Legal Structure</h4>
+                                <p>Confirm LLC/Corp status and provide EIN</p>
+                                <span class="priority-badge">High Priority</span>
+                                <span class="deadline">Deadline: Jan 20</span>
+                            </div>
+                        </div>
+                        
+                        <div class="task-item task-pending high-priority">
+                            <div class="task-status">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                            <div class="task-content">
+                                <h4>Confirm DBE Certification Status</h4>
+                                <p>Provide DBE certificate number if certified</p>
+                                <span class="priority-badge">High Priority</span>
+                                <span class="deadline">Deadline: Jan 20</span>
+                            </div>
+                        </div>
+                        
+                        <div class="task-item task-pending high-priority">
+                            <div class="task-status">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                            <div class="task-content">
+                                <h4>Locate Financial Documentation</h4>
+                                <p>2023-2024 audited financials or tax returns</p>
+                                <span class="priority-badge">High Priority</span>
+                                <span class="deadline">Deadline: Jan 20</span>
+                            </div>
+                        </div>
+                        
+                        <div class="task-item task-pending high-priority">
+                            <div class="task-status">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                            <div class="task-content">
+                                <h4>Contact Insurance Broker</h4>
+                                <p>Request certificates meeting SMART requirements</p>
+                                <span class="priority-badge">High Priority</span>
+                                <span class="deadline">Deadline: Jan 20</span>
+                            </div>
+                        </div>
+                        
+                        <div class="task-item task-pending medium-priority">
+                            <div class="task-status">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                            <div class="task-content">
+                                <h4>Review All Proposal Documents</h4>
+                                <p>Technical, Pricing, and Required Forms</p>
+                                <span class="priority-badge">Medium Priority</span>
+                                <span class="deadline">Deadline: Jan 25</span>
+                            </div>
+                        </div>
+                        
+                        <div class="task-item task-pending medium-priority">
+                            <div class="task-status">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                            <div class="task-content">
+                                <h4>Sign Joint Venture Agreement</h4>
+                                <p>Formalize partnership structure and revenue share</p>
+                                <span class="priority-badge">Medium Priority</span>
+                                <span class="deadline">Deadline: Feb 1</span>
+                            </div>
+                        </div>
+                        
+                        <div class="task-item task-pending medium-priority">
+                            <div class="task-status">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                            <div class="task-content">
+                                <h4>Approve Final Submission Package</h4>
+                                <p>Review and sign all required forms</p>
+                                <span class="priority-badge">Medium Priority</span>
+                                <span class="deadline">Deadline: Feb 10</span>
+                            </div>
+                        </div>
+                        
+                        <div class="task-item task-pending low-priority">
+                            <div class="task-status">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                            <div class="task-content">
+                                <h4>Prepare References</h4>
+                                <p>Provide 3 professional references if requested</p>
+                                <span class="priority-badge">Low Priority</span>
+                                <span class="deadline">As needed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Document Library -->
+    <section id="documents" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Document Library</h2>
+            <p class="section-subtitle">All proposal documents - click to view</p>
+            
+            <div class="document-grid">
+                <div class="doc-card fade-in" onclick="loadDocument('technical')">
+                    <div class="doc-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="doc-info">
+                        <h3>Technical Proposal</h3>
+                        <p>Complete methodology with Corporate Ethnography</p>
+                        <div class="doc-meta">
+                            <span class="doc-status status-ready">Ready for Review</span>
+                            <span class="doc-updated">Updated: Jan 15, 2026</span>
+                        </div>
+                    </div>
+                    <div class="doc-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                
+                <div class="doc-card fade-in" onclick="loadDocument('pricing')">
+                    <div class="doc-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <div class="doc-info">
+                        <h3>Pricing Proposal</h3>
+                        <p>Firm-fixed pricing at $434,500</p>
+                        <div class="doc-meta">
+                            <span class="doc-status status-final">Final</span>
+                            <span class="doc-updated">Updated: Jan 15, 2026</span>
+                        </div>
+                    </div>
+                    <div class="doc-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                
+                <div class="doc-card fade-in" onclick="loadDocument('forms')">
+                    <div class="doc-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <div class="doc-info">
+                        <h3>Required Forms</h3>
+                        <p>Forms 3.04-3.14 (Compliance & Certifications)</p>
+                        <div class="doc-meta">
+                            <span class="doc-status status-final">Final</span>
+                            <span class="doc-updated">Updated: Jan 15, 2026</span>
+                        </div>
+                    </div>
+                    <div class="doc-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                
+                <div class="doc-card fade-in" onclick="loadDocument('action')">
+                    <div class="doc-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="doc-info">
+                        <h3>Action Plan</h3>
+                        <p>29-day execution timeline with all tasks</p>
+                        <div class="doc-meta">
+                            <span class="doc-status status-ready">Ready for Review</span>
+                            <span class="doc-updated">Updated: Jan 15, 2026</span>
+                        </div>
+                    </div>
+                    <div class="doc-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                
+                <div class="doc-card fade-in" onclick="loadDocument('checklist')">
+                    <div class="doc-icon">
+                        <i class="fas fa-check-double"></i>
+                    </div>
+                    <div class="doc-info">
+                        <h3>Submission Checklist</h3>
+                        <p>Complete verification for final submission</p>
+                        <div class="doc-meta">
+                            <span class="doc-status status-ready">Ready for Review</span>
+                            <span class="doc-updated">Updated: Jan 15, 2026</span>
+                        </div>
+                    </div>
+                    <div class="doc-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="doc-card fade-in" onclick="loadDocument('executive')">
+                    <div class="doc-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="doc-info">
+                        <h3>Executive Summary</h3>
+                        <p>Compelling 2-page narrative for SMART</p>
+                        <div class="doc-meta">
+                            <span class="doc-status status-final">Final</span>
+                            <span class="doc-updated">Updated: Jan 15, 2026</span>
+                        </div>
+                    </div>
+                    <div class="doc-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="doc-card fade-in" onclick="loadDocument('compliance')">
+                    <div class="doc-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <div class="doc-info">
+                        <h3>Grant Compliance Matrix</h3>
+                        <p>FTA requirements mapping to deliverables</p>
+                        <div class="doc-meta">
+                            <span class="doc-status status-final">Final</span>
+                            <span class="doc-updated">Updated: Jan 15, 2026</span>
+                        </div>
+                    </div>
+                    <div class="doc-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="doc-card fade-in" onclick="loadDocument('risk')">
+                    <div class="doc-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="doc-info">
+                        <h3>Risk Management Playbook</h3>
+                        <p>Comprehensive risk mitigation strategies</p>
+                        <div class="doc-meta">
+                            <span class="doc-status status-final">Final</span>
+                            <span class="doc-updated">Updated: Jan 15, 2026</span>
+                        </div>
+                    </div>
+                    <div class="doc-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="doc-card fade-in" onclick="loadDocument('change')">
+                    <div class="doc-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <div class="doc-info">
+                        <h3>Change Management Strategy</h3>
+                        <p>ADKAR framework and user adoption</p>
+                        <div class="doc-meta">
+                            <span class="doc-status status-final">Final</span>
+                            <span class="doc-updated">Updated: Jan 15, 2026</span>
+                        </div>
+                    </div>
+                    <div class="doc-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="doc-card fade-in" onclick="loadDocument('migration')">
+                    <div class="doc-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="doc-info">
+                        <h3>Data Migration Playbook</h3>
+                        <p>Data Hygiene First methodology</p>
+                        <div class="doc-meta">
+                            <span class="doc-status status-final">Final</span>
+                            <span class="doc-updated">Updated: Jan 15, 2026</span>
+                        </div>
+                    </div>
+                    <div class="doc-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="doc-card fade-in" onclick="loadDocument('references')">
+                    <div class="doc-icon">
+                        <i class="fas fa-address-book"></i>
+                    </div>
+                    <div class="doc-info">
+                        <h3>Reference Package Templates</h3>
+                        <p>Reference letters and case studies</p>
+                        <div class="doc-meta">
+                            <span class="doc-status status-final">Final</span>
+                            <span class="doc-updated">Updated: Jan 15, 2026</span>
+                        </div>
+                    </div>
+                    <div class="doc-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="doc-card fade-in" onclick="loadDocument('charter')">
+                    <div class="doc-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <div class="doc-info">
+                        <h3>Project Charter Outline</h3>
+                        <p>Phase 1 deliverable structure</p>
+                        <div class="doc-meta">
+                            <span class="doc-status status-final">Final</span>
+                            <span class="doc-updated">Updated: Jan 15, 2026</span>
+                        </div>
+                    </div>
+                    <div class="doc-action">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact & Questions</h2>
+            <p class="section-subtitle">Get in touch with any questions or to provide information</p>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info fade-in">
+                    <h3>Lead Consultant</h3>
+                    <p class="contact-name">Maximilian Murphy</p>
+                    <p class="contact-title">Lead ERP Migration Program Manager</p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-envelope"></i> [Your Email Here]</p>
+                        <p><i class="fas fa-phone"></i> [Your Phone Here]</p>
+                        <p><i class="fab fa-linkedin"></i> [LinkedIn Profile]</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form fade-in">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a topic</option>
+                                <option value="info">Provide Company Information</option>
+                                <option value="review">Document Review</option>
+                                <option value="question">General Question</option>
+                                <option value="partnership">Partnership Agreement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Building Beloved Communities, LLC. All rights reserved.</p>
+            <p>Partnership proposal for SMART RFP 26-4364</p>
+        </div>
+    </footer>
+
+    <!-- Document Viewer Modal -->
+    <div id="document-viewer" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="viewer-title">Document Title</h2>
+                <button class="close-btn" onclick="closeDocumentViewer()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="viewer-content" class="markdown-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/partner.js"></script>
+</body>
+</html>
