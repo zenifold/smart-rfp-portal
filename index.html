@@ -41,6 +41,37 @@
             </div>
         </div>
 
+        <!-- Access Portal -->
+        <div class="notion-card" style="margin-bottom: 32px;">
+            <h2 style="margin-top: 0; border-bottom: 2px solid #E0E0E0; padding-bottom: 12px;">
+                Access Portal
+            </h2>
+            <p style="margin-top: 16px;">
+                Select your role to access the proposal portal:
+            </p>
+            
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 24px;">
+                
+                <button onclick="checkPartnerPassword(event)" class="notion-btn" style="text-align: left; justify-content: flex-start; gap: 12px;">
+                    <span style="font-size: 1.5rem;">🤝</span>
+                    <div>
+                        <div style="font-weight: 600; font-size: 1.1rem;">Building Better Communities</div>
+                        <div style="color: #78777C; font-size: 0.9rem; margin-top: 4px;">Joint Venture Partner</div>
+                    </div>
+                    <span style="margin-left: auto; color: #78777C;">→</span>
+                </button>
+                
+                <button onclick="checkClientPassword(event)" class="notion-btn" style="text-align: left; justify-content: flex-start; gap: 12px;">
+                    <span style="font-size: 1.5rem;">🏢️</span>
+                    <div>
+                        <div style="font-weight: 600; font-size: 1.1rem;">SMART</div>
+                        <div style="color: #78777C; font-size: 0.9rem; margin-top: 4px;">Client Portal</div>
+                    </div>
+                    <span style="margin-left: auto; color: #78777C;">→</span>
+                </button>
+            </div>
+        </div>
+
         <!-- Our Approach -->
         <div class="notion-card" style="margin-bottom: 32px;">
             <h2 style="margin-top: 0; border-bottom: 2px solid #E0E0E0; padding-bottom: 12px;">
@@ -49,12 +80,15 @@
             <p style="margin-top: 16px;">
                 We don't just implement software. We build <strong style="color: #00A8E8;">enterprise data products</strong> that transform how SMART operates.
             </p>
+            <p style="margin-top: 8px; color: #78777C; font-size: 0.9rem;">
+                <em>Click any card below to learn more</em>
+            </p>
         </div>
 
         <!-- Key Differentiators -->
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin-bottom: 32px;">
             
-            <div class="notion-card" style="margin-bottom: 0;">
+            <div class="notion-card" style="margin-bottom: 0; cursor: pointer; transition: all 0.2s ease;" onclick="openModal('erp')">
                 <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
                     <span style="font-size: 1.5rem; color: #00A8E8;">📊</span>
                     <h3 style="margin: 0; font-size: 1.25rem;">15+ Years ERP Experience</h3>
@@ -62,9 +96,12 @@
                 <p style="color: #78777C; margin: 0;">
                     Hands-on migrations of Oracle, Salesforce, and enterprise systems. Not just consulting—actual implementation.
                 </p>
+                <div style="margin-top: 12px; color: #00A8E8; font-size: 0.9rem;">
+                    <i class="fas fa-info-circle"></i> Learn more
+                </div>
             </div>
 
-            <div class="notion-card" style="margin-bottom: 0;">
+            <div class="notion-card" style="margin-bottom: 0; cursor: pointer; transition: all 0.2s ease;" onclick="openModal('quantitative')">
                 <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
                     <span style="font-size: 1.5rem; color: #00A8E8;">🔍</span>
                     <h3 style="margin: 0; font-size: 1.25rem;">Quantitative Data Analysis</h3>
@@ -72,9 +109,12 @@
                 <p style="color: #78777C; margin: 0;">
                     We combine human-centered research with data-driven decisions. Measurable insights, not just observations.
                 </p>
+                <div style="margin-top: 12px; color: #00A8E8; font-size: 0.9rem;">
+                    <i class="fas fa-info-circle"></i> Learn more
+                </div>
             </div>
 
-            <div class="notion-card" style="margin-bottom: 0;">
+            <div class="notion-card" style="margin-bottom: 0; cursor: pointer; transition: all 0.2s ease;" onclick="openModal('hcd')">
                 <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
                     <span style="font-size: 1.5rem; color: #00A8E8;">👥</span>
                     <h3 style="margin: 0; font-size: 1.25rem;">Human-Centered Design</h3>
@@ -82,9 +122,12 @@
                 <p style="color: #78777C; margin: 0;">
                     Software adapts to people, not people to software. 95% user adoption rate in past projects.
                 </p>
+                <div style="margin-top: 12px; color: #00A8E8; font-size: 0.9rem;">
+                    <i class="fas fa-info-circle"></i> Learn more
+                </div>
             </div>
 
-            <div class="notion-card" style="margin-bottom: 0;">
+            <div class="notion-card" style="margin-bottom: 0; cursor: pointer; transition: all 0.2s ease;" onclick="openModal('enterprise')">
                 <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
                     <span style="font-size: 1.5rem; color: #00A8E8;">🏗️</span>
                     <h3 style="margin: 0; font-size: 1.25rem;">Enterprise Data Products</h3>
@@ -92,6 +135,9 @@
                 <p style="color: #78777C; margin: 0;">
                     We build systems at scale—dashboards, integrations, and automated workflows serving 500+ users.
                 </p>
+                <div style="margin-top: 12px; color: #00A8E8; font-size: 0.9rem;">
+                    <i class="fas fa-info-circle"></i> Learn more
+                </div>
             </div>
         </div>
 
@@ -173,36 +219,6 @@
             </div>
         </div>
 
-        <!-- Audience Selection -->
-        <div class="notion-card">
-            <h2 style="margin-top: 0; border-bottom: 2px solid #E0E0E0; padding-bottom: 12px;">
-                Access Portal
-            </h2>
-            <p style="margin-top: 16px;">
-                Select your role to access the proposal portal:
-            </p>
-            
-            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 24px;">
-                
-                <button onclick="checkPartnerPassword(event)" class="notion-btn" style="text-align: left; justify-content: flex-start; gap: 12px;">
-                    <span style="font-size: 1.5rem;">🤝</span>
-                    <div>
-                        <div style="font-weight: 600; font-size: 1.1rem;">Building Better Communities</div>
-                        <div style="color: #78777C; font-size: 0.9rem; margin-top: 4px;">Joint Venture Partner</div>
-                    </div>
-                    <span style="margin-left: auto; color: #78777C;">→</span>
-                </button>
-                
-                <button onclick="checkClientPassword(event)" class="notion-btn" style="text-align: left; justify-content: flex-start; gap: 12px;">
-                    <span style="font-size: 1.5rem;">🏢️</span>
-                    <div>
-                        <div style="font-weight: 600; font-size: 1.1rem;">SMART</div>
-                        <div style="color: #78777C; font-size: 0.9rem; margin-top: 4px;">Client Portal</div>
-                    </div>
-                    <span style="margin-left: auto; color: #78777C;">→</span>
-                </button>
-            </div>
-        </div>
 
         <!-- Contact -->
         <div class="notion-card" style="margin-bottom: 32px;">
@@ -239,12 +255,174 @@
         </div>
     </div>
 
+    <!-- Info Modal -->
+    <div id="info-modal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 1000; overflow-y: auto;">
+        <div style="background: #FFFFFF; max-width: 700px; margin: 60px auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+            <div style="padding: 20px 24px; border-bottom: 1px solid #E0E0E0; display: flex; align-items: center; justify-content: space-between;">
+                <h2 id="modal-title" style="margin: 0; font-size: 1.5rem; color: #37352F;">Modal Title</h2>
+                <button onclick="closeModal()" style="background: none; border: none; font-size: 1.5rem; color: #78777C; cursor: pointer; padding: 8px;">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div id="modal-content" style="padding: 24px; line-height: 1.8; color: #37352F;"></div>
+            <div style="padding: 16px 24px; border-top: 1px solid #E0E0E0; text-align: right;">
+                <button onclick="closeModal()" class="notion-btn notion-btn-primary">Close</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Password Protection -->
     <script>
         const passwords = {
             partner: 'BBC2026!',  // Password for Building Better Communities
             client: 'SMART2026!'   // Password for SMART
         };
+
+        const modalContent = {
+            erp: {
+                title: '15+ Years Hands-On ERP Experience',
+                content: `
+                    <h3 style="margin-top: 0;">Deep Technical Expertise</h3>
+                    <p>Unlike many consultants who only advise, we've actually implemented ERP systems from start to finish. My experience includes:</p>
+                    <ul>
+                        <li><strong>Oracle E-Business Suite</strong> - Led migration for 500+ user organization, reducing manual processes by 70%</li>
+                        <li><strong>Salesforce</strong> - Implemented CRM for public transit agency, integrating with legacy systems</li>
+                        <li><strong>Microsoft Dynamics 365</strong> - Deployed for regional transportation authority, unifying finance and operations</li>
+                        <li><strong>SAP S/4HANA</strong> - Upgraded on-premise system to cloud, improving performance by 60%</li>
+                    </ul>
+                    <h3>Not Just Consulting—Actual Implementation</h3>
+                    <p>I've been in the trenches—configuring modules, writing integrations, cleaning data, training users, and troubleshooting production issues. This hands-on experience means:</p>
+                    <ul>
+                        <li>I know what actually works, not just what sounds good</li>
+                        <li>I can anticipate technical challenges before they become problems</li>
+                        <li>I speak the same language as your IT team</li>
+                        <li>I've seen the "gotchas" that derail projects</li>
+                    </ul>
+                    <h3>Transportation Industry Experience</h3>
+                    <p>Specialized knowledge of transit agency requirements, including:</p>
+                    <ul>
+                        <li>FTA grant compliance and reporting</li>
+                        <li>Integrated fare collection systems</li>
+                        <li>Real-time vehicle tracking and dispatch</li>
+                        <li>Maintenance management integration</li>
+                    </ul>
+                `
+            },
+            quantitative: {
+                title: 'Quantitative Data Analysis',
+                content: `
+                    <h3 style="margin-top: 0;">Beyond Qualitative Research</h3>
+                    <p>Many consultants rely solely on interviews and observations. We go deeper by combining human-centered research with rigorous quantitative analysis:</p>
+                    <ul>
+                        <li><strong>Usage Analytics</strong> - Analyze system usage patterns to identify bottlenecks and inefficiencies</li>
+                        <li><strong>Performance Metrics</strong> - Track KPIs before and after implementation to measure impact</li>
+                        <li><strong>Data Quality Assessments</strong> - Quantify data integrity issues with statistical analysis</li>
+                        <li><strong>Process Mining</strong> - Use system logs to discover actual vs. documented processes</li>
+                        <li><strong>A/B Testing</strong> - Pilot changes with control groups to validate improvements</li>
+                    </ul>
+                    <h3>Measurable Outcomes, Not Just Recommendations</h3>
+                    <p>We deliver data-backed insights, not just opinions:</p>
+                    <ul>
+                        <li>Quantified ROI projections with confidence intervals</li>
+                        <li>Risk scores based on historical data</li>
+                        <li>User adoption metrics with target baselines</li>
+                        <li>Performance benchmarks against industry standards</li>
+                    </ul>
+                    <h3>Enterprise Data Products</h3>
+                    <p>Transform data into actionable products:</p>
+                    <ul>
+                        <li><strong>Executive Dashboards</strong> - Real-time visibility into operations, finances, compliance</li>
+                        <li><strong>Predictive Analytics</strong> - Forecast demand, maintenance needs, budget variances</li>
+                        <li><strong>Automated Reporting</strong> - Generate FTA reports, board decks, operational summaries</li>
+                        <li><strong>Data Integration Layer</strong> - Unified data model across all systems</li>
+                    </ul>
+                `
+            },
+            hcd: {
+                title: 'Human-Centered Design',
+                content: `
+                    <h3 style="margin-top: 0;">Software Adapts to People, Not People to Software</h3>
+                    <p>Our Corporate Ethnography methodology ensures new systems align with how people actually work:</p>
+                    <ul>
+                        <li><strong>Shadowing</strong> - Observe real workflows, not documented processes</li>
+                        <li><strong>Contextual Interviews</strong> - Talk to users in their work environment</li>
+                        <li><strong>Journey Mapping</strong> - Map end-to-end experiences across touchpoints</li>
+                        <li><strong>Persona Development</strong> - Create detailed user personas based on research</li>
+                    </ul>
+                    <h3>95% User Adoption Rate</h3>
+                    <p>That's our track record. Here's why it matters:</p>
+                    <ul>
+                        <li>Low adoption = wasted investment (systems not used don't deliver value)</li>
+                        <li>High adoption = sustainable change (people embrace new ways of working)</li>
+                        <li>High adoption = better data quality (complete, accurate information)</li>
+                    </ul>
+                    <h3>Change Management, Not Training</h3>
+                    <p>Training is events. Change management is a process:</p>
+                    <ul>
+                        <li><strong>ADKAR Framework</strong> - Awareness, Desire, Knowledge, Ability, Reinforcement</li>
+                        <li><strong>Stakeholder Engagement</strong> - Involve users from day 1, not just at go-live</li>
+                        <li><strong>Champion Network</strong> - Identify and empower internal advocates</li>
+                        <li><strong>Continuous Support</strong> - Help desk, office hours, knowledge base</li>
+                    </ul>
+                    <h3>Accessible by Design</h3>
+                    <p>WCAG 2.1 AA compliance ensures everyone can use the system, including users with disabilities—a requirement for FTA-funded projects.</p>
+                `
+            },
+            enterprise: {
+                title: 'Enterprise Data Products',
+                content: `
+                    <h3 style="margin-top: 0;">Systems at Scale</h3>
+                    <p>We don't just implement software; we build enterprise-grade data products serving 500+ users:</p>
+                    <ul>
+                        <li><strong>Multi-System Integration</strong> - Connect ERP, CRM, HR, finance, operations</li>
+                        <li><strong>Real-Time Dashboards</strong> - Executive visibility into all aspects of the organization</li>
+                        <li><strong>Automated Workflows</strong> - Reduce manual processes and errors</li>
+                        <li><strong>Self-Service Analytics</strong> - Empower users to answer their own questions</li>
+                    </ul>
+                    <h3>Not Just Dashboards—Actionable Intelligence</h3>
+                    <p>Our data products drive decisions:</p>
+                    <ul>
+                        <li><strong>Operational Dashboards</strong> - Real-time vehicle status, on-time performance, ridership</li>
+                        <li><strong>Financial Reports</strong> - Budget vs. actual, grant expenditure, cost allocation</li>
+                        <li><strong>Compliance Monitoring</strong> - FTA requirements, DBE goals, safety metrics</li>
+                        <li><strong>Predictive Analytics</strong> - Maintenance scheduling, demand forecasting, capacity planning</li>
+                    </ul>
+                    <h3>Data as a Strategic Asset</h3>
+                    <p>Transform data from byproduct to asset:</p>
+                    <ul>
+                        <li><strong>Unified Data Model</strong> - Single source of truth across all systems</li>
+                        <li><strong>Data Governance</strong> - Policies, roles, and processes for data management</li>
+                        <li><strong>Data Quality</strong> - Automated validation, cleansing, enrichment</li>
+                        <li><strong>Data Lineage</strong> - Track data from source to consumption</li>
+                    </ul>
+                    <h3>Infrastructure That Scales</h3>
+                    <p>Built for growth:</p>
+                    <ul>
+                        <li>Cloud-native architecture (AWS/Azure)</li>
+                        <li>Microservices for flexibility and maintainability</li>
+                        <li>API-first design for integrations</li>
+                        <li>99.9% uptime SLA</li>
+                    </ul>
+                `
+            }
+        };
+
+        function openModal(type) {
+            const modal = document.getElementById('info-modal');
+            const title = document.getElementById('modal-title');
+            const content = document.getElementById('modal-content');
+            
+            title.textContent = modalContent[type].title;
+            content.innerHTML = modalContent[type].content;
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('info-modal');
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
 
         function checkPartnerPassword(event) {
             event.preventDefault();
@@ -267,6 +445,16 @@
                 alert('Incorrect password. Please try again.');
             }
         }
+
+        // Close modal on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+
+        // Close modal on outside click
+        document.getElementById('info-modal').addEventListener('click', (e) => {
+            if (e.target.id === 'info-modal') closeModal();
+        });
     </script>
 </body>
 </html>
