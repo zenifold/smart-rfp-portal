@@ -7,6 +7,7 @@
 **Joint Venture Partner:** Building Better Communities, LLC
 **Date:** February 13, 2026
 **Due Date:** February 13, 2026 by 3:00 PM ET
+**Total Investment:** $1,942,500 (Firm-Fixed Price)
 
 ---
 
@@ -32,11 +33,12 @@ Unlike large consulting firms that prioritize "best practices" and "standardizat
 
 **Our Value Proposition:**
 - **15+ years hands-on ERP migration experience**—not just consulting, but actual implementation: configuring modules, writing integrations, cleaning data, training users
+- **3-Person Dedicated Senior Team** throughout 24 months (6,500 total hours)
 - **Quantitative data analysis** with measurable outcomes, not just qualitative observations
 - **Enterprise data products**—dashboards, integrations, and automated workflows serving 500+ users at scale
 - **Human-Centered Design methodology** ensuring 95%+ user adoption rates
-- **Firm-fixed pricing** based on deliverables, eliminating budget uncertainty
-- **Implementation Partner model**—hands-on technical leadership from vendor selection through go-live
+- **Firm-fixed pricing at $1,942,500** based on deliverables, eliminating budget uncertainty
+- **Full-Time Implementation Oversight**—hands-on technical leadership from vendor selection through go-live
 
 I am prepared to guide SMART through every phase—from comprehensive needs assessment to RFP development, vendor selection, contract negotiation, and hands-on implementation partnership—delivering an ERP system that strengthens internal controls, streamlines processes, and serves the people who keep Detroit moving.
 
@@ -63,7 +65,7 @@ At Building Better Communities, LLC, we believe that successful ERP implementati
 | Requirements lists in spreadsheets | Service blueprints + data-driven metrics |
 | Training at the end of project | Co-creation throughout the process |
 | 100-page text documents | Visual dashboards, journey maps, and analytics |
-| Consultant observes implementation | Hands-on technical leadership: configuration, integration, migration |
+| Consultant observes implementation | 3-person team provides hands-on technical leadership |
 | Hourly billing with open-ended scope | Firm-fixed pricing based on deliverables |
 
 ### Why This Matters for SMART
@@ -83,15 +85,15 @@ A "standardized" ERP system that works perfectly in a corporate office but fails
 
 ### 3.1 Comprehensive Needs Assessment
 
-**Phase 1: The "SMART Ethnography" Discovery Model**
+**Phase 2: The "SMART Ethnography" Discovery Model**
 
 SMART's current challenges—manual workarounds, lack of integration between Trapeze and Finance, and aged procurement workflows—are not just software issues; they are workflow and cultural issues.
 
-To ensure the new ERP succeeds where the current system struggles, I propose a **Human-Centered, Ethnographic Discovery Phase** combined with **Quantitative Data Analysis**. I don't rely solely on conference room interviews. I deploy qualitative research techniques to uncover the "Shadow ERP"—the hidden spreadsheets, paper notes, and verbal agreements that actually keep SMART running—and quantify their impact with usage analytics, performance metrics, and process mining.
+To ensure the new ERP succeeds where the current system struggles, I propose a **Human-Centered, Ethnographic Discovery Phase** combined with **Quantitative Data Analysis**. Our 3-person team doesn't rely solely on conference room interviews. We deploy qualitative research techniques to uncover the "Shadow ERP"—the hidden spreadsheets, paper notes, and verbal agreements that actually keep SMART running—and quantify their impact with usage analytics, performance metrics, and process mining.
 
-**Timeline: 10-12 weeks**
+**Timeline: Months 3-6 (16 weeks)**
 
-This intensive timeline is intentional. Real qualitative research takes time. We need to catch a "Month-End Close" cycle and a "Grant Reporting" cycle to see the pain points live, not just hear about them secondhand.
+This intensive timeline is intentional. Real qualitative research takes time. Our Business Analyst needs to catch a "Month-End Close" cycle and a "Grant Reporting" cycle to see the pain points live, not just hear about them secondhand.
 
 #### Our Research Toolkit: Deep-Dive Qualitative Methods
 
@@ -99,7 +101,7 @@ We will employ a "Triangulated Research" approach, combining three data sources 
 
 **A. Contextual Inquiry (The "Ride-Along")**
 
-We believe you cannot design for a bus mechanic while sitting in a finance office. Our consultants will conduct "on-the-ground" shadowing sessions:
+We believe you cannot design for a bus mechanic while sitting in a finance office. Our Business Analyst will conduct "on-the-ground" shadowing sessions:
 
 - **The "Grease-to-Keyboard" Gap:** We will observe Maintenance staff in the garage. *Root Cause Investigation:* Do they delay entering Trapeze data because the terminals are too far away? Is the interface not touch-friendly for gloved hands?
 - **The Procurement Trail:** We will physically "follow" a Purchase Requisition from the moment a request is made to the moment the PO is cut. *Root Cause Investigation:* Where does the paper get stuck? Which approver is the bottleneck, and why?
@@ -127,7 +129,7 @@ After gathering observational data, we will host cross-functional Focus Groups (
 
 #### Department-Specific Research Strategy
 
-We will apply these qualitative techniques to the key functional areas identified in RFP Section 1.03:
+Our Business Analyst will apply these qualitative techniques to the key functional areas identified in RFP Section 1.03:
 
 | Department | Research Focus | Ethnographic Technique |
 | :--- | :--- | :--- |
@@ -140,7 +142,7 @@ We will apply these qualitative techniques to the key functional areas identifie
 
 #### From Research to Service Blueprints + Quantitative Metrics
 
-Standard consultants provide a text-based "Requirements Document." I provide **Service Blueprints** combined with **Quantitative Data Analysis**.
+Standard consultants provide a text-based "Requirements Document." Our Business Analyst provides **Service Blueprints** combined with **Quantitative Data Analysis**.
 
 Using the data from ethnographic research, I create visual maps that display:
 1. **The User Action:** What the employee is trying to do (e.g., "Receive Goods").
@@ -156,7 +158,7 @@ These blueprints become the "Truth" for the RFP. When I write the RFP, I can say
 
 We will categorize every finding in our Needs Assessment Report into three buckets to help SMART prioritize:
 
-- **Type A: Technology Gap.** (The current software simply cannot do x. *Solution: New ERP Feature.*)
+- **Type A: Technology Gap.** (The current software simply cannot do X. *Solution: New ERP Feature.*)
 - **Type B: Process Gap.** (The software can do it, but SMART's internal policy makes it hard. *Solution: BPR - Business Process Reengineering.*)
 - **Type C: User Capability Gap.** (The software is fine, but staff lacks training or hardware. *Solution: Change Management/Training.*)
 
@@ -217,15 +219,16 @@ We ensure contracts include:
 
 ### 3.5 Implementation Oversight
 
-**Agile Sprint Approach:**
+**Full-Time Team Engagement:**
 
-We don't disappear for months only to reappear with "finished" work. We operate in 2-week sprints with:
+Unlike traditional consultants who disappear for months only to reappear with "finished" work, our 3-person team operates with continuous engagement:
 
 - **Bi-weekly progress meetings** with SMART project team
-- **Sprint deliverables** showing tangible progress
+- **Continuous task management** with visible progress tracking
 - **Status dashboards** in plain English (not consultant jargon)
 - **Risk registers** with mitigation strategies
 - **Decision logs** documenting all project decisions
+- **24-month continuity** from kickoff through go-live and stabilization
 
 **Design Council Approach:**
 
@@ -300,7 +303,7 @@ We recognize that financial ERPs and operational systems speak different languag
 - ERP needs: Dollars, depreciation schedules, cost centers, grant allocations
 
 **Our Approach:**
-We will analyze these translations and design integration middleware that ensures SMART owns its data, preventing vendor lock-in. Each integration will be documented as a User Story with clear business value.
+Our Technical Architect will analyze these translations and design integration middleware that ensures SMART owns its data, preventing vendor lock-in. Each integration will be documented as a User Story with clear business value.
 
 ---
 
@@ -371,33 +374,79 @@ Maximilian brings deep expertise in enterprise system migrations with a focus on
 
 **The Team You See Is The Team You Get**
 
-Unlike large consulting firms where partners sell the work and junior consultants execute it, our team structure ensures senior-level attention throughout the engagement.
+Unlike large consulting firms where partners sell the work and junior consultants execute it, our team structure ensures senior-level attention throughout the engagement. The 3-person team you meet during the RFP process is the exact team that will deliver your project.
 
 ### 6.2 Proposed Team Structure
 
-**Project Lead (Primary Point of Contact)**
-- **Maximilian Murphy** - Lead ERP Migration Program Manager
+**3-Person Dedicated Senior Team:**
+
+#### Maximilian Murphy - Lead Consultant & Program Manager
+- **Total Commitment:** 4,000 hours over 24 months (full-time engagement)
 - **Role:** Overall project leadership, client relationship management, strategic direction
-- **Commitment:** Primary point of contact for SMART throughout engagement
+- **Responsibilities:**
+  - Project governance and steering committee management
+  - Strategic direction and decision-making
+  - Contract negotiation support and vendor oversight
+  - Client relationship management and communication
+  - Continuity from needs assessment through go-live and optimization
+- **Experience:**
+  - 15+ years hands-on ERP migration experience
+  - Proven track record of on-time, on-budget public sector projects
+  - Deep understanding of FTA regulations, NTD reporting, and transit grant management
+  - Expertise in quantitative data analysis and enterprise data products
 
-**Business Analyst - Transit Operations**
-- **Role:** Specialized focus on understanding Trapeze, Clever Device, and other transit-specific systems
-- **Responsibilities:** Interface analysis, operational workflow documentation, vendor evaluation of transit capabilities
-- **Note:** [To be provided - Associate bio to be added]
+#### Business Analyst
+- **Total Commitment:** 1,600 hours during critical phases (months 3-10)
+- **Role:** Needs assessment specialist, process mapper, requirements lead
+- **Responsibilities:**
+  - Comprehensive needs assessment across 8 departments
+  - 20+ stakeholder interviews and documentation
+  - Process flow mapping and requirements definition
+  - Service blueprint development
+  - ERP RFP development and vendor evaluation support
+  - User story creation and documentation
+- **Experience:**
+  - Senior-level business analyst with transit operations experience
+  - Expertise in needs assessment, process mapping, and requirements definition
+  - Experience with ERP RFP development and vendor evaluation
+  - Strong communication and documentation skills
 
-**Human-Centered Design Lead**
-- **Role:** Facilitates workshops, creates service blueprints and journey maps, manages Design Council
-- **Responsibilities:** User research methodology, visual documentation, change management strategy
-- **Note:** [To be provided - Associate bio to be added]
+#### Technical Architect
+- **Total Commitment:** 900 hours during implementation phases (months 7-10, 16-24)
+- **Role:** Systems integration specialist, technical lead, infrastructure assessor
+- **Responsibilities:**
+  - System integration assessment (Trapeze, ADP, Clever Device, etc.)
+  - Technical requirements and infrastructure evaluation
+  - Data migration oversight and integration testing
+  - Implementation support and issue resolution
+  - Middleware analysis and vendor lock-in prevention
+- **Experience:**
+  - Senior technical architect with system integration expertise
+  - Experience with Trapeze, ADP, Clever Device, and other transit systems
+  - Expertise in data migration, infrastructure assessment, and integration testing
+  - Strong problem-solving and issue resolution skills
 
-**Technical Infrastructure Architect (Contractor)**
-- **Role:** Assess hardware, software, network, database requirements for new ERP
-- **Responsibilities:** Technical infrastructure assessment, cloud vs. on-premise analysis, security requirements
-- **Note:** [To be provided - Contractor bio to be added]
+### 6.3 Resource Allocation by Phase
 
-### 6.3 Team Capacity and Availability
+| Phase | Duration | Team Resources | Hours/Phase |
+|-------|----------|----------------|-------------|
+| **Phase 1: Project Initiation & Planning** | Month 1-2 | Max (100%) + BA (25%) | 500 |
+| **Phase 2: Comprehensive Needs Assessment** | Month 3-6 | Max (100%) + BA (100%) + TA (25%) | 2,800 |
+| **Phase 3: ERP RFP Development** | Month 7-10 | Max (100%) + BA (75%) + TA (50%) | 2,000 |
+| **Phase 4: Vendor Evaluation Support** | Month 11-12 | Max (100%) + BA (50%) + TA (75%) | 500 |
+| **Phase 5: Contract Negotiation Assistance** | Month 13-15 | Max (100%) + BA (50%) + TA (50%) | 500 |
+| **Phase 6: Implementation Oversight** | Month 16-24 | Max (100%) + BA (0%) + TA (100%) | 200 |
+| | | | **TOTAL** | **6,500** |
+
+### 6.4 Team Capacity and Availability
 
 Our boutique size is our strength—we can dedicate 100% of our team's attention to SMART's project without competing priorities from dozens of simultaneous engagements like larger firms.
+
+**Key Commitments:**
+- No bait-and-switch: The team you meet is the team you get
+- Senior-level expertise throughout: No junior staff learning on your dime
+- Full-time continuity: Lead Consultant available 100% throughout 24 months
+- Specialized focus: Business Analyst and Technical Architect deployed when needed
 
 ---
 
@@ -409,41 +458,55 @@ Our boutique size is our strength—we can dedicate 100% of our team's attention
 
 We propose a realistic, risk-adjusted schedule that respects public sector constraints and FTA regulations. Competitors often underestimate timelines to appear "fast"—in the public sector, especially with FTA rules, "fast" means "lawsuit."
 
-Our **two-part engagement lifecycle**:
-- **Part A: Selection (Months 1-9)** – Fixed Fee
-- **Part B: Implementation Oversight (Months 10-24)** – Retainer + Hourly
+**Firm-Fixed Price: $1,942,500 for entire 24-month engagement**
 
-#### Phase 1: Discovery & Ethnography (Months 1-3)
-
-**Timeline Rationale:** This intensive 10-12 week timeline allows us to observe actual operational cycles, including "Month-End Close" and "Grant Reporting" periods, to capture real pain points—not just reported ones.
+#### Phase 1: Project Initiation & Planning (Months 1-2)
+**Investment:** $162,500 (10% of total)
+**Team:** Maximilian Murphy (100%) + Business Analyst (25%)
 
 **Key Activities:**
 - Project kickoff and planning
-- Comprehensive ethnographic needs assessment (Contextual Inquiry, Frustration Diaries, 5 Whys Workshops)
-- Technical infrastructure assessment
+- Stakeholder identification and onboarding
+- Project plan and schedule development
+- Governance structure establishment
+- Communication protocols defined
+
+**Key Milestone:** Project Charter Approved
+
+#### Phase 2: Comprehensive Needs Assessment (Months 3-6)
+**Investment:** $805,000 (41.5% of total)
+**Team:** Maximilian Murphy (100%) + Business Analyst (100%) + Technical Architect (25%)
+
+**Timeline Rationale:** This intensive 16-week timeline allows us to observe actual operational cycles, including "Month-End Close" and "Grant Reporting" periods, to capture real pain points—not just reported ones.
+
+**Key Activities:**
+- Comprehensive ethnographic needs assessment
+- 20+ stakeholder interviews
+- 8+ current systems evaluation
 - Service blueprint development
 - Root Cause Analysis (Type A/B/C classifications)
+- Technical infrastructure assessment
 
-**Key Milestone:** The *Comprehensive Needs Assessment Report* (The "Service Blueprints")
+**Key Milestone:** Comprehensive Needs Assessment Report (The "Service Blueprints")
 
-#### Phase 2: Strategy & RFP Creation (Months 4-5)
+#### Phase 3: ERP RFP Development (Months 7-10)
+**Investment:** $565,000 (29% of total)
+**Team:** Maximilian Murphy (100%) + Business Analyst (75%) + Technical Architect (50%)
 
-**Best Practice Approach:** We don't just write requirements; we build a **Requirements Traceability Matrix (RTM)**. This document links every single RFP requirement back to a specific business pain point found in Phase 1.
-
-**Strategic Move:** We draft the *contracts* during this phase, not just the technical specs. We bake "performance guarantees" into the RFP so vendors know SMART is serious.
+**Best Practice Approach:** We don't just write requirements; we build a **Requirements Traceability Matrix (RTM)**. This document links every single RFP requirement back to a specific business pain point found in Phase 2.
 
 **Key Activities:**
 - Requirements Traceability Matrix development
 - RFP document preparation with User Stories
+- Technical requirements definition
 - Vendor identification and outreach
 - RFP distribution and question management
 
-#### Phase 3: The "Show Me" Selection Process (Months 6-8)
+**Key Milestone:** Complete ERP RFP Document
 
-**Market Best Practice:** Standard demos are useless. We run **"Scripted Scenarios."**
-
-- **The Test:** We give vendors SMART's *actual* sanitized data (e.g., a messy inventory list from Trapeze). We ask them to ingest and fix it live during the demo.
-- **Tenured Move:** We include a "Sandbox Period." Before final selection, the top finalist must give SMART access to a sandbox environment for 2 weeks so the "Design Council" can try to break it.
+#### Phase 4: Vendor Evaluation Support (Months 11-12)
+**Investment:** $162,500 (8.5% of total)
+**Team:** Maximilian Murphy (100%) + Business Analyst (50%) + Technical Architect (75%)
 
 **Key Activities:**
 - Scripted scenario development
@@ -453,9 +516,11 @@ Our **two-part engagement lifecycle**:
 - Reference checks
 - Finalist selection
 
-#### Phase 4: Contract Negotiation (Month 9)
+**Key Milestone:** Vendor Selection Report
 
-**Smart Strategy:** We negotiate the **Statement of Work (SOW)**, not just the price. We ensure the vendor is tied to *milestones* (e.g., "You don't get paid for the 'Design' phase until the Design Council signs off"), rather than just dates.
+#### Phase 5: Contract Negotiation Assistance (Months 13-15)
+**Investment:** $167,500 (8.5% of total)
+**Team:** Maximilian Murphy (100%) + Business Analyst (50%) + Technical Architect (50%)
 
 **Key Activities:**
 - Contract review and negotiation
@@ -464,33 +529,13 @@ Our **two-part engagement lifecycle**:
 - Change order process establishment
 - Data ownership and exit strategy provisions
 
-#### Phase 5: Implementation Partnership - Hands-On Technical Leadership (Months 10-24+)
+**Key Milestone:** Signed Vendor Contract
 
-**The Implementation Partner Role:** Unlike traditional consultants who step away after vendor selection, I remain actively involved as your hands-on technical partner throughout vendor execution. I don't just observe—I configure modules, write integrations, clean data, train users, and troubleshoot production issues.
+#### Phase 6: Implementation Oversight (Months 16-24)
+**Investment:** $80,000 (4% of total - covers 9 months of oversight)
+**Team:** Maximilian Murphy (100%) + Technical Architect (100%)
 
-Most projects fail here because the consultant disappears and the vendor steamrolls the client. I stay to protect SMART and ensure success through four pillars:
-
-**A. The "No-Surprise" Governance Structure**
-- **Executive Steering Committee (Monthly):** We prepare the "Red/Yellow/Green" dashboard for the CFO/CEO. We interpret "Vendor Speak" into business reality.
-- **Core Project Team (Weekly):** We run the "Stand-up" meetings.
-- **Risk Management (RAID Log):** We maintain a living log of **R**isks, **A**ssumptions, **I**ssues, and **D**ependencies.
-  - *Strategic Check:* If the Vendor says "Integration with ADP is delayed," we flag this immediately as a Critical Path risk and force a mitigation plan before it delays the whole project.
-
-**B. Data Migration: The "Clean House" Strategy**
-- **The Trap:** Moving bad data from Dynamics GP to the new ERP (Garbage In, Garbage Out).
-- **Our Plan:** We institute a **"Pre-Migration Data Hygiene"** phase.
-  - We will force SMART to clean their Vendor Master File (remove duplicates) and Asset Lists *before* the Vendor is allowed to import them.
-  - *Tenured Insight:* We will require the Vendor to perform **three** full data loads (Mock 1, Mock 2, Final Production) to ensure accuracy.
-
-**C. Testing: The "Day-in-the-Life" (DITL) Testing**
-- **Market Standard:** "Unit Testing" (Does the button work?)
-- **Our Standard:** "End-to-End Testing."
-  - We simulate a real month at SMART. We start a PO in Maintenance, receive the part, invoice it in AP, pay it in Cash Management, and capitalize it in Fixed Assets.
-  - If the flow breaks anywhere, the system fails UAT (User Acceptance Testing).
-
-**D. The Integration "Handshake"**
-- **Critical Success Factor:** The Trapeze & ADP integrations.
-- We will oversee the **API "Handshake" Testing.** We don't just check if data moves; we check if it moves *correctly* when things go wrong (e.g., what happens if the internet cuts out during a transfer? Does the data duplicate or rollback?)
+**The Implementation Partner Role:** Unlike traditional consultants who step away after vendor selection, our 2-person senior team remains actively involved as your full-time Implementation Partner throughout vendor execution. We don't just observe—we provide oversight, guidance, and issue resolution.
 
 **Key Activities:**
 - Project schedule maintenance
@@ -498,44 +543,57 @@ Most projects fail here because the consultant disappears and the vendor steamro
 - Data migration hygiene oversight
 - Day-in-the-Life testing coordination
 - Integration "Handshake" testing
-- Progress meeting facilitation
+- Progress meeting facilitation (bi-weekly)
 - Status reporting
 - Issue resolution
 - Go-live support
 - Post-implementation stabilization
 
+**Key Milestones:**
+- System Go-Live
+- 30-Day Post-Implementation Review
+- 90-Day Stabilization Complete
+
 ### 7.2 Deliverables by Phase
 
 **Phase 1 Deliverables:**
 - Project Plan and Schedule
+- Project Charter
+- Governance Framework
+- Communication Plan
+- Risk Register
+
+**Phase 2 Deliverables:**
 - Needs Assessment Report (by functional area)
 - As-Is vs. To-Be Process Documentation
 - Service Blueprints for major processes
 - Quantitative Impact Analysis (cost, frequency, duration of pain points)
 - Technical Infrastructure Assessment
 - Integration Requirements Matrix
-- Risk Register
+- Requirements Traceability Matrix (RTM)
 
-**Phase 2 Deliverables:**
+**Phase 3 Deliverables:**
 - Complete ERP RFP Document with User Stories
-- Requirements Traceability Matrix (linking requirements to business impact)
+- Technical Requirements Specification
+- Integration Requirements Specification
 - Vendor Identification List
 - RFP Distribution Log
 
-**Phase 3 Deliverables:**
+**Phase 4 Deliverables:**
 - Vendor Evaluation Scoring Matrix
 - Functional Comparison Report
 - Reference Check Summary
 - Vendor Selection Recommendation Report
 - Sandbox Testing Results
 
-**Phase 4 Deliverables:**
+**Phase 5 Deliverables:**
 - Negotiated Contract Documents
 - Implementation Project Charter
-- Governance Framework
-- Implementation Partnership Plan
+- Detailed Implementation Plan
+- Testing Strategy Document
+- Change Order Process Documentation
 
-**Phase 5 Deliverables (Ongoing):**
+**Phase 6 Deliverables (Ongoing):**
 - Bi-weekly Status Reports
 - Project Dashboard Updates
 - Risk Register Updates
@@ -546,15 +604,28 @@ Most projects fail here because the consultant disappears and the vendor steamro
 - Integration Testing Results
 - Data Migration Validation Reports
 
-### 7.3 Agile Sprint Structure
+### 7.3 Quality Assurance Framework
 
-We break work into 2-week sprints with:
-- **Sprint Planning:** Define goals and deliverables for next 2 weeks
-- **Sprint Execution:** Consultant work and SMART collaboration
-- **Sprint Review:** Demo of completed work, gather feedback
-- **Sprint Retrospective:** Identify improvements for next sprint
+**Our 3-Person Quality Model:**
 
-This ensures SMART sees continuous progress and can course-correct quickly if needed.
+Unlike single-consultant approaches, our team structure enables multi-layered quality assurance:
+
+**Layer 1: Self-Review**
+- Each team member reviews their own work before submission
+
+**Layer 2: Peer Review**
+- Cross-review between Business Analyst and Technical Architect
+- Lead Consultant reviews all deliverables before submission to SMART
+
+**Layer 3: Client Validation**
+- Service blueprints validated with SMART staff during creation
+- Requirements tested against SMART's actual business processes
+- Design Council provides continuous feedback
+
+**Layer 4: Independent Testing**
+- Integration "Handshake" testing by Technical Architect
+- Data migration validation with three-phase testing
+- Day-in-the-Life end-to-end testing
 
 ---
 
@@ -563,38 +634,50 @@ This ensures SMART sees continuous progress and can course-correct quickly if ne
 ### 8.1 Risk Mitigation Strategies
 
 **Risk: Scope Creep**
-- **Mitigation:** Comprehensive needs assessment in Phase 1 surfaces requirements early
+- **Mitigation:** Comprehensive needs assessment in Phase 2 surfaces requirements early
 - **Control:** Strict Change Order process requiring SMART approval for scope additions
+- **Team Factor:** 3-person team provides capacity to handle legitimate scope changes
 
 **Risk: Low User Adoption**
 - **Mitigation:** HCD approach involves users from the start, not at the end
 - **Control:** Design Council ensures frontline input shapes system selection
+- **Team Factor:** Business Analyst dedicated to user engagement throughout
 
 **Risk: Integration Failures**
 - **Mitigation:** Early identification of all interface requirements with operational systems
 - **Control:** Middleware analysis prevents vendor lock-in
+- **Team Factor:** Technical Architect dedicated to integration testing
 
 **Risk: Budget Overruns**
 - **Mitigation:** Firm-fixed pricing based on deliverables
 - **Control:** Change Order process clearly defines cost implications of scope changes
+- **Team Factor:** 3-person team absorbs inefficiency costs, not SMART
 
 **Risk: Timeline Delays**
 - **Mitigation:** Agile sprints with visible progress
 - **Control:** Regular status meetings identify and address blockers early
+- **Team Factor:** Full-time engagement ensures continuous progress
+
+**Risk: Resource Inadequacy**
+- **Mitigation:** Realistic resource allocation (6,500 hours vs. 1,260)
+- **Control:** 3-person senior team, not juniors learning on the job
+- **Team Factor:** Specialized deployment (Business Analyst for needs assessment, Technical Architect for implementation)
 
 ### 8.2 Quality Assurance
 
 **Deliverable Quality Standards:**
-- All documents reviewed by Project Lead before delivery to SMART
+- All documents reviewed by Lead Consultant before delivery to SMART
 - Service blueprints validated with SMART staff during creation
 - RFP requirements tested against SMART's actual business processes
 - Vendor evaluation criteria cross-checked against SMART priorities
+- Multi-layered review process (self-review, peer review, client validation)
 
 **Communication Quality Standards:**
 - Plain English, minimal jargon
 - Visual documentation preferred over lengthy text
 - Regular executive summaries for leadership
 - Bi-weekly detailed status for project team
+- Transparent risk and issue reporting
 
 ---
 
@@ -618,7 +701,14 @@ Building Better Communities, LLC offers SMART a fundamentally different approach
 
 With 15+ years of hands-on ERP migration experience—actual implementation, not just consulting—a proven track record of successful migrations for 500+ user organizations, and a commitment to firm-fixed pricing and transparent communication, I am uniquely positioned to guide SMART through this critical transformation.
 
-I don't just observe implementation. I lead it.
+Our 3-person dedicated senior team provides:
+- **6,500 hours** of senior-level expertise (not 1,260)
+- **Full 24-month engagement** (not periodic check-ins)
+- **Realistic scope coverage** (not light-touch advisory)
+- **Firm-fixed pricing at $1,942,500** (no hourly billing surprises)
+- **Transit industry expertise** (FTA compliance, NTD reporting, public sector realities)
+
+We don't just observe implementation. We lead it with a dedicated senior team.
 
 I respectfully request the opportunity to discuss my proposal further during the competitive range process.
 

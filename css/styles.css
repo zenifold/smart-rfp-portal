@@ -750,6 +750,102 @@ body {
     }
 }
 
+/* Mobile responsiveness fix for Access Portal buttons */
+@media (max-width: 480px) {
+    .selector-buttons {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .selector-card {
+        padding: 2rem 1.5rem;
+    }
+    
+    .selector-card h3 {
+        font-size: 1.25rem;
+    }
+    
+    .selector-card p {
+        font-size: 0.9rem;
+    }
+}
+
+/* About page mobile responsiveness */
+@media (max-width: 768px) {
+    .experience-timeline-item {
+        flex-direction: column !important;
+        gap: 1rem !important;
+    }
+    
+    .experience-timeline-badge {
+        align-self: flex-start;
+    }
+    
+    .experience-timeline-content {
+        width: 100% !important;
+    }
+}
+
+/* Interactive Timeline Phase Styles */
+.timeline-phase:hover {
+    transform: translateY(-4px);
+}
+
+.timeline-phase:hover > div {
+    background: #FFFFFF;
+    box-shadow: 0 8px 24px rgba(0, 168, 232, 0.15);
+}
+
+.timeline-phase:hover .phase-number {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 168, 232, 0.4);
+}
+
+.phase-number {
+    transition: all 0.3s ease;
+}
+
+.phase-details {
+    animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Timeline mobile responsiveness */
+@media (max-width: 768px) {
+    .timeline-phase > div {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 12px;
+    }
+    
+    .timeline-phase > div > div:first-child {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .timeline-phase > div > div:nth-child(2) {
+        width: 100%;
+    }
+    
+    .timeline-phase h3 {
+        font-size: 1.1rem;
+    }
+    
+    .phase-details {
+        font-size: 0.9rem;
+    }
+}
+
 /* ===================================
    Loading States
    =================================== */

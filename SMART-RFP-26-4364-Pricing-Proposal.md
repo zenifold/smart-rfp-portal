@@ -23,46 +23,120 @@ The Offeror hereby offers to furnish to SMART all goods and/or services at price
 
 ### Proposed Pricing Structure
 
-Our pricing is structured as **firm-fixed pricing based on deliverables**, providing SMART with budget certainty and eliminating the risk of "consultant bleed" through open-ended hourly billing. This demonstrates my confidence in 15+ years of hands-on ERP migration experience and protects SMART from unexpected costs.
+Our pricing is structured as **firm-fixed pricing based on deliverables**, providing SMART with budget certainty and eliminating the risk of "consultant bleed" through open-ended hourly billing. This demonstrates our confidence in 15+ years of hands-on ERP migration experience and protects SMART from unexpected costs.
 
-| Deliverable | Estimated Hours | Hourly Price | Total Fixed Price |
-|-------------|------------------|---------------|-------------------|
-| **Phase 1: Project Initiation & Planning** | | | |
-| Kickoff meeting, project plan, schedule, and coordination | 40 | $275 | $11,000 |
-| **Phase 2: Comprehensive Needs Assessment** | | | |
-| Department interviews, systems review, integrations review, and comprehensive needs assessment report | 320 | $275 | $88,000 |
-| **Phase 3: ERP RFP Development** | | | |
-| Preparation of ERP system RFP(s) and procurement support | 200 | $275 | $55,000 |
-| **Phase 4: Vendor Evaluation Support** | | | |
-| Proposal evaluation assistance, cost and functionality review | 120 | $275 | $33,000 |
-| **Phase 5: Contract Negotiation Assistance** | | | |
-| Support during negotiations and BAFO review | 80 | $275 | $22,000 |
-| **Phase 6: Implementation Partnership** | | | |
-| Hands-on technical leadership: configuration, integration, data migration, training, and support | 400 | $275 | $110,000 |
-| **Contingency for Unforeseen Requirements** | 100 | $275 | $27,500 |
-| | | | |
-| **SUBTOTAL** | **1,260** | | **$346,500** |
+**Key Differentiators:**
+- **Full 24-Month Engagement**: Not just advisory - full-time oversight throughout implementation
+- **3-Person Dedicated Team**: Senior-level expertise throughout, not just during sales presentations
+- **Realistic Resource Allocation**: Proper team structure to deliver comprehensive scope
+- **Budget Protection**: Firm-fixed pricing with clear scope boundaries
 
-### Additional Specialized Resources
+---
 
-The following specialized resources are included in above pricing at blended rates:
+### Team Structure & Resource Allocation
 
-| Role | Estimated Hours | Hourly Rate | Total Fixed Price |
-|------|------------------|-------------|-------------------|
-| Business Analyst - Transit Operations | 160 | $225 | $36,000 |
-| Human-Centered Design Lead | 120 | $200 | $24,000 |
-| Technical Infrastructure Architect | 80 | $350 | $28,000 |
-| **Additional Resources Subtotal** | **360** | | **$88,000** |
+| Team Member | Role | Total Hours | Hourly Rate | Total Cost |
+|--------------|------|--------------|--------------|-------------|
+| **Maximilian Murphy** | Lead Consultant & Program Manager | 4,000 | $325 | $1,300,000 |
+| **Business Analyst** | Needs Assessment & Requirements | 1,600 | $275 | $440,000 |
+| **Technical Architect** | System Integration & Technical Oversight | 900 | $225 | $202,500 |
+| | | | | |
+| **SUBTOTAL** | | **6,500** | | **$1,942,500** |
+
+### Phase-by-Phase Pricing
+
+| Phase | Duration | Team Resources | Hours/Phase | Phase Cost |
+|-------|----------|----------------|-------------|-------------|
+| **Phase 1: Project Initiation & Planning** | Month 1-2 | Max (100%) + BA (25%) | 500 | $162,500 |
+| **Phase 2: Comprehensive Needs Assessment** | Month 3-6 | Max (100%) + BA (100%) + TA (25%) | 2,800 | $805,000 |
+| **Phase 3: ERP RFP Development** | Month 7-10 | Max (100%) + BA (75%) + TA (50%) | 2,000 | $565,000 |
+| **Phase 4: Vendor Evaluation Support** | Month 11-12 | Max (100%) + BA (50%) + TA (75%) | 500 | $162,500 |
+| **Phase 5: Contract Negotiation Assistance** | Month 13-15 | Max (100%) + BA (50%) + TA (50%) | 500 | $167,500 |
+| **Phase 6: Implementation Oversight** | Month 16-24 | Max (100%) + BA (0%) + TA (100%) | 200 | $80,000 |
+| | | | | |
+| **SUBTOTAL** | 24 months | | **6,500** | **$1,942,500** |
 
 ### Grand Total
 
-**Total Contract Value: $434,500**
+**Total Contract Value: $1,942,500**
 
-This total represents our firm-fixed price for all services outlined in Scope of Work, including all deliverables, meetings, documentation, and support through implementation partnership.
+This total represents our firm-fixed price for all services outlined in Scope of Work, including all deliverables, meetings, documentation, and 24-month implementation oversight.
+
+**Payment Schedule:**
+- 10% ($194,250) upon completion of Phase 1 (Initiation & Planning)
+- 20% ($388,500) upon completion of Phase 2 (Needs Assessment)
+- 20% ($388,500) upon completion of Phase 3 (RFP Development)
+- 10% ($194,250) upon completion of Phase 4 (Vendor Selection)
+- 10% ($194,250) upon completion of Phase 5 (Contract Negotiation)
+- 30% ($582,750) upon completion of Phase 6 (Implementation Oversight)
 
 ---
 
 ## Pricing Methodology and Rationale
+
+### Why This Price
+
+Our pricing of $1,942,500 reflects a comprehensive, realistic approach to delivering SMART's ERP system upgrade with the level of expertise, oversight, and resources required for a successful implementation.
+
+**What This Investment Provides:**
+
+1. **Full 24-Month Engagement**
+   - Not just "periodic meetings" as some consultants propose
+   - Active, hands-on oversight throughout entire implementation
+   - Available when issues arise, not just during scheduled check-ins
+   - Continuity of knowledge from needs assessment through go-live and stabilization
+
+2. **3-Person Dedicated Team**
+   - **Lead Consultant (Maximilian Murphy)**: 4,000 hours over 24 months
+     - Strategic direction and project management
+     - Client relationship management and stakeholder communication
+     - Contract negotiation support and vendor oversight
+   - **Business Analyst**: 1,600 hours during critical phases
+     - Comprehensive needs assessment across 8 departments
+     - 20+ stakeholder interviews and documentation
+     - Process flow mapping and requirements definition
+     - ERP RFP development and vendor evaluation support
+   - **Technical Architect**: 900 hours during implementation
+     - System integration assessment (Trapeze, ADP, Clever Device, etc.)
+     - Technical requirements and infrastructure evaluation
+     - Data migration oversight and integration testing
+     - Implementation support and issue resolution
+
+3. **Realistic Resource Allocation**
+   - Comprehensive needs assessment: 2,800 hours (not 320)
+     - 8 departments to assess
+     - 20+ individual interviews
+     - 8+ current systems to evaluate
+     - Process flows, data fields, interfaces, security needs
+   - ERP RFP development: 2,000 hours (not 200)
+     - Full scope of work creation
+     - Application, technical, and implementation requirements
+     - Testing, conversion, and interface specifications
+     - Training and support requirements
+   - Implementation oversight: 200 hours spread over 9 months
+     - Regular progress meetings
+     - Status reporting and issue tracking
+     - Schedule maintenance and milestone tracking
+
+4. **Comprehensive Scope Coverage**
+   - **Not Light-Touch Advisory**: We provide full oversight, not just guidance
+   - **Not Just Project Management**: Our team understands ERP, transit operations, and system integration
+   - **Not Just During Business Hours**: Available for critical implementation phases
+   - **Not Just One Consultant**: Multi-disciplinary team for complete coverage
+
+### Comparison to Market Pricing
+
+| Pricing Category | Typical Market Rate | Our Price | Position |
+|------------------|---------------------|-----------|-----------|
+| **Large Consulting Firm** | $2.5M - $3.5M | $1.94M | 30-45% savings |
+| **Mid-Market Firm** | $1.8M - $2.5M | $1.94M | Competitive |
+| **Boutique Firm** | $1.2M - $2.0M | $1.94M | Premium with value |
+
+**Why We're Competitive:**
+- Lower overhead than large firms (no partner premiums, no junior staff markups)
+- Senior-level expertise throughout (not just during sales)
+- Efficient methodology (Human-Centered Design reduces rework)
+- No scope creep risk (firm-fixed pricing with change order controls)
 
 ### Firm-Fixed Pricing Benefits
 
@@ -70,7 +144,7 @@ This total represents our firm-fixed price for all services outlined in Scope of
 
 1. **Budget Certainty:** SMART knows the exact cost before project begins
 2. **No Surprise Invoices:** Hourly billing can lead to scope creep and cost overruns; fixed pricing eliminates this risk
-3. **Incentive Alignment:** I am incentivized to work efficiently because I absorb any inefficiency costs
+3. **Incentive Alignment:** We are incentivized to work efficiently because we absorb any inefficiency costs
 4. **Transparency:** All costs are disclosed upfront with clear deliverable definitions
 5. **Risk Protection:** If requirements change, change orders with SMART approval are required, preventing unauthorized scope expansion
 
@@ -81,22 +155,12 @@ This total represents our firm-fixed price for all services outlined in Scope of
 Any requests for additional work beyond defined scope will be addressed through a formal Change Order process:
 
 1. SMART submits change request in writing
-2. I assess impact on timeline and pricing
+2. We assess impact on timeline and pricing
 3. Change order document prepared with revised scope, timeline, and cost
 4. SMART review and approval required before work begins
 5. Approved change order becomes part of contract
 
 **This process ensures SMART maintains control over scope and budget while allowing for legitimate project needs.**
-
-### Hourly Rate Breakdown
-
-Our blended hourly rate of $275 reflects:
-- **Project Management and Strategic Direction:** $275/hour
-- **Business Analysis and Requirements Gathering:** $225/hour
-- **Human-Centered Design and User Research:** $200/hour
-- **Technical Infrastructure Assessment:** $350/hour
-
-These rates are competitive with mid-market consulting firms while providing senior-level expertise that larger firms typically reserve for partners.
 
 ### Value Proposition
 
@@ -109,7 +173,8 @@ These rates are competitive with mid-market consulting firms while providing sen
 | Communication | 100-page text documents | Visual dashboards and plain English |
 | Methodology | Best practices standardization | Human-Centered Design customized to SMART |
 | Budget Risk | High - scope creep common | Low - change order control protects SMART |
-| Timeline Visibility | Quarterly or monthly reports | Bi-weekly sprints with visible progress |
+| Timeline Visibility | Quarterly or monthly reports | Regular progress meetings with visible status |
+| Implementation Oversight | Periodic check-ins | Full-time oversight during critical phases |
 
 **Total Cost of Ownership Consideration:**
 
@@ -117,7 +182,8 @@ While our price may be higher than lowest bidder, our approach minimizes total c
 - High user adoption reducing training and rework costs
 - Early requirement identification preventing expensive changes during implementation
 - Strong contract negotiation protecting SMART from vendor overages
-- Agile oversight ensuring issues are addressed before they become costly problems
+- Multi-disciplinary team addressing issues before they become costly problems
+- Full implementation oversight reducing risk of project failure
 
 ---
 
@@ -131,13 +197,7 @@ While our price may be higher than lowest bidder, our approach minimizes total c
 
 4. **Expenses:** All travel, materials, and reasonable expenses are included in the fixed pricing unless otherwise specified in change orders.
 
-5. **Payment Schedule:** Milestone-based payments aligned with project phases:
-   - 15% upon completion of Phase 1 (Initiation & Planning)
-   - 25% upon completion of Phase 2 (Needs Assessment)
-   - 20% upon completion of Phase 3 (RFP Development)
-   - 15% upon completion of Phase 4 (Vendor Selection)
-   - 10% upon completion of Phase 5 (Contract Negotiation)
-   - 15% upon completion of Phase 6 (Implementation Partnership)
+5. **Payment Schedule:** Milestone-based payments aligned with project phases (see above).
 
 ---
 
@@ -210,38 +270,46 @@ Date
 
 ## Additional Pricing Notes
 
-### Contingency Allocation
+### Resource Flexibility
 
-The 100-hour contingency (approximately $27,500) is included to accommodate:
-- Unexpected complexities during needs assessment
-- Additional stakeholder interviews if required
-- Unforeseen integration challenges
-- Additional vendor evaluation activities
-- Extended implementation oversight if needed
+Our 3-person team structure provides flexibility to meet SMART's evolving needs:
 
-This contingency demonstrates my commitment to project success without requiring SMART to approve numerous small change orders.
+**Business Analyst** can be deployed intensively during needs assessment (months 3-6) when stakeholder interviews, process mapping, and requirements definition are critical, then scaled back as we transition to RFP development and vendor evaluation.
 
-### Implementation Partnership Flexibility
+**Technical Architect** ramps up during RFP development (months 7-10) to define technical requirements and integration needs, then provides active oversight during implementation (months 16-24) to ensure technical execution meets specifications.
 
-The 400 hours allocated for implementation partnership (approximately $110,000) is based on a typical 12-18 month implementation timeline. If SMART's selected ERP vendor requires shorter or longer oversight periods, hours can be adjusted through mutual agreement, with pricing adjusted proportionally.
+**Lead Consultant** maintains full-time engagement throughout to provide continuity, strategic direction, and ensure project success.
+
+### Implementation Partnership Scope
+
+The 200 hours allocated for implementation oversight (approximately $80,000 over 9 months) covers:
+- Regular progress meetings (bi-weekly during active phases)
+- Project status summary preparation and distribution
+- Schedule maintenance and milestone tracking
+- Issue identification and escalation
+- Risk monitoring and mitigation
+- SMART relationship management and communication
+
+This is **not** hands-on configuration or data migration execution (those responsibilities belong to SMART's selected ERP vendor), but rather oversight to ensure the vendor delivers on commitments and meets SMART's requirements.
 
 ### Competitive Positioning
 
-Our total price of $434,500 represents:
-- **Approximately $36,000 per month** for an 18-month engagement
+Our total price of $1,942,500 represents:
+- **Approximately $81,000 per month** for a 24-month engagement
 - **Significant cost savings** compared to large consulting firms that typically bill $350-450/hour with partner premiums
 - **Senior-level expertise** throughout, not just during sales presentations
 - **Value-added deliverables** including service blueprints, user stories, and visual documentation
 - **Reduced risk** through firm-fixed pricing and change order controls
+- **Full implementation oversight** ensuring project success
 
 ### Price Negotiation Flexibility
 
-While I believe this pricing reflects fair value for the expertise and methodology I provide, I am open to discussing:
+While we believe this pricing reflects fair value for the expertise and methodology we provide, we are open to discussing:
 - Phased engagement (starting with needs assessment, then proceeding based on findings)
 - Adjusted scope based on SMART's priorities
 - Alternative team composition if certain phases have different resource requirements
 
-I am not open to converting firm-fixed pricing to hourly billing, as this would undermine the budget certainty benefits my approach provides SMART.
+We are not open to converting firm-fixed pricing to hourly billing, as this would undermine the budget certainty benefits our approach provides SMART.
 
 ---
 

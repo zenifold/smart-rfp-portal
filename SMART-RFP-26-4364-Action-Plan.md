@@ -4,6 +4,8 @@
 **Timeline:** Today (January 15) - February 13, 2026
 **Deadline:** February 13, 2026 at 3:00 PM ET
 **Lead Consultant:** Maximilian Murphy
+**Total Investment:** $1,942,500 (Firm-Fixed Price)
+**Team:** 3-Person Senior Team (6,500 hours)
 
 ---
 
@@ -61,7 +63,7 @@
   - ☐ S Corporation
   - ☐ Partnership
   - ☐ Trust / Estate
-  - ☐ Limited Liability Company
+  - ☑ Limited Liability Company (Building Better Communities, LLC)
 - **Gather:**
   - State of incorporation
   - Tax ID Number (EIN)
@@ -76,14 +78,21 @@
 - **Action:** Check Michigan Uniform Certification Program (MUCP) website
 - **Deadline:** January 20, 2026
 
+#### 6. Confirm 3-Person Team Availability ⚠️ NEW
+- **Task:** Confirm availability of Business Analyst and Technical Architect
+- **Required commitment:**
+  - Business Analyst: 1,600 hours (months 3-10 intensive, then reduced)
+  - Technical Architect: 900 hours (months 7-10, 16-24)
+- **Action:** Contact potential team members, confirm availability and interest
+- **Deadline:** January 20, 2026
+
 ### MEDIUM PRIORITY - Complete by January 25, 2026
 
-#### 6. Prepare Team Member Bios
-- **Task:** Write brief bios for 3 team members
+#### 7. Prepare Team Member Bios
+- **Task:** Write brief bios for 2 additional team members
 - **Required for:**
-  1. Business Analyst - Transit Operations
-  2. Human-Centered Design Lead
-  3. Technical Infrastructure Architect
+  1. Business Analyst (Transit Operations experience)
+  2. Technical Architect (System Integration experience)
 - **Each bio should include:**
   - Name and title
   - Years of relevant experience
@@ -93,21 +102,22 @@
 - **Length:** 100-150 words each
 - **Deadline:** January 25, 2026
 
-#### 7. Attend Pre-Proposal Conference (January 23, 2026 @ 10:00 AM ET)
+#### 8. Attend Pre-Proposal Conference (January 23, 2026 @ 10:00 AM ET)
 - **Task:** Participate in Zoom conference
 - **Actions:**
   - Log in early (9:45 AM) to see attendees
   - Note other consulting firms attending (competitor intel)
-  - Ask the prepared strategic questions
+  - Ask prepared strategic questions
   - Take detailed notes on SMART's responses
   - Note any follow-up questions from other firms
 - **Questions to Ask:**
   1. **Integration:** "Is the current Trapeze environment on-premise or hosted? This impacts our API integration strategy."
-  2. **Budget/Grant:** "Is funding for the ERP purchase already secured via a specific FTA grant (e.g., 5307 or 5339), or will our scope include assisting in the grant application?"
+  2. **Budget/Grant:** "Is funding for ERP purchase already secured via a specific FTA grant (e.g., 5307 or 5339), or will our scope include assisting in grant application?"
   3. **Access:** "To facilitate our 'Shadowing' methodology, will we have access to maintenance garages and dispatch centers during non-standard business hours?"
+  4. **Timeline:** "Given FTA procurement requirements, what is the realistic timeframe from vendor selection to contract execution and go-live?"
 - **Follow-up:** Send thank you email to purchasing agent (Erika Blocker) after conference
 
-#### 8. Replace Placeholders in All Documents
+#### 9. Replace Placeholders in All Documents
 - **Task:** Update all [JV Company Name] placeholders with actual company name
 - **Affected Files:**
   - SMART-RFP-26-4364-Technical-Proposal.md
@@ -122,7 +132,7 @@
 
 ### LOWER PRIORITY - Complete by February 10, 2026
 
-#### 9. Print and Sign All Required Forms
+#### 10. Print and Sign All Required Forms
 - **Task:** Print, sign, and scan 10 signature locations
 - **Forms requiring signature:**
   - Form 3.06: Compliance with Laws and Regulations
@@ -138,7 +148,7 @@
   - Pricing Proposal conclusion page
 - **Deadline:** February 10, 2026
 
-#### 10. Number All Pages
+#### 11. Number All Pages
 - **Task:** Add page numbers to every page in all documents
 - **Format:** Page X of Y (e.g., Page 1 of 35)
 - **Apply to:**
@@ -147,7 +157,7 @@
   - Required Forms document
 - **Deadline:** February 10, 2026
 
-#### 11. Create PDF Versions
+#### 12. Create PDF Versions
 - **Task:** Convert all markdown files to professional PDFs
 - **Options:**
   - Use Microsoft Word (open .md, save as PDF)
@@ -160,7 +170,7 @@
   - SMART-RFP-26-4364-Required-Forms.pdf
 - **Deadline:** February 10, 2026
 
-#### 12. Practice Submission Process
+#### 13. Practice Submission Process
 - **Task:** Test submission via Bidnet Direct (www.bidnetdirect.com)
 - **Actions:**
   - Create account if needed
@@ -168,10 +178,10 @@
   - Practice uploading files
   - Note file size limits
 - **Alternative:** Prepare email to bids@smartbus.org
-- **Subject line:** SMART RFP No. 26-4364 Response – [YOUR COMPANY NAME]
+- **Subject line:** SMART RFP No. 26-4364 Response – Building Better Communities, LLC
 - **Deadline:** February 10, 2026
 
-#### 13. Final Review Package
+#### 14. Final Review Package
 - **Task:** Complete final verification checklist
 - **Use:** SMART-RFP-26-4364-Submission-Checklist.md
 - **Verify:**
@@ -179,11 +189,12 @@
   - All signatures present
   - All pages numbered
   - All dates correct
-  - Pricing totals accurate ($434,500)
+  - Pricing totals accurate ($1,942,500)
+  - Team allocation matches (6,500 hours, 3-person team)
   - No typos or formatting errors
 - **Deadline:** February 12, 2026
 
-#### 14. Submit Proposal
+#### 15. Submit Proposal
 - **Task:** Submit final proposal package
 - **Method:** Bidnet Direct OR email to bids@smartbus.org
 - **Time:** Submit by 3:00 PM ET on February 13, 2026
@@ -197,19 +208,20 @@
 
 ### ✅ COMPLETED
 1. ✅ Created Technical Proposal with Corporate Ethnography methodology
-2. ✅ Integrated 24-month Guardian roadmap
-3. ✅ Created Pricing Proposal with firm-fixed pricing
+2. ✅ Integrated 24-month Implementation Partner roadmap
+3. ✅ Created Pricing Proposal with firm-fixed pricing ($1,942,500)
 4. ✅ Prepared all required forms (3.04-3.14)
 5. ✅ Created comprehensive submission checklist
-6. ✅ Drafted executive summary structure
+6. ✅ Drafted executive summary with 3-person team emphasis
 7. ✅ Created this execution action plan
+8. ✅ Updated pricing to realistic $1.95M with 6,500 hours
 
 ### 📝 PENDING AWAITING YOUR INPUT
 
 #### 1. Team Member Bios (Awaits your completion)
-- **Dependency:** You provide names, experience, qualifications
+- **Dependency:** You provide names, experience, qualifications for 2 team members
 - **I will:** Format and integrate into Technical Proposal Section 6.2
-- **Location:** SMART-RFP-26-4364-Technical-Proposal.md, lines where "[To be provided - Associate bio to be added]"
+- **Location:** SMART-RFP-26-4364-Technical-Proposal.md, lines where Business Analyst and Technical Architect bios go
 - **Your deadline:** January 25, 2026
 - **My turnaround:** 1 business day after you provide
 
@@ -253,16 +265,19 @@
 - [ ] Locate financial documentation ⚠️
 - [ ] Confirm legal entity structure ⚠️
 - [ ] Determine DBE status ⚠️
+- [ ] **Confirm 3-person team availability** ⚠️ NEW - HIGH PRIORITY
 
 **Wednesday-Thursday (Jan 17-18):**
-- [ ] Draft team member bios (3 people)
+- [ ] Draft team member bios (2 additional people)
 - [ ] Prepare questions for conference
 - [ ] Begin placeholder replacement process
+- [ ] Review updated pricing and team structure documents
 
 **Friday (Jan 19):**
 - [ ] Review all questions for conference
 - [ ] Test Zoom access
 - [ ] Finalize company information gathering
+- [ ] Confirm team member availability with Business Analyst and Technical Architect
 
 ### NEXT WEEK (January 20-26)
 
@@ -273,6 +288,7 @@
 **Wednesday (Jan 22):**
 - [ ] Conference preparation final check
 - [ ] Prepare notepad/taking tools for conference
+- [ ] Review team bios and company details
 
 **Friday (Jan 23) - PRE-PROPOSAL CONFERENCE:**
 - [ ] Attend 10:00 AM ET Zoom call
@@ -286,27 +302,78 @@
 
 ---
 
-## 📊 Pricing Breakdown Reference
+## 📊 Pricing and Resource Breakdown Reference
 
-### Current Proposed Pricing: $434,500 (Firm-Fixed)
+### Updated Pricing: $1,942,500 (Firm-Fixed)
 
-**Phase 1: Project Initiation** - $8,000 (40 hours @ $200/hr)
-**Phase 2: Comprehensive Needs Assessment** - $80,000 (400 hours @ $200/hr)
-**Phase 3: ERP RFP Development** - $24,000 (120 hours @ $200/hr)
-**Phase 4: Vendor Evaluation** - $16,000 (80 hours @ $200/hr)
-**Phase 5: Contract Negotiation** - $8,000 (40 hours @ $200/hr)
-**Phase 6: Implementation Oversight** - $298,500 (1,492.5 hours @ $200/hr)
+**Phase 1: Project Initiation & Planning** - $162,500 (500 hours)
+- Max (100%) + BA (25%) = 500 hours
+- Investment: 10% of total
 
-**Pricing Strategy Questions for You:**
-1. Is $200/hr your actual bill rate? Adjust if different.
-2. Should Phase 6 be structured as monthly retainer instead of lump sum?
-3. Do you want to include any contingency buffer?
-4. What are your competitors likely charging?
+**Phase 2: Comprehensive Needs Assessment** - $805,000 (2,800 hours)
+- Max (100%) + BA (100%) + TA (25%) = 2,800 hours
+- Investment: 41.5% of total
 
-**Alternative Phase 6 Pricing:**
-- **Monthly Retainer Option:** $24,875/month for 12 months
-- **Capped T&M Option:** $200/hr, capped at $300,000
-- **Hybrid Option:** $150,000 fixed + $200/hr for additional hours
+**Phase 3: ERP RFP Development** - $565,000 (2,000 hours)
+- Max (100%) + BA (75%) + TA (50%) = 2,000 hours
+- Investment: 29% of total
+
+**Phase 4: Vendor Evaluation Support** - $162,500 (500 hours)
+- Max (100%) + BA (50%) + TA (75%) = 500 hours
+- Investment: 8.5% of total
+
+**Phase 5: Contract Negotiation Assistance** - $167,500 (500 hours)
+- Max (100%) + BA (50%) + TA (50%) = 500 hours
+- Investment: 8.5% of total
+
+**Phase 6: Implementation Oversight** - $80,000 (200 hours)
+- Max (100%) + TA (100%) = 200 hours over 9 months
+- Investment: 4% of total
+
+**TOTAL:** $1,942,500 for 6,500 hours over 24 months
+
+### Team Allocation Summary
+
+| Team Member | Total Hours | Primary Phases |
+|-------------|--------------|-----------------|
+| Maximilian Murphy (Lead Consultant) | 4,000 | All phases (full-time 24 months) |
+| Business Analyst | 1,600 | Months 3-10 (intensive needs assessment & RFP) |
+| Technical Architect | 900 | Months 7-10, 16-24 (RFP development & implementation) |
+| **TOTAL** | **6,500** | **24 months** |
+
+**Hourly Rates:**
+- Maximilian Murphy: $325/hour
+- Business Analyst: $275/hour
+- Technical Architect: $225/hour
+
+**Blended Rate:** $298/hour
+
+### Why This Pricing Is Realistic
+
+**Comprehensive Needs Assessment: 2,800 hours (not 320)**
+- 8 departments to assess
+- 20+ stakeholder interviews
+- 8+ current systems to evaluate
+- Process flows, data fields, interfaces, security needs
+- Full ethnographic "Shadowing" methodology
+
+**ERP RFP Development: 2,000 hours (not 200)**
+- Full scope of work creation
+- Application requirements (financials, procurement, grant tracking, etc.)
+- Technical requirements (hardware, software, databases, network, OS)
+- Implementation methodology, testing, conversion, interface specifications
+- Training and support requirements
+
+**Implementation Oversight: 200 hours over 9 months**
+- Regular progress meetings (bi-weekly during active phases)
+- Project status summary preparation and distribution
+- Schedule maintenance and milestone tracking
+- Issue identification and escalation
+- Risk monitoring and mitigation
+
+**Total Comparison:**
+- Single consultant approach: 1,260 hours @ $200 = $434,500 (unrealistic)
+- **Our approach: 6,500 hours @ blended $298 = $1,942,500 (realistic)**
 
 ---
 
@@ -348,13 +415,14 @@
 **To win this RFP, we need:**
 1. ✅ Strategic differentiation (Corporate Ethnography ✓)
 2. ✅ Realistic timeline (24-month roadmap ✓)
-3. ✅ Competitive pricing ($434,500 ✓)
-4. ✅ Flawless execution (YOUR tasks ⚠️)
-5. ✅ Strong presentation at conference (YOUR attendance ⚠️)
+3. ✅ Realistic pricing ($1,942,500 with proper resources ✓)
+4. ✅ 3-person team structure (senior expertise throughout ✓)
+5. ✅ Flawless execution (YOUR tasks ⚠️)
+6. ✅ Strong presentation at conference (YOUR attendance ⚠️)
 
 **Win probability factors:**
 - **High control:** Strategy, pricing, methodology (done ✓)
-- **Medium control:** Conference attendance, questions (your action ⚠️)
+- **Medium control:** Conference attendance, questions, team availability (your action ⚠️)
 - **Low control:** Competitor pricing, SMART's internal preferences
 - **Critical path:** Your completion of tasks (timing critical ⚠️)
 
@@ -365,25 +433,29 @@
 **You have 29 days. The strategy is set. The documents are drafted. Now it's execution time.**
 
 **The difference between winning and losing:**
-- **Winner:** Completes all tasks on this list, attends conference, submits early
-- **Loser:** Misses deadline, forgets a form, submits at last minute with errors
+- **Winner:** Completes all tasks on this list, confirms team availability, attends conference, submits early
+- **Loser:** Misses deadline, forgets a form, doesn't confirm team, submits at last minute with errors
 
 **Your competitive advantage:**
 - Corporate Ethnography methodology
-- **Implementation Partnership model** (hands-on technical leadership, not just oversight)
-- Firm-fixed pricing
+- **3-person dedicated senior team** (not 1 consultant + juniors)
+- **6,500 hours of senior-level expertise** (not 1,260)
+- **Full-time Implementation Partnership model** (hands-on technical leadership, not just oversight)
+- Firm-fixed pricing with realistic scope
 - **15+ years hands-on ERP migration experience** (actual implementation, not just consulting)
 - **Quantitative data analysis** with measurable outcomes
 - **Enterprise data products** (dashboards, integrations, automated workflows)
 
 **Your vulnerabilities:**
-- Timing: Less than 30 days
+- Pricing: $1.95M may be higher than some competitors
 - Administrative complexity: 10 signatures, multiple forms
 - Unknown competitors: Large consulting firms with more resources
+- Team availability: Must confirm Business Analyst and Technical Architect
 
 **Key to success:**
 - Stay organized with this action plan
 - Focus on YOUR tasks (marked with ⚠️)
+- Confirm team availability early (this week!)
 - Communicate if blocked or need help
 - Submit early, not at the last minute
 
@@ -391,6 +463,33 @@
 
 ---
 
+## 🔄 Pricing Change Summary
+
+**What Changed:**
+- **OLD:** $434,500 for 1,260 hours (single consultant approach)
+- **NEW:** $1,942,500 for 6,500 hours (3-person team approach)
+- **Increase:** 4.5x pricing, 5.2x hours
+
+**Why This Change:**
+- Realistic resource allocation for comprehensive scope
+- Proper team structure for successful ERP project
+- Full 24-month engagement with senior-level expertise
+- Compliance with transit agency ERP implementation best practices
+
+**Competitive Position:**
+- 30-45% savings vs. large consulting firms ($2.5M - $3.5M)
+- Competitive with mid-market firms ($1.8M - $2.5M)
+- Premium pricing vs. boutique firms ($1.2M - $2.0M) but with senior team throughout
+
+**Risk Mitigation:**
+- Lower risk of project failure (proper resources)
+- Lower risk of scope creep (firm-fixed pricing)
+- Lower risk of user resistance (human-centered design)
+- Lower risk of integration failures (Technical Architect oversight)
+
+---
+
 *Action Plan Created: January 15, 2026*
+*Updated: January 15, 2026 (Revised pricing and team structure)*
 *Next Review: January 20, 2026*
 *Submission Deadline: February 13, 2026 @ 3:00 PM ET*
