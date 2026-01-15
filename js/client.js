@@ -26,17 +26,27 @@ async function loadDocument(docKey) {
     const titleElement = document.getElementById('viewer-title');
     const contentElement = document.getElementById('viewer-content');
     
+    if (!viewer || !titleElement || !contentElement) {
+        console.error('Document viewer elements not found');
+        return;
+    }
+    
     // Show loading state
     viewer.classList.add('active');
     contentElement.innerHTML = '<div class="loading">Loading document...</div>';
     document.body.style.overflow = 'hidden';
     
     try {
+        // Check if marked.js is available
+        if (typeof marked === 'undefined') {
+            throw new Error('Markdown parser not loaded. Please ensure marked.js is included.');
+        }
+        
         // Fetch markdown file
         const response = await fetch(documentPaths[docKey]);
         
         if (!response.ok) {
-            throw new Error(`Failed to load ${documentPaths[docKey]}`);
+            throw new Error(`Failed to load ${documentPaths[docKey]} (Status: ${response.status})`);
         }
         
         const markdownText = await response.text();
@@ -65,6 +75,7 @@ async function loadDocument(docKey) {
                     Technical files should be available for viewing. If you're experiencing issues, 
                     please contact the proposal team.
                 </p>
+                <button onclick="closeDocumentViewer()" style="margin-top: 1rem; padding: 0.5rem 1rem; cursor: pointer; background: var(--primary-color); color: white; border: none; border-radius: 4px;">Close</button>
             </div>
         `;
     }
@@ -81,8 +92,10 @@ function getDocumentTitle(docKey) {
 
 function closeDocumentViewer() {
     const viewer = document.getElementById('document-viewer');
-    viewer.classList.remove('active');
-    document.body.style.overflow = '';
+    if (viewer) {
+        viewer.classList.remove('active');
+        document.body.style.overflow = '';
+    }
 }
 
 function addTableOfContents(contentElement) {
@@ -134,9 +147,11 @@ function initAnimations() {
     // Stagger animation for cards
     const cards = document.querySelectorAll('.problem-card, .methodology-card, .differentiator-item, .team-card');
     
-    cards.forEach((card, index) => {
-        card.style.animationDelay = `${index * 0.1}s`;
-    });
+    if (cards.length > 0) {
+        cards.forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.1}s`;
+        });
+    }
     
     // Animate pricing breakdown items
     const breakdownItems = document.querySelectorAll('.breakdown-item');
@@ -153,16 +168,18 @@ function initAnimations() {
     
     // Animate timeline phases
     const phases = document.querySelectorAll('.timeline-phase');
-    phases.forEach((phase, index) => {
-        phase.style.opacity = '0';
-        phase.style.transform = 'translateY(30px)';
-        phase.style.transition = 'all 0.6s ease';
-        
-        setTimeout(() => {
-            phase.style.opacity = '1';
-            phase.style.transform = 'translateY(0)';
-        }, 500 + (index * 150));
-    });
+    if (phases.length > 0) {
+        phases.forEach((phase, index) => {
+            phase.style.opacity = '0';
+            phase.style.transform = 'translateY(30px)';
+            phase.style.transition = 'all 0.6s ease';
+            
+            setTimeout(() => {
+                phase.style.opacity = '1';
+                phase.style.transform = 'translateY(0)';
+            }, 500 + (index * 150));
+        });
+    }
 }
 
 // ===================================

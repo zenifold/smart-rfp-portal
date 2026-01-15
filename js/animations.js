@@ -43,16 +43,26 @@ function initScrollAnimations() {
 function initOrbAnimations() {
     const orbs = document.querySelectorAll('.gradient-orb');
     
+    if (orbs.length === 0) return;
+    
     orbs.forEach((orb, index) => {
         // Add random starting positions
         orb.style.animationDelay = `${index * -5}s`;
+    });
+    
+    // Add mouse parallax effect (optimized)
+    let animationFrame;
+    document.addEventListener('mousemove', (e) => {
+        if (animationFrame) {
+            cancelAnimationFrame(animationFrame);
+        }
         
-        // Add mouse parallax effect
-        document.addEventListener('mousemove', (e) => {
-            const x = (e.clientX / window.innerWidth - 0.5) * 20;
-            const y = (e.clientY / window.innerHeight - 0.5) * 20;
-            
-            orb.style.transform = `translate(${x * (index + 1) * 0.5}px, ${y * (index + 1) * 0.5}px)`;
+        animationFrame = requestAnimationFrame(() => {
+            orbs.forEach((orb, index) => {
+                const x = (e.clientX / window.innerWidth - 0.5) * 20;
+                const y = (e.clientY / window.innerHeight - 0.5) * 20;
+                orb.style.transform = `translate(${x * (index + 1) * 0.5}px, ${y * (index + 1) * 0.5}px)`;
+            });
         });
     });
 }
@@ -75,27 +85,6 @@ function initNavbarScroll() {
     });
 }
 
-// ===================================
-   Smooth Scrolling
-   ===================================
-
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        
-        if (target) {
-            const headerOffset = 80;
-            const elementPosition = target.getBoundingClientRect().top;
-            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-            
-            window.scrollTo({
-                top: offsetPosition,
-                behavior: 'smooth'
-            });
-        }
-    });
-});
 
 // ===================================
    Back to Top Button
@@ -200,18 +189,6 @@ function animateStaggered(elements, delay = 100) {
     });
 }
 
-// ===================================
-   Page Load Animation
-   ===================================
-
-window.addEventListener('load', () => {
-    document.body.style.opacity = '0';
-    document.body.style.transition = 'opacity 0.5s ease';
-    
-    setTimeout(() => {
-        document.body.style.opacity = '1';
-    }, 100);
-});
 
 // ===================================
    Export functions for use in other scripts
