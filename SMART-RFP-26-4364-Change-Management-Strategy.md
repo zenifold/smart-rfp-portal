@@ -61,6 +61,11 @@ Unlike generic change management, my approach is:
 - **Staff Surveys**: Anonymous feedback on current systems, change appetite, concerns
 - **Culture Review**: Review of past change initiatives, successes, failures, lessons learned
 
+**Team Involvement:**
+- **Max (Lead Consultant)**: Conducts executive interviews, provides oversight
+- **Change Management Specialist**: Conducts department head interviews, designs surveys
+- **Business Analyst/Trainer**: Analyzes survey results, documents findings
+
 **Deliverables:**
 - Organizational Change Readiness Report
 - Risk assessment by department
@@ -188,17 +193,17 @@ Unlike generic change management, my approach is:
 |--------|------------|----------|----------|--------|
 | 5 | All staff | Project kickoff, vision | Executive Team |
 | 6 | All staff | Why change? Why now? | Executive Team |
-| 7 | Department Heads | Readiness assessment results | Change Manager |
+| 7 | Department Heads | Readiness assessment results | Change Management Specialist |
 | 8 | All staff | What's changing? Overview | Executive Team |
-| 9 | All staff | Timeline and expectations | Project Manager |
+| 9 | All staff | Timeline and expectations | Max (Lead Consultant) |
 | 10-12 | By department | What's in it for me? | Department Heads |
 | 13 | All staff | Pilot deployment announcement | Executive Team |
-| 14 | All staff | Early results, lessons learned | Project Manager |
+| 14 | All staff | Early results, lessons learned | Max (Lead Consultant) |
 | 15-16 | By department | Rollout schedule, training | Department Heads |
 | 17 | All staff | Go-live announcement | Executive Team |
 | 18-20 | All staff | Hypercare support available | Support Team |
 | 21 | All staff | Success stories, adoption metrics | Executive Team |
-| 22-24 | All staff | Continuous improvement, feedback | Project Manager |
+| 22-24 | All staff | Continuous improvement, feedback | Change Management Specialist |
 
 ---
 
@@ -281,13 +286,13 @@ Unlike generic change management, my approach is:
 **Champion Meetings:**
 - **Frequency**: Weekly during implementation, bi-weekly post-go-live
 - **Duration**: 1 hour
-- **Participants**: All champions, Project Manager, Change Manager, Implementation Partner
+- **Participants**: All champions, Max (Lead Consultant), Change Management Specialist, Business Analyst/Trainer
 - **Purpose**: Share updates, raise issues, provide support, align messaging
 
 **Champion Resources:**
 - **Communication Channel**: Dedicated Slack channel or email distribution list
 - **Knowledge Base**: Champion-specific documentation, FAQs, escalation procedures
-- **Escalation Path**: Direct access to Implementation Partner for technical issues, concerns, suggestions
+- **Escalation Path**: Direct access to Change Management Specialist for issues, concerns, suggestions
 - **Feedback Loop**: Monthly surveys to assess champion satisfaction and needs
 
 ---
@@ -378,6 +383,7 @@ Unlike generic change management, my approach is:
 - **Class size**: 10-15 participants per session
 - **Duration**: 2 weeks per department, 4 hours/week
 - **Location**: SMART facilities or partner locations
+- **Lead Trainer**: Business Analyst/Trainer (full-time during implementation)
 
 **Virtual Training:**
 - **Primary method** for distributed teams or during COVID restrictions
@@ -388,11 +394,13 @@ Unlike generic change management, my approach is:
 **Train-the-Trainer:**
 - **Method**: Champions and department heads trained to train others
 - **Duration**: 2 days intensive training
+- **Lead Trainer**: Business Analyst/Trainer
 - **Outcome**: Ongoing training capacity within SMART
 
 **Just-in-Time Training:**
 - **Method**: Short training videos (5-10 minutes) for specific tasks
 - **Delivery**: Available on-demand through intranet or portal
+- **Content Created By**: Business Analyst/Trainer with department input
 - **Use Case**: New hires, refresher training, specific task questions
 
 ---
@@ -486,9 +494,11 @@ Unlike generic change management, my approach is:
 
 **Rollout Support per Department:**
 - **Champions**: 2-3 champions providing peer support
-- **Implementation Partner**: On-site during go-live week
+- **Max (Lead Consultant)**: On-site during go-live week, oversight
+- **Change Management Specialist**: On-site during go-live week, adoption monitoring
+- **Business Analyst/Trainer**: On-site during go-live week, training support
 - **Help Desk**: Extended hours (8 AM - 8 PM)
-- **Office Hours**: Daily drop-in sessions
+- **Office Hours**: Daily drop-in sessions with full project team
 - **Feedback Collection**: Weekly surveys, issue tracking
 
 ---
@@ -507,16 +517,18 @@ Unlike generic change management, my approach is:
 **Hypercare Support (Months 21-22):**
 - **Duration**: 8 weeks post-go-live
 - **Support Level**: Maximum capacity
-- **Implementation Partner Presence**: On-site daily during Month 21
+- **Max (Lead Consultant)**: On-site daily during Month 21, weekly during Month 22
+- **Change Management Specialist**: On-site daily during Month 21-22, adoption monitoring
+- **Business Analyst/Trainer**: On-site daily during Month 21-22, training support
 - **Office Hours**: Daily 8 AM - 8 PM with full project team
 - **Issue Resolution**: Target 4-hour response for critical issues, 24-hour for all
 - **Daily Stand-ups**: 15-minute meetings to review issues, assign actions
 
 **Optimization Phase (Months 23-24):**
 - **Activity**: System tuning based on real usage, issue resolution, feedback
-- **Performance Monitoring**: Implementation Partner tracks system performance, user adoption, issue rates
-- **Continuous Improvement**: Implementation Partner identifies optimization opportunities, vendor implements
-- **Knowledge Transfer**: Implementation Partner documents lessons, transfers knowledge to SMART team
+- **Performance Monitoring**: Change Management Specialist tracks user adoption, issue rates
+- **Continuous Improvement**: Max identifies optimization opportunities, works with vendor
+- **Knowledge Transfer**: Business Analyst/Trainer documents lessons, transfers knowledge to SMART team
 - **Closeout**: Project completion, ongoing support plan, success celebration
 
 ---
@@ -562,21 +574,20 @@ Unlike generic change management, my approach is:
 
 ### 6.3 Monitoring & Reporting
 
-**Implementation Partnership Oversight:**
-- I review all adoption metrics monthly
-- I identify adoption barriers and recommend actions
-- I validate vendor system performance against adoption goals
-- I provide SMART with adoption status dashboard
+**My Oversight:**
+- **Max (Lead Consultant)**: Reviews all adoption metrics monthly, provides executive dashboards
+- **Change Management Specialist**: Tracks adoption barriers, monitors department progress, recommends actions
+- **Business Analyst/Trainer**: Measures training effectiveness, identifies skill gaps
 
 **SMART Leadership:**
-- Executive sponsor receives monthly adoption report
+- Executive sponsor receives monthly adoption report from Max
 - Department heads receive department-specific metrics
 - Action items assigned based on adoption data
 - Success stories shared organization-wide
 
 **Vendor Accountability:**
 - System performance tied to adoption metrics
-- User experience issues escalated to vendor
+- User experience issues escalated to vendor by Max
 - System optimization required if adoption lags
 - Contract penalties if vendor system inhibits adoption
 
@@ -587,16 +598,17 @@ Unlike generic change management, my approach is:
 ### 7.1 Post-Implementation Support
 
 **Support Structure (Months 25-27):**
-- **Implementation Partner**: Reduced presence (weekly, not daily)
+- **Max (Lead Consultant)**: Weekly on-site presence, executive oversight
+- **Change Management Specialist**: Weekly on-site presence, adoption support
+- **Business Analyst/Trainer**: Bi-weekly presence, training support
 - **Help Desk**: Normal business hours (8 AM - 5 PM)
 - **Champions**: Ongoing peer support
 - **Vendor**: Ongoing maintenance and bug fixes
 
 **Knowledge Transfer (Months 26-27):**
-- I document all processes and lessons learned
-- I train SMART IT team on system administration
-- I train champions to train new hires
-- I create system documentation library
+- **Max**: Documents all processes and lessons learned, trains SMART IT team
+- **Change Management Specialist**: Transfers change management methodology, trains champions
+- **Business Analyst/Trainer**: Creates system documentation library, trains new trainers
 
 ---
 
@@ -609,9 +621,9 @@ Unlike generic change management, my approach is:
 - **Always-On Channels**: Suggestion box, intranet forum, help desk feedback
 
 **Improvement Implementation:**
-- **Prioritization**: Implementation Partner and SMART prioritize based on impact
-- **Vendor Engagement**: Implementation Partner requires vendor to implement improvements
-- **SMART Capability**: Implementation Partner trains SMART to implement minor improvements
+- **Prioritization**: Max and SMART prioritize based on impact
+- **Vendor Engagement**: Max requires vendor to implement improvements
+- **SMART Capability**: Change Management Specialist trains SMART to implement minor improvements
 - **Enhancement Planning**: Annual enhancement cycle for new features
 
 ---

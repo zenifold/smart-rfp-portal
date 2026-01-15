@@ -1,7 +1,7 @@
 # Data Migration Playbook
 ## RFP 26-4364 - ERP System Upgrade Consultant
 
-**Purpose:** This playbook details our Data Hygiene First methodology, ensuring SMART's data migration to the new ERP system is accurate, complete, and FTA-compliant.
+**Purpose:** This playbook details our Data Hygiene First methodology, ensuring SMART's data migration to new ERP system is accurate, complete, and FTA-compliant.
 
 ---
 
@@ -31,9 +31,9 @@ This playbook details our comprehensive data migration strategy.
 
 | Phase | Purpose | Timing | Ownership |
 |-------|---------|----------|-----------|
-| **Phase 1: Data Quality Assessment** | Identify data issues across all source systems | Month 5 | Guardianes |
-| **Phase 2: Data Cleansing & Governance** | Clean data, establish governance standards | Months 6-8 | Guardianes |
-| **Phase 3: Migration & Validation** | Execute migration, validate accuracy | Months 12-14 | Vendor (with Guardianes oversight) |
+| **Phase 1: Data Quality Assessment** | Identify data issues across all source systems | Month 5 | My Team (Max + Business Analyst/Trainer) |
+| **Phase 2: Data Cleansing & Governance** | Clean data, establish governance standards | Months 6-8 | My Team (Max + Business Analyst/Trainer) |
+| **Phase 3: Migration & Validation** | Execute migration, validate accuracy | Months 12-14 | Vendor (with my team oversight) |
 
 ### Key Differentiators
 
@@ -44,7 +44,7 @@ This playbook details our comprehensive data migration strategy.
 - Business disruptions and user frustration
 
 **Our Data Hygiene First Approach:**
-- Guardianes assesses data quality before vendor engagement
+- My team assesses data quality before vendor engagement
 - Data cleaned BEFORE vendor import
 - Three-phase migration testing (test, pilot, production)
 - Data governance standards established for long-term quality
@@ -128,6 +128,10 @@ This playbook details our comprehensive data migration strategy.
 - Open source: OpenRefine, Data Cleaner, Apache NiFi
 - Commercial: Talend Data Quality, Informatica Data Quality
 - Custom SQL queries and Python scripts
+
+**Team Involvement:**
+- **Max (Lead Consultant)**: Provides oversight, validates approach
+- **Business Analyst/Trainer**: Executes data profiling, prepares reports
 
 **Deliverable:** Data Profiling Report per Domain
 
@@ -354,10 +358,10 @@ Missing Tax IDs (156 records):
 - **Informatica Data Quality**: Industry-leading data quality solution
 - **IBM InfoSphere Information Server**: Comprehensive data governance
 
-**Guardianes:**
-- Guardianes evaluates SMART's existing tools and capabilities
-- Guardianes recommends optimal tool mix based on budget and needs
-- Guardianes provides training on data cleansing tools
+**My Team:**
+- Max evaluates SMART's existing tools and capabilities
+- My team recommends optimal tool mix based on budget and needs
+- Business Analyst/Trainer provides training on data cleansing tools
 
 ---
 
@@ -398,7 +402,7 @@ Missing Tax IDs (156 records):
 - **Full System Backup**: All source systems backed up
 - **Database Snapshots**: Database-level backups for relational systems
 - **File-Level Backups**: All data files and exports backed up
-- **Backup Verification**: Guardianes verifies backup integrity
+- **Backup Verification**: My team verifies backup integrity
 - **Rollback Plan**: Documented procedure to restore from backup if needed
 
 **Deliverable:** Backup Verification Report
@@ -436,7 +440,7 @@ Missing Tax IDs (156 records):
 
 **Scope:** 1-2 data domains, small sample (10-20 records per domain)
 
-**Purpose:** Validate migration process, identify issues early
+**Purpose:** Validate migration process, identify issues early.
 
 **Process:**
 1. Execute migration scripts on test data
@@ -466,7 +470,7 @@ Missing Tax IDs (156 records):
 
 **Scope:** 3-4 data domains, full dataset
 
-**Purpose:** Validate full migration before production, identify scale issues
+**Purpose:** Validate full migration before production, identify scale issues.
 
 **Process:**
 1. Execute migration scripts on full dataset
@@ -480,12 +484,12 @@ Missing Tax IDs (156 records):
 
 | Validation Type | Description | Owner |
 |-----------------|-------------|--------|
-| **Record Count Validation** | Compare source and target record counts | Guardianes |
+| **Record Count Validation** | Compare source and target record counts | My Team |
 | **Data Integrity Validation** | Check for data corruption, truncation, encoding issues | Vendor |
-| **Business Rule Validation** | Validate all business rules satisfied | Guardianes |
-| **Cross-System Validation** | Validate consistency across integrated systems | Vendor + Guardianes |
+| **Business Rule Validation** | Validate all business rules satisfied | My Team |
+| **Cross-System Validation** | Validate consistency across integrated systems | Vendor + My Team |
 | **User Acceptance Testing** | SMART staff validate data accuracy | Department Heads |
-| **FTA Compliance Validation** | Validate grant fund allocations, DBE data | Guardianes |
+| **FTA Compliance Validation** | Validate grant fund allocations, DBE data | My Team |
 
 **Success Criteria:**
 - **Error Rate:** <2% of records
@@ -506,7 +510,7 @@ Missing Tax IDs (156 records):
 
 **Scope:** All data domains, full dataset
 
-**Purpose:** Execute final migration to production ERP system
+**Purpose:** Execute final migration to production ERP system.
 
 **Pre-Migration Checklist:**
 - [ ] All source systems backed up
@@ -514,7 +518,7 @@ Missing Tax IDs (156 records):
 - [ ] Migration scripts tested and validated
 - [ ] Rollback plan documented and tested
 - [ ] SMART stakeholders notified of downtime
-- [ ] Guardianes ready for migration execution
+- [ ] My team ready for migration execution
 - [ ] Vendor technical team ready
 - [ ] Validation checklists prepared
 
@@ -523,7 +527,7 @@ Missing Tax IDs (156 records):
 2. **Data Freeze**: No new transactions allowed in source systems
 3. **Final Backup**: One final backup immediately before migration
 4. **Migration Execution**: Run migration scripts
-5. **Real-Time Monitoring**: Guardianes monitors migration progress and errors
+5. **Real-Time Monitoring**: My team monitors migration progress and errors
 6. **Data Validation**: Immediate post-migration validation
 7. **System Verification**: Verify ERP system functioning correctly
 8. **User Access Restoration**: Restore user access to new system
@@ -547,23 +551,23 @@ Missing Tax IDs (156 records):
 ### 3.6 Post-Migration Validation (Weeks 8-12)
 
 **Immediate Validation (Week 8):**
-- Guardianes verifies migration success criteria met
-- Guardianes verifies critical data 100% accurate
-- Guardianes performs cross-checks across all data domains
-- Guardianes escalates data issues for vendor resolution
+- My team verifies migration success criteria met
+- My team verifies critical data 100% accurate
+- My team performs cross-checks across all data domains
+- My team escalates data issues for vendor resolution
 
 **Business User Validation (Weeks 8-9):**
 - SMART staff use new system with migrated data
 - Identify data discrepancies or missing information
-- Provide feedback to Guardianes
-- Guardianes supports issues
+- Provide feedback to my team
+- My team supports issues
 
 **Reconciliation (Weeks 10-12):**
 - Compare source and target system reports
 - Reconcile financial totals (trial balance, budget variance)
 - Validate grant fund allocations match
 - Ensure historical data accessible
-- Guardianes validates migration success
+- My team validates migration success
 
 **Deliverable:** Post-Migration Validation Report
 
@@ -593,7 +597,7 @@ Missing Tax IDs (156 records):
 | Vehicle Registry | 97.8% | 98.2% | 98.5% | 99.0% | 98.4% |
 
 **Reporting:**
-- Guardianes provides monthly Data Quality Scorecard
+- My team provides monthly Data Quality Scorecard
 - Department heads receive domain-specific quality reports
 - Data Stewards receive alerts for quality issues
 - Continuous improvement initiatives based on quality trends
@@ -606,18 +610,18 @@ Missing Tax IDs (156 records):
 
 | Risk | Probability | Impact | Mitigation Strategy |
 |------|-------------|---------|-------------------|
-| Data loss during migration | Low | Critical | Complete backups, Guardianes rollback plan |
+| Data loss during migration | Low | Critical | Complete backups, my team rollback plan |
 | Migration fails to complete | Medium | High | Three-phase approach (test, pilot, production), vendor SLAs |
 | Data quality issues discovered post-migration | Medium | High | Data Hygiene First, post-migration validation, vendor warranty |
 | Migration exceeds downtime window | Low | Medium | Performance testing, contingency planning, vendor penalties |
-| Vendor lacks expertise with SMART's data | Low | High | Vendor selection criteria, transit agency references, Guardianes oversight |
-| Data governance not sustained post-migration | Medium | Medium | Data governance framework, data stewardship training, Guardianes monitoring |
+| Vendor lacks expertise with SMART's data | Low | High | Vendor selection criteria, transit agency references, my team oversight |
+| Data governance not sustained post-migration | Medium | Medium | Data governance framework, data stewardship training, my team monitoring |
 
 ---
 
-## Guardianes Throughout Migration
+## My Team Throughout Migration
 
-### Guardianes Responsibilities
+### Responsibilities
 
 **Before Migration (Months 5-11):**
 - Conduct data quality assessment
@@ -650,7 +654,7 @@ Our Data Migration Playbook ensures SMART's ERP migration succeeds through:
 1. **Data Hygiene First** - Clean data before vendor import
 2. **Three-Phase Migration** - Test, pilot, production approach
 3. **Rigorous Validation** - Multiple validation checks at each phase
-4. **Guardianes-Dependent validation throughout**
+4. **My Team Oversight** - Independent validation throughout migration
 5. **Data Governance** - Long-term data quality maintenance
 6. **FTA Compliance** - Grant fund allocations and DBE data 100% accurate
 
@@ -666,4 +670,4 @@ SMART's ERP transformation succeeds because we ensure data quality before, durin
 ---
 
 **Building Better Communities, LLC & Maximilian Murphy**  
-*January 15, 2026*
+*February 13, 2026*
