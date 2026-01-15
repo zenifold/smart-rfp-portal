@@ -14,38 +14,38 @@ Industry statistics are stark:
 - **40%** of users resist new systems within first 3 months
 - **60%** of organizations don't achieve ROI because workarounds persist
 
-Our approach is different. We don't just train users. We transform culture through:
+My approach is different. I don't just train users. I transform culture through:
 - **Corporate Ethnography** - Understanding real workflows before system design
 - **Executive Sponsorship** - Visible leadership commitment
 - **User Champion Network** - Peer-to-peer support and influence
 - **Communication Strategy** - Right messages, right timing, right channels
 - **Gradual Adoption** - Pilot, phased rollout, full deployment
 
-This Change Management Strategy details our proven approach to ensure SMART's staff not only accepts but embraces the new ERP system.
+This Change Management Strategy details my proven approach to ensure SMART's staff not only accepts but embraces the new ERP system.
 
 ---
 
 ## Change Management Framework
 
-### Our Model: ADKAR Transition
+### My Model: ADKAR Transition
 
-We use the industry-standard ADKAR framework for change management:
+I use the industry-standard ADKAR framework for change management:
 
-| Element | Definition | Our Implementation |
+| Element | Definition | My Implementation |
 |----------|-------------|---------------------|
 | **Awareness** | Individuals know why change is happening | Executive communication, department briefings, all-hands kickoff |
 | **Desire** | Individuals want to participate and support change | User champion program, early adopter incentives, success stories |
-| **Knowledge** - Individuals know how to change | Role-based training, hands-on practice, documentation |
-| **Ability** - Individuals can implement required skills and behaviors | Sandbox environment, super-user program, performance support tools |
-| **Reinforcement** - Individuals sustain change | Executive reinforcement, recognition programs, ongoing support |
+| **Knowledge** | Individuals know how to change | Role-based training, hands-on practice, documentation |
+| **Ability** | Individuals can implement required skills and behaviors | Sandbox environment, super-user program, performance support tools |
+| **Reinforcement** | Individuals sustain change | Executive reinforcement, recognition programs, ongoing support |
 
-### Our Approach: Human-Centered, Data-Driven
+### My Approach: Human-Centered, Data-Driven
 
-Unlike generic change management, our approach is:
+Unlike generic change management, my approach is:
 - **Human-Centered**: Based on ethnographic understanding of SMART's culture
 - **Data-Driven**: Measured through adoption metrics, not assumptions
 - **Transit-Informed**: Respects public sector constraints and union environments
-- **Guardian-Supported**: Independent oversight ensures change management actually works
+- **Implementation Partnership-Supported**: Independent oversight ensures change management actually works
 
 ---
 
@@ -116,7 +116,7 @@ Unlike generic change management, our approach is:
 | Power/Control Loss | Redefine roles, emphasize decision support, celebrate wins | Ongoing (Months 5-24) |
 | Skill Gaps | Comprehensive training, super-user program, peer support | Implementation (Months 9-16) |
 | Workflow Disruption | System optimization, process redesign, temporary workarounds | Implementation (Months 9-16) |
-| Trust Issues | Past failures acknowledgment, Guardian oversight, quick wins | Early & Ongoing (Months 5-24) |
+| Trust Issues | Past failures acknowledgment, Implementation Partnership oversight, quick wins | Early & Ongoing (Months 5-24) |
 | Union Concerns | Early union engagement, job impact analysis, training guarantees | Early (Months 5-8) |
 
 **Deliverables:**
@@ -234,7 +234,7 @@ Unlike generic change management, our approach is:
 - Early and advanced ERP system training
 - Recognition within department and organization
 - Skill development and career advancement
-- Direct access to project team and Guardian
+- Direct access to project team and Implementation Partner
 
 **Tangible Incentives:**
 - Training stipend: $500 per champion
@@ -281,13 +281,13 @@ Unlike generic change management, our approach is:
 **Champion Meetings:**
 - **Frequency**: Weekly during implementation, bi-weekly post-go-live
 - **Duration**: 1 hour
-- **Participants**: All champions, Project Manager, Change Manager, Guardian
+- **Participants**: All champions, Project Manager, Change Manager, Implementation Partner
 - **Purpose**: Share updates, raise issues, provide support, align messaging
 
 **Champion Resources:**
 - **Communication Channel**: Dedicated Slack channel or email distribution list
 - **Knowledge Base**: Champion-specific documentation, FAQs, escalation procedures
-- **Escalation Path**: Direct access to Guardian for technical issues, concerns, suggestions
+- **Escalation Path**: Direct access to Implementation Partner for technical issues, concerns, suggestions
 - **Feedback Loop**: Monthly surveys to assess champion satisfaction and needs
 
 ---
@@ -296,7 +296,7 @@ Unlike generic change management, our approach is:
 
 ### 4.1 Training Philosophy
 
-**Our Approach:**
+**My Approach:**
 - **Role-Based**: Training tailored to specific roles and workflows
 - **Hands-On**: Practice environment, not just lecture
 - **Just-in-Time**: Training close to when staff need to use system
@@ -402,7 +402,7 @@ Unlike generic change management, our approach is:
 **Training Environment:**
 - **Sandbox System**: Practice environment with realistic data (not live data)
 - **Access**: Available 2 weeks before go-live
-- **Support**: Champions and Guardian available during practice
+- **Support**: Champions and Implementation Partner available during practice
 - **Reset**: Daily reset for clean practice sessions
 
 **Training Materials:**
@@ -415,7 +415,7 @@ Unlike generic change management, our approach is:
 **Post-Training Support:**
 - **Champion Support**: Peer support for first 4 weeks post-go-live
 - **Help Desk**: Dedicated ERP support team with phone, email, chat
-- **Office Hours**: Daily drop-in sessions with Guardian and project team (Month 21-22)
+- **Office Hours**: Daily drop-in sessions with Implementation Partner and project team (Month 21-22)
 - **Feedback Surveys**: Post-training surveys to identify gaps and improvements
 
 ---
@@ -439,7 +439,7 @@ Unlike generic change management, our approach is:
 
 **Pilot Timeline:**
 - **Week 1**: Finance team training, sandbox practice
-- **Week 2**: Go-live with Guardian support, intensive monitoring
+- **Week 2**: Go-live with Implementation Partner support, intensive monitoring
 - **Week 3**: Issue resolution, optimization, feedback collection
 - **Week 4**: Evaluation, lessons learned, preparation for wider rollout
 
@@ -481,12 +481,12 @@ Unlike generic change management, our approach is:
 **Each Department Rollout Includes:**
 - Week 1: Training (8 hours)
 - Week 1-2: Sandbox practice
-- Week 2: Go-live with Guardian support
+- Week 2: Go-live with Implementation Partner support
 - Week 3-4: Hypercare support, issue resolution
 
 **Rollout Support per Department:**
 - **Champions**: 2-3 champions providing peer support
-- **Guardian**: On-site during go-live week
+- **Implementation Partner**: On-site during go-live week
 - **Help Desk**: Extended hours (8 AM - 8 PM)
 - **Office Hours**: Daily drop-in sessions
 - **Feedback Collection**: Weekly surveys, issue tracking
@@ -501,22 +501,22 @@ Unlike generic change management, our approach is:
 - **Date**: First Monday of Month 21
 - **Preparation**: Weekend before go-live, system backup, contingency plans
 - **Cutover**: Sunday night, Monday morning users log into new system
-- **Support**: All hands on deck, Guardian present, extended help desk
+- **Support**: All hands on deck, Implementation Partner present, extended help desk
 - **Communication**: Executive announcement, support channels emphasized
 
 **Hypercare Support (Months 21-22):**
 - **Duration**: 8 weeks post-go-live
 - **Support Level**: Maximum capacity
-- **Guardian Presence**: On-site daily during Month 21
+- **Implementation Partner Presence**: On-site daily during Month 21
 - **Office Hours**: Daily 8 AM - 8 PM with full project team
 - **Issue Resolution**: Target 4-hour response for critical issues, 24-hour for all
 - **Daily Stand-ups**: 15-minute meetings to review issues, assign actions
 
 **Optimization Phase (Months 23-24):**
 - **Activity**: System tuning based on real usage, issue resolution, feedback
-- **Performance Monitoring**: Guardian tracks system performance, user adoption, issue rates
-- **Continuous Improvement**: Guardian identifies optimization opportunities, vendor implements
-- **Knowledge Transfer**: Guardian documents lessons, transfers knowledge to SMART team
+- **Performance Monitoring**: Implementation Partner tracks system performance, user adoption, issue rates
+- **Continuous Improvement**: Implementation Partner identifies optimization opportunities, vendor implements
+- **Knowledge Transfer**: Implementation Partner documents lessons, transfers knowledge to SMART team
 - **Closeout**: Project completion, ongoing support plan, success celebration
 
 ---
@@ -533,7 +533,7 @@ Unlike generic change management, our approach is:
 | **User Satisfaction** | User survey satisfaction score | Quarterly surveys | 4.0/5.0+ by Month 22 |
 | **Champion Utilization** | Champion support requests per champion | Support ticket analysis | 5+ requests/week during hypercare |
 | **Issue Resolution Rate** | % of issues resolved within SLA | Help desk metrics | 90%+ 24-hour resolution |
-| **Workaround Persistence** | % of users still using manual processes | Guardian observation | <5% by Month 24 |
+| **Workaround Persistence** | % of users still using manual processes | Implementation Partner observation | <5% by Month 24 |
 
 ---
 
@@ -562,11 +562,11 @@ Unlike generic change management, our approach is:
 
 ### 6.3 Monitoring & Reporting
 
-**Guardian Oversight:**
-- Guardian reviews all adoption metrics monthly
-- Guardian identifies adoption barriers and recommends actions
-- Guardian validates vendor system performance against adoption goals
-- Guardian provides SMART with adoption status dashboard
+**Implementation Partnership Oversight:**
+- I review all adoption metrics monthly
+- I identify adoption barriers and recommend actions
+- I validate vendor system performance against adoption goals
+- I provide SMART with adoption status dashboard
 
 **SMART Leadership:**
 - Executive sponsor receives monthly adoption report
@@ -587,16 +587,16 @@ Unlike generic change management, our approach is:
 ### 7.1 Post-Implementation Support
 
 **Support Structure (Months 25-27):**
-- **Guardian**: Reduced presence (weekly, not daily)
+- **Implementation Partner**: Reduced presence (weekly, not daily)
 - **Help Desk**: Normal business hours (8 AM - 5 PM)
 - **Champions**: Ongoing peer support
 - **Vendor**: Ongoing maintenance and bug fixes
 
 **Knowledge Transfer (Months 26-27):**
-- Guardian documents all processes and lessons learned
-- Guardian trains SMART IT team on system administration
-- Guardian trains champions to train new hires
-- Guardian creates system documentation library
+- I document all processes and lessons learned
+- I train SMART IT team on system administration
+- I train champions to train new hires
+- I create system documentation library
 
 ---
 
@@ -609,16 +609,16 @@ Unlike generic change management, our approach is:
 - **Always-On Channels**: Suggestion box, intranet forum, help desk feedback
 
 **Improvement Implementation:**
-- **Prioritization**: Guardian and SMART prioritize based on impact
-- **Vendor Engagement**: Guardian requires vendor to implement improvements
-- **SMART Capability**: Guardian trains SMART to implement minor improvements
+- **Prioritization**: Implementation Partner and SMART prioritize based on impact
+- **Vendor Engagement**: Implementation Partner requires vendor to implement improvements
+- **SMART Capability**: Implementation Partner trains SMART to implement minor improvements
 - **Enhancement Planning**: Annual enhancement cycle for new features
 
 ---
 
 ## Conclusion
 
-Our Change Management Strategy is comprehensive, human-centered, and data-driven. Key differentiators:
+My Change Management Strategy is comprehensive, human-centered, and data-driven. Key differentiators:
 
 1. **Corporate Ethnography**: Understanding real workflows and culture before system design
 2. **ADKAR Framework**: Proven methodology ensuring all change elements addressed
@@ -627,9 +627,9 @@ Our Change Management Strategy is comprehensive, human-centered, and data-driven
 5. **Role-Based Training**: 8 hours per department, hands-on practice
 6. **Pilot & Phased Rollout**: Risk-managed, confidence-building approach
 7. **Adoption Metrics**: Data-driven monitoring, not assumptions
-8. **Guardian Oversight**: Independent validation that change management works
+8. **Implementation Partnership Oversight**: Independent validation that change management works
 
-We don't just train SMART staff. We transform SMART culture to embrace and optimize the new ERP system.
+I don't just train SMART staff. I transform SMART culture to embrace and optimize the new ERP system.
 
 **Expected Outcomes:**
 - 95%+ user adoption by Month 23
@@ -638,9 +638,9 @@ We don't just train SMART staff. We transform SMART culture to embrace and optim
 - <5% workaround persistence by Month 24
 - Continuous improvement culture established
 
-SMART's ERP transformation succeeds because we manage the human side of change as rigorously as the technical side.
+SMART's ERP transformation succeeds because I manage the human side of change as rigorously as the technical side.
 
 ---
 
-**Building Beloved Communities, LLC & Maximilian Murphy**  
-*January 15, 2026*
+**Building Better Communities, LLC & Maximilian Murphy**  
+*February 13, 2026*
