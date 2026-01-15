@@ -18,7 +18,16 @@ document.addEventListener('DOMContentLoaded', function() {
 const documentPaths = {
     technical: 'SMART-RFP-26-4364-Technical-Proposal.md',
     pricing: 'SMART-RFP-26-4364-Pricing-Proposal.md',
-    forms: 'SMART-RFP-26-4364-Required-Forms.md'
+    forms: 'SMART-RFP-26-4364-Required-Forms.md',
+    action: 'SMART-RFP-26-4364-Action-Plan.md',
+    checklist: 'SMART-RFP-26-4364-Submission-Checklist.md',
+    executive: 'SMART-RFP-26-4364-Executive-Summary.md',
+    compliance: 'SMART-RFP-26-4364-Grant-Compliance-Matrix.md',
+    risk: 'SMART-RFP-26-4364-Risk-Management-Playbook.md',
+    change: 'SMART-RFP-26-4364-Change-Management-Strategy.md',
+    migration: 'SMART-RFP-26-4364-Data-Migration-Playbook.md',
+    references: 'SMART-RFP-26-4364-Reference-Package-Templates.md',
+    charter: 'SMART-RFP-26-4364-Project-Charter-Outline.md'
 };
 
 async function loadDocument(docKey) {
@@ -85,7 +94,16 @@ function getDocumentTitle(docKey) {
     const titles = {
         technical: 'Technical Proposal',
         pricing: 'Pricing Proposal',
-        forms: 'Required Forms'
+        forms: 'Required Forms',
+        action: 'Action Plan',
+        checklist: 'Submission Checklist',
+        executive: 'Executive Summary',
+        compliance: 'Grant Compliance Matrix',
+        risk: 'Risk Management Playbook',
+        change: 'Change Management Strategy',
+        migration: 'Data Migration Playbook',
+        references: 'Reference Package Templates',
+        charter: 'Project Charter Outline'
     };
     return titles[docKey] || 'Document';
 }
@@ -214,5 +232,101 @@ function initSmoothScroll() {
    Export Functions
    ===================================
 
+// ===================================
+//   Print Function
+// ===================================
+
+function printDocument() {
+    const viewerContent = document.getElementById('viewer-content');
+    if (!viewerContent) return;
+    
+    // Create print window
+    const printWindow = window.open('', '_blank');
+    const titleElement = document.getElementById('viewer-title');
+    
+    printWindow.document.write(`
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>${titleElement ? titleElement.textContent : 'Document'}</title>
+            <style>
+                body {
+                    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                    line-height: 1.6;
+                    color: #333;
+                    max-width: 800px;
+                    margin: 0 auto;
+                    padding: 20px;
+                }
+                h1, h2, h3, h4, h5, h6 {
+                    color: #1a365d;
+                    margin-top: 1.5em;
+                    margin-bottom: 0.5em;
+                }
+                h1 { font-size: 2em; }
+                h2 { font-size: 1.5em; }
+                h3 { font-size: 1.25em; }
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin: 1em 0;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }
+                th {
+                    background: #1a365d;
+                    color: white;
+                }
+                code {
+                    background: #f4f4f4;
+                    padding: 2px 4px;
+                    border-radius: 3px;
+                    font-family: monospace;
+                }
+                pre {
+                    background: #2d2d2d;
+                    color: #f8f8f2;
+                    padding: 1em;
+                    border-radius: 8px;
+                    overflow-x: auto;
+                }
+                pre code {
+                    background: none;
+                    padding: 0;
+                }
+                ul, ol {
+                    margin: 1em 0;
+                    padding-left: 2em;
+                }
+                @media print {
+                    body { font-size: 12pt; }
+                    h1 { font-size: 18pt; }
+                    h2 { font-size: 14pt; }
+                    h3 { font-size: 12pt; }
+                }
+            </style>
+        </head>
+        <body>
+            ${viewerContent.innerHTML}
+        </body>
+        </html>
+    `);
+    
+    printWindow.document.close();
+    
+    // Wait for content to load, then print
+    setTimeout(() => {
+        printWindow.print();
+    }, 250);
+}
+
+// ===================================
+//   Export Functions
+// ===================================
+
 window.loadDocument = loadDocument;
 window.closeDocumentViewer = closeDocumentViewer;
+window.printDocument = printDocument;

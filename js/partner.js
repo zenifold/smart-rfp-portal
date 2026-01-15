@@ -141,29 +141,173 @@ function addTableOfContents(contentElement) {
 // ===================================
 
 function initTaskInteractions() {
-    const taskItems = document.querySelectorAll('.task-item.task-pending');
+    // Load saved task completion status from localStorage
+    loadTaskCompletion();
     
-    taskItems.forEach(item => {
-        item.addEventListener('click', function() {
-            this.classList.toggle('selected');
+    // Add click handlers to partner tasks
+    const partnerTasks = document.querySelectorAll('.task-item.clickable');
+    
+    partnerTasks.forEach(taskItem => {
+        taskItem.addEventListener('click', function() {
+            toggleTaskCompletion(this);
+        });
+    });
+    
+    // Initialize filter buttons
+    initTaskFilters();
+    
+    // Initialize "Mark All Complete" button
+    initMarkAllComplete();
+    
+    // Update progress display
+    updateProgressDisplay();
+}
+
+function toggleTaskCompletion(taskItem) {
+    const taskId = taskItem.getAttribute('data-task');
+    
+    // Toggle completed class
+    if (taskItem.classList.contains('completed')) {
+        taskItem.classList.remove('completed');
+        taskItem.classList.add('uncompleting');
+        
+        setTimeout(() => {
+            taskItem.classList.remove('uncompleting');
+            updateTaskIcon(taskItem, false);
+        }, 500);
+        
+        // Remove from localStorage
+        removeCompletedTask(taskId);
+    } else {
+        taskItem.classList.add('completed');
+        taskItem.classList.add('completing');
+        
+        setTimeout(() => {
+            taskItem.classList.remove('completing');
+            updateTaskIcon(taskItem, true);
+        }, 500);
+        
+        // Save to localStorage
+        saveCompletedTask(taskId);
+    }
+    
+    // Update progress display
+    updateProgressDisplay();
+    
+    // Update partner task count
+    updatePartnerTaskCount();
+}
+
+function updateTaskIcon(taskItem, isComplete) {
+    const checkbox = taskItem.querySelector('.task-checkbox');
+    if (checkbox) {
+        checkbox.className = isComplete ? 'fas fa-check-circle task-checkbox' : 'fas fa-circle task-checkbox';
+    }
+}
+
+function saveCompletedTask(taskId) {
+    let completedTasks = JSON.parse(localStorage.getItem('partnerCompletedTasks') || '[]');
+    
+    if (!completedTasks.includes(taskId)) {
+        completedTasks.push(taskId);
+        localStorage.setItem('partnerCompletedTasks', JSON.stringify(completedTasks));
+    }
+}
+
+function removeCompletedTask(taskId) {
+    let completedTasks = JSON.parse(localStorage.getItem('partnerCompletedTasks') || '[]');
+    completedTasks = completedTasks.filter(id => id !== taskId);
+    localStorage.setItem('partnerCompletedTasks', JSON.stringify(completedTasks));
+}
+
+function loadTaskCompletion() {
+    const completedTasks = JSON.parse(localStorage.getItem('partnerCompletedTasks') || '[]');
+    
+    completedTasks.forEach(taskId => {
+        const taskItem = document.querySelector(`[data-task="${taskId}"]`);
+        if (taskItem) {
+            taskItem.classList.add('completed');
+            updateTaskIcon(taskItem, true);
+        }
+    });
+}
+
+function initTaskFilters() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Remove active class from all buttons
+            filterButtons.forEach(btn => btn.classList.remove('active'));
             
-            // Show task details modal (future enhancement)
-            showTaskDetails(this);
+            // Add active class to clicked button
+            this.classList.add('active');
+            
+            // Filter tasks
+            const filter = this.getAttribute('data-filter');
+            filterTasks(filter);
         });
     });
 }
 
-function showTaskDetails(taskItem) {
-    const title = taskItem.querySelector('h4').textContent;
-    const description = taskItem.querySelector('p').textContent;
-    const deadline = taskItem.querySelector('.deadline').textContent;
-    const priority = taskItem.querySelector('.priority-badge').textContent;
+function filterTasks(filter) {
+    const partnerTasks = document.querySelectorAll('#partner-task-list .task-item');
     
-    // For now, just show a notification
-    SmartRFP.showNotification(`Task: ${title} - ${deadline}`);
+    partnerTasks.forEach(task => {
+        let isVisible = true;
+        
+        switch(filter) {
+            case 'pending':
+                isVisible = !task.classList.contains('completed');
+                break;
+            case 'completed':
+                isVisible = task.classList.contains('completed');
+                break;
+            case 'high':
+                isVisible = task.classList.contains('high-priority');
+                break;
+            case 'all':
+            default:
+                isVisible = true;
+        }
+        
+        task.style.display = isVisible ? 'flex' : 'none';
+    });
+}
+
+function initMarkAllComplete() {
+    const markAllButton = document.getElementById('mark-all-complete');
     
-    // In future, this could open a modal with full details
-    // and allow marking as complete
+    if (markAllButton) {
+        markAllButton.addEventListener('click', function() {
+            const pendingTasks = document.querySelectorAll('#partner-task-list .task-item:not(.completed)');
+            
+            if (pendingTasks.length === 0) {
+                SmartRFP.showNotification('All tasks already completed!');
+                return;
+            }
+            
+            if (confirm(`Mark all ${pendingTasks.length} pending tasks as complete?`)) {
+                pendingTasks.forEach(task => {
+                    if (!task.classList.contains('completed')) {
+                        toggleTaskCompletion(task);
+                    }
+                });
+                
+                SmartRFP.showNotification(`Completed ${pendingTasks.length} tasks!`);
+            }
+        });
+    }
+}
+
+function updatePartnerTaskCount() {
+    const totalPartnerTasks = document.querySelectorAll('#partner-task-list .task-item').length;
+    const completedPartnerTasks = document.querySelectorAll('#partner-task-list .task-item.completed').length;
+    const countElement = document.getElementById('partner-progress');
+    
+    if (countElement) {
+        countElement.textContent = `${completedPartnerTasks}/${totalPartnerTasks}`;
+    }
 }
 
 function markTaskComplete(taskId) {
@@ -199,11 +343,14 @@ function initProgressTracking() {
 
 function updateProgressDisplay() {
     const totalTasks = 25; // Total tasks (completed + pending)
-    const completedTasks = 11; // Maximilian's completed tasks
-    const yourPendingTasks = 14; // Partner's pending tasks
-    const completedPartnerTasks = 0; // Tasks partner has completed
+    const completedMaxTasks = 14; // Maximilian's completed tasks
+    const totalPartnerTasks = 8; // Partner's total tasks
     
-    const totalCompleted = completedTasks + completedPartnerTasks;
+    // Get completed partner tasks from localStorage
+    const completedTasksData = JSON.parse(localStorage.getItem('partnerCompletedTasks') || '[]');
+    const completedPartnerTasks = completedTasksData.length;
+    
+    const totalCompleted = completedMaxTasks + completedPartnerTasks;
     const progressPercentage = Math.round((totalCompleted / totalTasks) * 100);
     
     // Update progress ring
@@ -221,13 +368,111 @@ function updateProgressDisplay() {
     // Update stats
     const completedTasksElement = document.getElementById('completed-tasks');
     if (completedTasksElement) {
-        completedTasksElement.textContent = totalCompleted;
+        completedTasksElement.textContent = completedMaxTasks;
     }
     
     const pendingTasksElement = document.getElementById('pending-tasks');
     if (pendingTasksElement) {
-        pendingTasksElement.textContent = yourPendingTasks - completedPartnerTasks;
+        pendingTasksElement.textContent = totalPartnerTasks - completedPartnerTasks;
     }
+    
+    // Update "Your Completed" stat
+    const yourCompletedElement = document.getElementById('your-completed');
+    if (yourCompletedElement) {
+        yourCompletedElement.textContent = completedPartnerTasks;
+    }
+}
+
+// ===================================
+//   Print Function
+// ===================================
+
+function printDocument() {
+    const viewerContent = document.getElementById('viewer-content');
+    if (!viewerContent) return;
+    
+    // Create print window
+    const printWindow = window.open('', '_blank');
+    const titleElement = document.getElementById('viewer-title');
+    
+    printWindow.document.write(`
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>${titleElement ? titleElement.textContent : 'Document'}</title>
+            <style>
+                body {
+                    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                    line-height: 1.6;
+                    color: #333;
+                    max-width: 800px;
+                    margin: 0 auto;
+                    padding: 20px;
+                }
+                h1, h2, h3, h4, h5, h6 {
+                    color: #1a365d;
+                    margin-top: 1.5em;
+                    margin-bottom: 0.5em;
+                }
+                h1 { font-size: 2em; }
+                h2 { font-size: 1.5em; }
+                h3 { font-size: 1.25em; }
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin: 1em 0;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }
+                th {
+                    background: #1a365d;
+                    color: white;
+                }
+                code {
+                    background: #f4f4f4;
+                    padding: 2px 4px;
+                    border-radius: 3px;
+                    font-family: monospace;
+                }
+                pre {
+                    background: #2d2d2d;
+                    color: #f8f8f2;
+                    padding: 1em;
+                    border-radius: 8px;
+                    overflow-x: auto;
+                }
+                pre code {
+                    background: none;
+                    padding: 0;
+                }
+                ul, ol {
+                    margin: 1em 0;
+                    padding-left: 2em;
+                }
+                @media print {
+                    body { font-size: 12pt; }
+                    h1 { font-size: 18pt; }
+                    h2 { font-size: 14pt; }
+                    h3 { font-size: 12pt; }
+                }
+            </style>
+        </head>
+        <body>
+            ${viewerContent.innerHTML}
+        </body>
+        </html>
+    `);
+    
+    printWindow.document.close();
+    
+    // Wait for content to load, then print
+    setTimeout(() => {
+        printWindow.print();
+    }, 250);
+}
 }
 
 // ===================================
@@ -237,3 +482,4 @@ function updateProgressDisplay() {
 window.loadDocument = loadDocument;
 window.closeDocumentViewer = closeDocumentViewer;
 window.markTaskComplete = markTaskComplete;
+window.printDocument = printDocument;
