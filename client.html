@@ -3,680 +3,418 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proposal | SMART RFP 26-4364</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/client.css">
+    <title>SMART Proposal Portal | RFP 26-4364</title>
+    <link rel="stylesheet" href="css/notion.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <a href="index.html" style="text-decoration: none;">
-                    <span class="brand-text">SMART Proposal</span>
-                    <span class="brand-subtitle">RFP 26-4364 - ERP System Upgrade</span>
-                </a>
-            </div>
-            <div class="nav-links">
-                <a href="#approach">Approach</a>
-                <a href="#methodology">Methodology</a>
-                <a href="#timeline">Timeline</a>
-                <a href="#pricing">Pricing</a>
-                <a href="#why-us">Why Us</a>
-                <a href="#contact">Contact</a>
-            </div>
+<body style="background: #F7F7F5;">
+    
+    <!-- Header -->
+    <div style="background: #FFFFFF; border-bottom: 1px solid #E0E0E0; padding: 16px 0; position: sticky; top: 0; z-index: 100;">
+        <div style="max-width: 900px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between;">
+            <a href="index.html" style="text-decoration: none; display: flex; align-items: center; gap: 12px;">
+                <span style="font-size: 1.5rem;">📋</span>
+                <div>
+                    <div style="font-weight: 600; color: #37352F;">SMART Proposal</div>
+                    <div style="font-size: 0.85rem; color: #78777C;">RFP 26-4364 | ERP System Upgrade</div>
+                </div>
+            </a>
+            <button onclick="window.print()" class="notion-btn">
+                <i class="fas fa-print"></i> Print
+            </button>
         </div>
-    </nav>
+    </div>
 
-    <!-- Hero Section -->
-    <section class="hero client-hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Your ERP Transformation</h1>
-            <p class="hero-subtitle">Human-Centered Design for Enterprise Resource Planning</p>
-            
-            <div class="hero-cta">
-                <a href="#approach" class="btn-primary">Explore Our Approach</a>
-                <a href="#documents" class="btn-secondary">View Full Proposal</a>
-            </div>
-        </div>
+    <!-- Main Content -->
+    <div style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
         
-        <div class="hero-background">
-            <div class="gradient-orb orb-1"></div>
-            <div class="gradient-orb orb-2"></div>
-            <div class="gradient-orb orb-3"></div>
+        <!-- Welcome -->
+        <div class="notion-card" style="margin-bottom: 32px;">
+            <h1 style="margin-top: 0; border-bottom: 2px solid #00A8E8; padding-bottom: 12px; font-size: 2rem;">
+                Welcome, SMART
+            </h1>
+            <p style="font-size: 1.1rem; color: #37352F; margin-top: 16px;">
+                Review our complete proposal materials below. Click any document to view in detail.
+            </p>
+            <div style="margin-top: 24px; padding: 16px; background: #F7F7F5; border-radius: 8px; border-left: 3px solid #00A8E8;">
+                <p style="margin: 0; color: #78777C; font-size: 0.9rem;">
+                    <strong style="color: #37352F;">Proposal Due:</strong> February 13, 2026 at 3:00 PM ET
+                </p>
+            </div>
         </div>
-    </section>
 
-    <!-- Problem Statement -->
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">Understanding SMART's Challenges</h2>
-            <p class="section-subtitle">We've listened. We understand your pain points.</p>
-            
-            <div class="problems-grid">
-                <div class="problem-card fade-in">
-                    <div class="problem-icon">
-                        <i class="fas fa-broken-heart"></i>
-                    </div>
-                    <h3>Data Friction</h3>
-                    <p>Your teams work harder than necessary. Manual data re-entry, disconnected systems, and inefficient workflows waste valuable time and introduce errors.</p>
+        <!-- Document Status -->
+        <div class="notion-card" style="margin-bottom: 32px;">
+            <h2 style="margin-top: 0; border-bottom: 1px solid #E0E0E0; padding-bottom: 12px;">
+                Document Library
+            </h2>
+            <div style="display: flex; gap: 16px; margin-top: 16px;">
+                <div style="flex: 1; padding: 12px; background: #F7F7F5; border-radius: 6px; text-align: center;">
+                    <div style="font-size: 1.5rem; font-weight: 700; color: #2E7D32;">12</div>
+                    <div style="font-size: 0.85rem; color: #78777C;">Documents Ready</div>
                 </div>
-                
-                <div class="problem-card fade-in">
-                    <div class="problem-icon">
-                        <i class="fas fa-users-slash"></i>
-                    </div>
-                    <h3>User Resistance</h3>
-                    <p>Previous software implementations failed because they prioritized technology over people. Low adoption, workarounds, and hidden "shadow processes" are the norm.</p>
+                <div style="flex: 1; padding: 12px; background: #F7F7F5; border-radius: 6px; text-align: center;">
+                    <div style="font-size: 1.5rem; font-weight: 700; color: #00A8E8;">$434,500</div>
+                    <div style="font-size: 0.85rem; color: #78777C;">Total Investment</div>
                 </div>
-                
-                <div class="problem-card fade-in">
-                    <div class="problem-icon">
-                        <i class="fas fa-dollar-sign"></i>
-                    </div>
-                    <h3>Scope Creep</h3>
-                    <p>Budget uncertainty plagues ERP projects. "Consultant bleed" through hourly billing, unclear deliverables, and shifting requirements has left you wary.</p>
-                </div>
-                
-                <div class="problem-card fade-in">
-                    <div class="problem-icon">
-                        <i class="fas fa-balance-scale"></i>
-                    </div>
-                    <h3>FTA Compliance</h3>
-                    <p>As a transit agency, you face unique regulatory requirements. Grant reporting, NTD submissions, and DBE compliance can't be an afterthought.</p>
+                <div style="flex: 1; padding: 12px; background: #F7F7F5; border-radius: 6px; text-align: center;">
+                    <div style="font-size: 1.5rem; font-weight: 700; color: #37352F;">24</div>
+                    <div style="font-size: 0.85rem; color: #78777C;">Month Timeline</div>
                 </div>
             </div>
         </div>
-    </section>
 
-    <!-- Our Approach -->
-    <section id="approach" class="section alt-bg">
-        <div class="container">
-            <h2 class="section-title">Our Approach</h2>
-            <p class="section-subtitle">Not just another consultant. A transformation partner.</p>
+        <!-- Key Documents -->
+        <div class="notion-card" style="margin-bottom: 32px;">
+            <h2 style="margin-top: 0; border-bottom: 1px solid #E0E0E0; padding-bottom: 12px;">
+                Key Proposal Documents
+            </h2>
+            <p style="margin-top: 16px; color: #78777C;">
+                Start with these documents to understand our complete approach:
+            </p>
             
-            <div class="approach-highlight">
-                <div class="highlight-content">
-                    <h3>Corporate Ethnography</h3>
-                    <p>We don't just interview your staff. We observe them in context. We watch dispatchers coordinate routes, maintenance technicians track parts, and finance teams reconcile expenses.</p>
-                    <p>This reveals the "Shadow ERP" - the hidden workarounds and informal processes that actually keep SMART running. These aren't problems to solve; they're opportunities to understand how your organization truly functions.</p>
-                </div>
-                <div class="highlight-visual">
-                    <div class="ethnography-icons">
-                        <i class="fas fa-eye"></i>
-                        <i class="fas fa-clipboard-check"></i>
-                        <i class="fas fa-microphone"></i>
-                        <i class="fas fa-chart-line"></i>
+            <div style="display: grid; gap: 12px; margin-top: 16px;">
+                
+                <button onclick="loadDocument('technical')" class="notion-btn" style="text-align: left; justify-content: flex-start; gap: 16px;">
+                    <span style="font-size: 1.5rem;">📊</span>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 600;">Technical Proposal</div>
+                        <div style="font-size: 0.85rem; color: #78777C;">Complete methodology, 15+ years experience, human-centered design</div>
                     </div>
+                    <span class="notion-badge notion-badge-success">Final</span>
+                    <span style="color: #78777C;">→</span>
+                </button>
+                
+                <button onclick="loadDocument('pricing')" class="notion-btn" style="text-align: left; justify-content: flex-start; gap: 16px;">
+                    <span style="font-size: 1.5rem;">💰</span>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 600;">Pricing Proposal</div>
+                        <div style="font-size: 0.85rem; color: #78777C;">Firm-fixed pricing at $434,500, no scope creep, deliverable-based</div>
+                    </div>
+                    <span class="notion-badge notion-badge-success">Final</span>
+                    <span style="color: #78777C;">→</span>
+                </button>
+                
+                <button onclick="loadDocument('executive')" class="notion-btn" style="text-align: left; justify-content: flex-start; gap: 16px;">
+                    <span style="font-size: 1.5rem;">⭐</span>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 600;">Executive Summary</div>
+                        <div style="font-size: 0.85rem; color: #78777C;">Compelling 2-page narrative for SMART's leadership</div>
+                    </div>
+                    <span class="notion-badge notion-badge-success">Final</span>
+                    <span style="color: #78777C;">→</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- All Documents -->
+        <div class="notion-card" style="margin-bottom: 32px;">
+            <h2 style="margin-top: 0; border-bottom: 1px solid #E0E0E0; padding-bottom: 12px;">
+                All Documents
+            </h2>
+            
+            <table class="notion-table" style="margin-top: 16px;">
+                <thead>
+                    <tr>
+                        <th style="width: 30px;"></th>
+                        <th>Document</th>
+                        <th style="width: 100px;">Status</th>
+                        <th style="width: 50px;"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr onclick="loadDocument('technical')" style="cursor: pointer;">
+                        <td>📊</td>
+                        <td>
+                            <div style="font-weight: 600;">Technical Proposal</div>
+                            <div style="font-size: 0.85rem; color: #78777C;">Complete methodology with Corporate Ethnography</div>
+                        </td>
+                        <td><span class="notion-badge notion-badge-success">Final</span></td>
+                        <td style="text-align: right; color: #78777C;">→</td>
+                    </tr>
+                    <tr onclick="loadDocument('pricing')" style="cursor: pointer;">
+                        <td>💰</td>
+                        <td>
+                            <div style="font-weight: 600;">Pricing Proposal</div>
+                            <div style="font-size: 0.85rem; color: #78777C;">Firm-fixed pricing at $434,500</div>
+                        </td>
+                        <td><span class="notion-badge notion-badge-success">Final</span></td>
+                        <td style="text-align: right; color: #78777C;">→</td>
+                    </tr>
+                    <tr onclick="loadDocument('forms')" style="cursor: pointer;">
+                        <td>📝</td>
+                        <td>
+                            <div style="font-weight: 600;">Required Forms</div>
+                            <div style="font-size: 0.85rem; color: #78777C;">Forms 3.04-3.14 (Compliance & Certifications)</div>
+                        </td>
+                        <td><span class="notion-badge notion-badge-success">Final</span></td>
+                        <td style="text-align: right; color: #78777C;">→</td>
+                    </tr>
+                    <tr onclick="loadDocument('executive')" style="cursor: pointer;">
+                        <td>⭐</td>
+                        <td>
+                            <div style="font-weight: 600;">Executive Summary</div>
+                            <div style="font-size: 0.85rem; color: #78777C;">Compelling 2-page narrative</div>
+                        </td>
+                        <td><span class="notion-badge notion-badge-success">Final</span></td>
+                        <td style="text-align: right; color: #78777C;">→</td>
+                    </tr>
+                    <tr onclick="loadDocument('compliance')" style="cursor: pointer;">
+                        <td>⚖️</td>
+                        <td>
+                            <div style="font-weight: 600;">Grant Compliance Matrix</div>
+                            <div style="font-size: 0.85rem; color: #78777C;">FTA requirements mapping</div>
+                        </td>
+                        <td><span class="notion-badge notion-badge-success">Final</span></td>
+                        <td style="text-align: right; color: #78777C;">→</td>
+                    </tr>
+                    <tr onclick="loadDocument('risk')" style="cursor: pointer;">
+                        <td>🛡️</td>
+                        <td>
+                            <div style="font-weight: 600;">Risk Management Playbook</div>
+                            <div style="font-size: 0.85rem; color: #78777C;">Comprehensive risk mitigation</div>
+                        </td>
+                        <td><span class="notion-badge notion-badge-success">Final</span></td>
+                        <td style="text-align: right; color: #78777C;">→</td>
+                    </tr>
+                    <tr onclick="loadDocument('change')" style="cursor: pointer;">
+                        <td>👥</td>
+                        <td>
+                            <div style="font-weight: 600;">Change Management Strategy</div>
+                            <div style="font-size: 0.85rem; color: #78777C;">ADKAR framework and user adoption</div>
+                        </td>
+                        <td><span class="notion-badge notion-badge-success">Final</span></td>
+                        <td style="text-align: right; color: #78777C;">→</td>
+                    </tr>
+                    <tr onclick="loadDocument('migration')" style="cursor: pointer;">
+                        <td>🗃️</td>
+                        <td>
+                            <div style="font-weight: 600;">Data Migration Playbook</div>
+                            <div style="font-size: 0.85rem; color: #78777C;">Data Hygiene First methodology</div>
+                        </td>
+                        <td><span class="notion-badge notion-badge-success">Final</span></td>
+                        <td style="text-align: right; color: #78777C;">→</td>
+                    </tr>
+                    <tr onclick="loadDocument('action')" style="cursor: pointer;">
+                        <td>✅</td>
+                        <td>
+                            <div style="font-weight: 600;">Action Plan</div>
+                            <div style="font-size: 0.85rem; color: #78777C;">29-day execution timeline</div>
+                        </td>
+                        <td><span class="notion-badge notion-badge-success">Final</span></td>
+                        <td style="text-align: right; color: #78777C;">→</td>
+                    </tr>
+                    <tr onclick="loadDocument('checklist')" style="cursor: pointer;">
+                        <td>✓✓</td>
+                        <td>
+                            <div style="font-weight: 600;">Submission Checklist</div>
+                            <div style="font-size: 0.85rem; color: #78777C;">Complete verification for final submission</div>
+                        </td>
+                        <td><span class="notion-badge notion-badge-success">Final</span></td>
+                        <td style="text-align: right; color: #78777C;">→</td>
+                    </tr>
+                    <tr onclick="loadDocument('references')" style="cursor: pointer;">
+                        <td>📚</td>
+                        <td>
+                            <div style="font-weight: 600;">Reference Package Templates</div>
+                            <div style="font-size: 0.85rem; color: #78777C;">Reference letters and case studies</div>
+                        </td>
+                        <td><span class="notion-badge notion-badge-success">Final</span></td>
+                        <td style="text-align: right; color: #78777C;">→</td>
+                    </tr>
+                    <tr onclick="loadDocument('charter')" style="cursor: pointer;">
+                        <td>📋</td>
+                        <td>
+                            <div style="font-weight: 600;">Project Charter Outline</div>
+                            <div style="font-size: 0.85rem; color: #78777C;">Phase 1 deliverable structure</div>
+                        </td>
+                        <td><span class="notion-badge notion-badge-success">Final</span></td>
+                        <td style="text-align: right; color: #78777C;">→</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Our Approach -->
+        <div class="notion-card" style="margin-bottom: 32px;">
+            <h2 style="margin-top: 0; border-bottom: 1px solid #E0E0E0; padding-bottom: 12px;">
+                Why Choose Us
+            </h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 16px;">
+                <div style="padding: 16px; background: #F7F7F5; border-radius: 8px;">
+                    <div style="font-size: 1.25rem; color: #00A8E8; margin-bottom: 8px;">📊</div>
+                    <h3 style="margin: 0 0 8px 0; font-size: 1.1rem;">15+ Years ERP Experience</h3>
+                    <p style="margin: 0; font-size: 0.9rem; color: #78777C;">Hands-on Oracle, Salesforce migrations. Not just consulting—actual implementation.</p>
+                </div>
+                
+                <div style="padding: 16px; background: #F7F7F5; border-radius: 8px;">
+                    <div style="font-size: 1.25rem; color: #00A8E8; margin-bottom: 8px;">🔍</div>
+                    <h3 style="margin: 0 0 8px 0; font-size: 1.1rem;">Quantitative Data Analysis</h3>
+                    <p style="margin: 0; font-size: 0.9rem; color: #78777C;">Data-driven decisions, measurable insights, not just observations.</p>
+                </div>
+                
+                <div style="padding: 16px; background: #F7F7F5; border-radius: 8px;">
+                    <div style="font-size: 1.25rem; color: #00A8E8; margin-bottom: 8px;">👥</div>
+                    <h3 style="margin: 0 0 8px 0; font-size: 1.1rem;">Human-Centered Design</h3>
+                    <p style="margin: 0; font-size: 0.9rem; color: #78777C;">Software adapts to people. 95% user adoption in past projects.</p>
+                </div>
+                
+                <div style="padding: 16px; background: #F7F7F5; border-radius: 8px;">
+                    <div style="font-size: 1.25rem; color: #00A8E8; margin-bottom: 8px;">🏗️</div>
+                    <h3 style="margin: 0 0 8px 0; font-size: 1.1rem;">Enterprise Data Products</h3>
+                    <p style="margin: 0; font-size: 0.9rem; color: #78777C;">Systems at scale—dashboards, integrations, serving 500+ users.</p>
                 </div>
             </div>
         </div>
-    </section>
 
-    <!-- Methodology -->
-    <section id="methodology" class="section">
-        <div class="container">
-            <h2 class="section-title">Our Methodology</h2>
-            <p class="section-subtitle">Four pillars that ensure success</p>
-            
-            <div class="methodology-grid">
-                <div class="methodology-card fade-in">
-                    <div class="card-number">01</div>
-                    <h3>Service Blueprints</h3>
-                    <p>Visual maps showing user actions, front-stage touchpoints, back-stage processes, and pain points. Standard consultants provide requirements lists; we provide actionable insights.</p>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check"></i> User journey mapping</li>
-                        <li><i class="fas fa-check"></i> Front-stage/back-stage analysis</li>
-                        <li><i class="fas fa-check"></i> Pain point identification</li>
-                    </ul>
-                </div>
-                
-                <div class="methodology-card fade-in">
-                    <div class="card-number">02</div>
-                    <h3>Data Hygiene First</h3>
-                    <p>We institute "Pre-Migration Data Hygiene" - cleaning vendor master files and asset lists BEFORE the vendor is allowed to import them. No "garbage in, garbage out."</p>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check"></i> Data quality assessment</li>
-                        <li><i class="fas fa-check"></i> Data cleansing rules</li>
-                        <li><i class="fas fa-check"></i> Three-phase migration</li>
-                    </ul>
-                </div>
-                
-                <div class="methodology-card fade-in">
-                    <div class="card-number">03</div>
-                    <h3>Integration Handshake Testing</h3>
-                    <p>We don't just check if data moves between Trapeze and ADP. We test if it moves CORRECTLY when things go wrong. API reliability under failure conditions.</p>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check"></i> Positive path testing</li>
-                        <li><i class="fas fa-check"></i> Negative path testing</li>
-                        <li><i class="fas fa-check"></i> Failure recovery</li>
-                    </ul>
-                </div>
-                
-                <div class="methodology-card fade-in">
-                    <div class="card-number">04</div>
-                    <h3>Guardian Oversight</h3>
-                    <p>During vendor execution, we stand between SMART and the software vendor. We protect your interests, prevent scope creep, and ensure deliverables meet requirements.</p>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check"></i> Independent oversight</li>
-                        <li><i class="fas fa-check"></i> Scope change management</li>
-                        <li><i class="fas fa-check"></i> Quality assurance</li>
-                    </ul>
-                </div>
+        <!-- Contact -->
+        <div class="notion-card" style="margin-bottom: 32px;">
+            <h2 style="margin-top: 0; border-bottom: 1px solid #E0E0E0; padding-bottom: 12px;">
+                Questions? Contact Us
+            </h2>
+            <div style="margin-top: 24px; padding-left: 20px; border-left: 3px solid #00A8E8;">
+                <p style="margin: 0 0 16px 0; color: #37352F;">
+                    <strong style="color: #00A8E8;">Maximilian Murphy</strong><br>
+                    <span style="color: #78777C;">Lead ERP Migration Program Manager</span>
+                </p>
+                <p style="margin: 8px 0 0 0; color: #78777C;">
+                    <span style="color: #00A8E8;">📧</span> [Your Email Here]<br>
+                    <span style="color: #00A8E8;">📞</span> [Your Phone Here]
+                </p>
+                <hr style="margin: 16px 0; border-top: 1px solid #E0E0E0; border-bottom: none;">
+                <p style="margin: 16px 0 0 0; color: #37352F;">
+                    <strong style="color: #00A8E8;">Building Better Communities, LLC</strong><br>
+                    <span style="color: #78777C;">Joint Venture Partner</span>
+                </p>
             </div>
         </div>
-    </section>
-
-    <!-- Timeline -->
-    <section id="timeline" class="section alt-bg">
-        <div class="container">
-            <h2 class="section-title">24-Month Roadmap</h2>
-            <p class="section-subtitle">Realistic, risk-adjusted timeline that respects public sector constraints</p>
-            
-            <div class="timeline-visual">
-                <div class="timeline-phase phase-1">
-                    <div class="phase-number">01</div>
-                    <div class="phase-content">
-                        <h3>Discovery & Selection</h3>
-                        <p>Months 1-4</p>
-                        <ul>
-                            <li>Needs assessment</li>
-                            <li>ERP RFP development</li>
-                            <li>Vendor evaluation</li>
-                            <li>Contract negotiation</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="timeline-phase phase-2">
-                    <div class="phase-number">02</div>
-                    <div class="phase-content">
-                        <h3>Foundation & Integration</h3>
-                        <p>Months 5-8</p>
-                        <ul>
-                            <li>Project charter</li>
-                            <li>Integration architecture</li>
-                            <li>Data migration prep</li>
-                            <li>Guardian oversight setup</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="timeline-phase phase-3">
-                    <div class="phase-number">03</div>
-                    <div class="phase-content">
-                        <h3>Core Implementation</h3>
-                        <p>Months 9-16</p>
-                        <ul>
-                            <li>Module deployment</li>
-                            <li>Integration testing</li>
-                            <li>User training</li>
-                            <li>Performance tuning</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="timeline-phase phase-4">
-                    <div class="phase-number">04</div>
-                    <div class="phase-content">
-                        <h3>Go-Live & Optimization</h3>
-                        <p>Months 17-24</p>
-                        <ul>
-                            <li>Cutover execution</li>
-                            <li>Hypercare support</li>
-                            <li>Continuous improvement</li>
-                            <li>Knowledge transfer</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing -->
-    <section id="pricing" class="section">
-        <div class="container">
-            <h2 class="section-title">Investment</h2>
-            <p class="section-subtitle">Firm-fixed pricing. No surprises. No scope creep.</p>
-            
-            <div class="pricing-overview">
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>Total Investment</h3>
-                        <div class="pricing-amount">$434,500</div>
-                        <span class="pricing-type">Firm-Fixed Price</span>
-                    </div>
-                    <div class="pricing-body">
-                        <ul>
-                            <li><i class="fas fa-check-circle"></i> Complete 24-month engagement</li>
-                            <li><i class="fas fa-check-circle"></i> Guardian oversight throughout</li>
-                            <li><i class="fas fa-check-circle"></i> Deliverable-based structure</li>
-                            <li><i class="fas fa-check-circle"></i> No hourly billing surprises</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-footer">
-                        <p><strong>Deliverable-Based Pricing</strong></p>
-                        <p>Payment tied to milestones, not hours</p>
-                    </div>
-                </div>
-                
-                <div class="pricing-breakdown">
-                    <h3>Phase Breakdown</h3>
-                    <div class="breakdown-item">
-                        <span class="breakdown-name">Phase 1: Project Initiation</span>
-                        <span class="breakdown-amount">$8,000</span>
-                    </div>
-                    <div class="breakdown-item">
-                        <span class="breakdown-name">Phase 2: Comprehensive Needs Assessment</span>
-                        <span class="breakdown-amount">$80,000</span>
-                    </div>
-                    <div class="breakdown-item">
-                        <span class="breakdown-name">Phase 3: ERP RFP Development</span>
-                        <span class="breakdown-amount">$24,000</span>
-                    </div>
-                    <div class="breakdown-item">
-                        <span class="breakdown-name">Phase 4: Vendor Evaluation</span>
-                        <span class="breakdown-amount">$16,000</span>
-                    </div>
-                    <div class="breakdown-item">
-                        <span class="breakdown-name">Phase 5: Contract Negotiation</span>
-                        <span class="breakdown-amount">$8,000</span>
-                    </div>
-                    <div class="breakdown-item highlight">
-                        <span class="breakdown-name">Phase 6: Implementation Oversight</span>
-                        <span class="breakdown-amount">$298,500</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Us -->
-    <section id="why-us" class="section alt-bg">
-        <div class="container">
-            <h2 class="section-title">Why Choose Us</h2>
-            <p class="section-subtitle">Differentiators that matter</p>
-            
-            <div class="differentiators">
-                <div class="differentiator-item fade-in">
-                    <div class="differentiator-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Guardian Model</h3>
-                    <p>We stand between SMART and the software vendor during implementation. Your advocate, your protector, your assurance of success.</p>
-                </div>
-                
-                <div class="differentiator-item fade-in">
-                    <div class="differentiator-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h3>Human-Centered Design</h3>
-                    <p>Software should adapt to people, not people to software. Our ethnographic approach ensures high user adoption.</p>
-                </div>
-                
-                <div class="differentiator-item fade-in">
-                    <div class="differentiator-icon">
-                        <i class="fas fa-dollar-sign"></i>
-                    </div>
-                    <h3>Firm-Fixed Pricing</h3>
-                    <p>Budget certainty with no surprises. Eliminate "consultant bleed" and scope creep risks.</p>
-                </div>
-                
-                <div class="differentiator-item fade-in">
-                    <div class="differentiator-icon">
-                        <i class="fas fa-bus"></i>
-                    </div>
-                    <h3>Transit Expertise</h3>
-                    <p>Deep understanding of FTA regulations, NTD reporting, and public sector constraints.</p>
-                </div>
-                
-                <div class="differentiator-item fade-in">
-                    <div class="differentiator-icon">
-                        <i class="fas fa-clock"></i>
-                    </div>
-                    <h3>Realistic Timeline</h3>
-                    <p>24-month risk-adjusted schedule. No rushed, unrealistic promises that set projects up to fail.</p>
-                </div>
-                
-                <div class="differentiator-item fade-in">
-                    <div class="differentiator-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h3>DBE Commitment</h3>
-                    <p>Joint venture with Building Beloved Communities, LLC demonstrates commitment to diversity and inclusion.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Section -->
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">Our Team</h2>
-            <p class="section-subtitle">Experienced professionals committed to your success</p>
-            
-            <div class="team-grid">
-                <div class="team-card fade-in">
-                    <div class="team-avatar">
-                        <i class="fas fa-user"></i>
-                    </div>
-                    <h3>Maximilian Murphy</h3>
-                    <p class="team-title">Lead ERP Migration Program Manager</p>
-                    <p class="team-bio">15+ years experience leading enterprise ERP implementations. Expert in human-centered design and transit industry operations.</p>
-                </div>
-                
-                <div class="team-card fade-in">
-                    <div class="team-avatar">
-                        <i class="fas fa-chart-bar"></i>
-                    </div>
-                    <h3>Business Analyst - Transit Operations</h3>
-                    <p class="team-bio">[To be provided - Associate bio to be added]</p>
-                </div>
-                
-                <div class="team-card fade-in">
-                    <div class="team-avatar">
-                        <i class="fas fa-palette"></i>
-                    </div>
-                    <h3>Human-Centered Design Lead</h3>
-                    <p class="team-bio">[To be provided - Associate bio to be added]</p>
-                </div>
-                
-                <div class="team-card fade-in">
-                    <div class="team-avatar">
-                        <i class="fas fa-server"></i>
-                    </div>
-                    <h3>Technical Infrastructure Architect</h3>
-                    <p class="team-bio">[To be provided - Associate bio to be added]</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Documents -->
-    <section id="documents" class="section alt-bg">
-        <div class="container">
-            <h2 class="section-title">Full Proposal Documents</h2>
-            <p class="section-subtitle">Click any document to view in detail</p>
-            
-            <div class="document-status-summary">
-                <div class="status-summary-item status-final">
-                    <i class="fas fa-check-circle"></i>
-                    <span>12 Documents Ready</span>
-                </div>
-                <div class="status-summary-item status-pending">
-                    <i class="fas fa-print"></i>
-                    <span>Print-Ready PDFs</span>
-                </div>
-                <div class="status-summary-item status-missing">
-                    <i class="fas fa-clock"></i>
-                    <span>Updated: Jan 15, 2026</span>
-                </div>
-            </div>
-            
-            <div class="document-grid">
-                <div class="doc-card fade-in" onclick="loadDocument('technical')">
-                    <div class="doc-icon">
-                        <i class="fas fa-file-alt"></i>
-                    </div>
-                    <div class="doc-info">
-                        <h3>Technical Proposal</h3>
-                        <p>Complete methodology with Corporate Ethnography</p>
-                        <div class="doc-meta">
-                            <span class="doc-status status-final"><i class="fas fa-check-circle"></i> Final</span>
-                        </div>
-                    </div>
-                    <div class="doc-action">
-                        <i class="fas fa-arrow-right"></i>
-                    </div>
-                </div>
-                
-                <div class="doc-card fade-in" onclick="loadDocument('pricing')">
-                    <div class="doc-icon">
-                        <i class="fas fa-dollar-sign"></i>
-                    </div>
-                    <div class="doc-info">
-                        <h3>Pricing Proposal</h3>
-                        <p>Firm-fixed pricing at $434,500</p>
-                        <div class="doc-meta">
-                            <span class="doc-status status-final"><i class="fas fa-check-circle"></i> Final</span>
-                        </div>
-                    </div>
-                    <div class="doc-action">
-                        <i class="fas fa-arrow-right"></i>
-                    </div>
-                </div>
-                
-                <div class="doc-card fade-in" onclick="loadDocument('forms')">
-                    <div class="doc-icon">
-                        <i class="fas fa-file-contract"></i>
-                    </div>
-                    <div class="doc-info">
-                        <h3>Required Forms</h3>
-                        <p>Forms 3.04-3.14 (Compliance & Certifications)</p>
-                        <div class="doc-meta">
-                            <span class="doc-status status-final"><i class="fas fa-check-circle"></i> Final</span>
-                        </div>
-                    </div>
-                    <div class="doc-action">
-                        <i class="fas fa-arrow-right"></i>
-                    </div>
-                </div>
-
-                <div class="doc-card fade-in" onclick="loadDocument('executive')">
-                    <div class="doc-icon">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <div class="doc-info">
-                        <h3>Executive Summary</h3>
-                        <p>Compelling 2-page narrative for SMART</p>
-                        <div class="doc-meta">
-                            <span class="doc-status status-final"><i class="fas fa-check-circle"></i> Final</span>
-                        </div>
-                    </div>
-                    <div class="doc-action">
-                        <i class="fas fa-arrow-right"></i>
-                    </div>
-                </div>
-
-                <div class="doc-card fade-in" onclick="loadDocument('compliance')">
-                    <div class="doc-icon">
-                        <i class="fas fa-balance-scale"></i>
-                    </div>
-                    <div class="doc-info">
-                        <h3>Grant Compliance Matrix</h3>
-                        <p>FTA requirements mapping to deliverables</p>
-                        <div class="doc-meta">
-                            <span class="doc-status status-final"><i class="fas fa-check-circle"></i> Final</span>
-                        </div>
-                    </div>
-                    <div class="doc-action">
-                        <i class="fas fa-arrow-right"></i>
-                    </div>
-                </div>
-
-                <div class="doc-card fade-in" onclick="loadDocument('risk')">
-                    <div class="doc-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <div class="doc-info">
-                        <h3>Risk Management Playbook</h3>
-                        <p>Comprehensive risk mitigation strategies</p>
-                        <div class="doc-meta">
-                            <span class="doc-status status-final"><i class="fas fa-check-circle"></i> Final</span>
-                        </div>
-                    </div>
-                    <div class="doc-action">
-                        <i class="fas fa-arrow-right"></i>
-                    </div>
-                </div>
-
-                <div class="doc-card fade-in" onclick="loadDocument('change')">
-                    <div class="doc-icon">
-                        <i class="fas fa-users-cog"></i>
-                    </div>
-                    <div class="doc-info">
-                        <h3>Change Management Strategy</h3>
-                        <p>ADKAR framework and user adoption</p>
-                        <div class="doc-meta">
-                            <span class="doc-status status-final"><i class="fas fa-check-circle"></i> Final</span>
-                        </div>
-                    </div>
-                    <div class="doc-action">
-                        <i class="fas fa-arrow-right"></i>
-                    </div>
-                </div>
-
-                <div class="doc-card fade-in" onclick="loadDocument('migration')">
-                    <div class="doc-icon">
-                        <i class="fas fa-database"></i>
-                    </div>
-                    <div class="doc-info">
-                        <h3>Data Migration Playbook</h3>
-                        <p>Data Hygiene First methodology</p>
-                        <div class="doc-meta">
-                            <span class="doc-status status-final"><i class="fas fa-check-circle"></i> Final</span>
-                        </div>
-                    </div>
-                    <div class="doc-action">
-                        <i class="fas fa-arrow-right"></i>
-                    </div>
-                </div>
-
-                <div class="doc-card fade-in" onclick="loadDocument('action')">
-                    <div class="doc-icon">
-                        <i class="fas fa-tasks"></i>
-                    </div>
-                    <div class="doc-info">
-                        <h3>Action Plan</h3>
-                        <p>29-day execution timeline with all tasks</p>
-                        <div class="doc-meta">
-                            <span class="doc-status status-final"><i class="fas fa-check-circle"></i> Final</span>
-                        </div>
-                    </div>
-                    <div class="doc-action">
-                        <i class="fas fa-arrow-right"></i>
-                    </div>
-                </div>
-
-                <div class="doc-card fade-in" onclick="loadDocument('checklist')">
-                    <div class="doc-icon">
-                        <i class="fas fa-check-double"></i>
-                    </div>
-                    <div class="doc-info">
-                        <h3>Submission Checklist</h3>
-                        <p>Complete verification for final submission</p>
-                        <div class="doc-meta">
-                            <span class="doc-status status-final"><i class="fas fa-check-circle"></i> Final</span>
-                        </div>
-                    </div>
-                    <div class="doc-action">
-                        <i class="fas fa-arrow-right"></i>
-                    </div>
-                </div>
-
-                <div class="doc-card fade-in" onclick="loadDocument('references')">
-                    <div class="doc-icon">
-                        <i class="fas fa-address-book"></i>
-                    </div>
-                    <div class="doc-info">
-                        <h3>Reference Package Templates</h3>
-                        <p>Reference letters and case studies</p>
-                        <div class="doc-meta">
-                            <span class="doc-status status-final"><i class="fas fa-check-circle"></i> Final</span>
-                        </div>
-                    </div>
-                    <div class="doc-action">
-                        <i class="fas fa-arrow-right"></i>
-                    </div>
-                </div>
-
-                <div class="doc-card fade-in" onclick="loadDocument('charter')">
-                    <div class="doc-icon">
-                        <i class="fas fa-clipboard-list"></i>
-                    </div>
-                    <div class="doc-info">
-                        <h3>Project Charter Outline</h3>
-                        <p>Phase 1 deliverable structure</p>
-                        <div class="doc-meta">
-                            <span class="doc-status status-final"><i class="fas fa-check-circle"></i> Final</span>
-                        </div>
-                    </div>
-                    <div class="doc-action">
-                        <i class="fas fa-arrow-right"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2 class="section-title">Next Steps</h2>
-            <p class="section-subtitle">Let's discuss how we can transform SMART's ERP landscape</p>
-            
-            <div class="contact-grid">
-                <div class="contact-card fade-in">
-                    <h3>Pre-Proposal Conference</h3>
-                    <p class="conference-date">January 23, 2026 @ 10:00 AM ET</p>
-                    <p>Join us for the mandatory pre-proposal conference. We'll be attending and look forward to answering your questions about our approach.</p>
-                    <a href="#" class="btn-primary">Register Now</a>
-                </div>
-                
-                <div class="contact-card fade-in">
-                    <h3>Contact Information</h3>
-                    <p><strong>Lead Consultant:</strong></p>
-                    <p>Maximilian Murphy</p>
-                    <p>Lead ERP Migration Program Manager</p>
-                    <div class="contact-details">
-                        <p><i class="fas fa-envelope"></i> [Your Email Here]</p>
-                        <p><i class="fas fa-phone"></i> [Your Phone Here]</p>
-                        <p><i class="fab fa-linkedin"></i> [LinkedIn Profile]</p>
-                    </div>
-                </div>
-                
-                <div class="contact-card fade-in">
-                    <h3>Joint Venture Partner</h3>
-                    <p><strong>Building Beloved Communities, LLC</strong></p>
-                    <p>Roanoke, VA</p>
-                    <div class="contact-details">
-                        <p><i class="fas fa-envelope"></i> info@buildingbelovedcommunities.com</p>
-                        <p><i class="fas fa-globe"></i> www.buildingbelovedcommunities.com</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Building Beloved Communities, LLC. All rights reserved.</p>
-            <p>Proposal for SMART RFP 26-4364 | Enterprise Resource Planning (ERP) System Upgrade Consultant</p>
-        </div>
-    </footer>
+    </div>
 
     <!-- Document Viewer Modal -->
-    <div id="document-viewer" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 id="viewer-title">Document Title</h2>
-                <button class="close-btn" onclick="closeDocumentViewer()">
+    <div id="document-viewer" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 1000; overflow-y: auto;">
+        <div style="background: #FFFFFF; max-width: 900px; margin: 40px auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+            <div style="padding: 20px 24px; border-bottom: 1px solid #E0E0E0; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; background: #FFFFFF; border-radius: 12px 12px 0 0;">
+                <h2 id="viewer-title" style="margin: 0; font-size: 1.5rem; color: #37352F;">Document Title</h2>
+                <button onclick="closeDocumentViewer()" style="background: none; border: none; font-size: 1.5rem; color: #78777C; cursor: pointer; padding: 8px;">
                     <i class="fas fa-times"></i>
                 </button>
             </div>
-            <div class="modal-body">
-                <div id="viewer-content" class="markdown-content"></div>
+            <div style="padding: 24px;">
+                <div id="viewer-content" style="line-height: 1.8; color: #37352F; font-size: 14px;"></div>
+            </div>
+            <div style="padding: 16px 24px; border-top: 1px solid #E0E0E0; display: flex; justify-content: flex-end; gap: 12px;">
+                <button onclick="window.print()" class="notion-btn">
+                    <i class="fas fa-print"></i> Print
+                </button>
+                <button onclick="closeDocumentViewer()" class="notion-btn notion-btn-primary">
+                    Close
+                </button>
             </div>
         </div>
     </div>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/animations.js"></script>
-    <script src="js/client.js"></script>
+    <script>
+        const documents = {
+            technical: {
+                title: 'Technical Proposal',
+                file: 'SMART-RFP-26-4364-Technical-Proposal.md'
+            },
+            pricing: {
+                title: 'Pricing Proposal',
+                file: 'SMART-RFP-26-4364-Pricing-Proposal.md'
+            },
+            forms: {
+                title: 'Required Forms',
+                file: 'SMART-RFP-26-4364-Required-Forms.md'
+            },
+            executive: {
+                title: 'Executive Summary',
+                file: 'SMART-RFP-26-4364-Executive-Summary.md'
+            },
+            compliance: {
+                title: 'Grant Compliance Matrix',
+                file: 'SMART-RFP-26-4364-Grant-Compliance-Matrix.md'
+            },
+            risk: {
+                title: 'Risk Management Playbook',
+                file: 'SMART-RFP-26-4364-Risk-Management-Playbook.md'
+            },
+            change: {
+                title: 'Change Management Strategy',
+                file: 'SMART-RFP-26-4364-Change-Management-Strategy.md'
+            },
+            migration: {
+                title: 'Data Migration Playbook',
+                file: 'SMART-RFP-26-4364-Data-Migration-Playbook.md'
+            },
+            action: {
+                title: 'Action Plan',
+                file: 'SMART-RFP-26-4364-Action-Plan.md'
+            },
+            checklist: {
+                title: 'Submission Checklist',
+                file: 'SMART-RFP-26-4364-Submission-Checklist.md'
+            },
+            references: {
+                title: 'Reference Package Templates',
+                file: 'SMART-RFP-26-4364-Reference-Package-Templates.md'
+            },
+            charter: {
+                title: 'Project Charter Outline',
+                file: 'SMART-RFP-26-4364-Project-Charter-Outline.md'
+            }
+        };
+
+        function loadDocument(docId) {
+            const doc = documents[docId];
+            const viewer = document.getElementById('document-viewer');
+            const title = document.getElementById('viewer-title');
+            const content = document.getElementById('viewer-content');
+
+            title.textContent = doc.title;
+            content.innerHTML = '<p style="text-align: center; padding: 40px;">Loading document...</p>';
+            viewer.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+
+            fetch(doc.file)
+                .then(response => {
+                    if (!response.ok) throw new Error('Failed to load document');
+                    return response.text();
+                })
+                .then(markdown => {
+                    content.innerHTML = marked.parse(markdown);
+                })
+                .catch(error => {
+                    content.innerHTML = `
+                        <div style="text-align: center; padding: 40px; color: #EB5757;">
+                            <i class="fas fa-exclamation-circle" style="font-size: 3rem; margin-bottom: 16px;"></i>
+                            <h3 style="margin: 0 0 8px 0;">Error Loading Document</h3>
+                            <p style="margin: 0; color: #78777C;">${error.message}</p>
+                            <p style="margin: 16px 0 0 0; font-size: 0.85rem;">The _headers file has been added to Netlify to fix markdown loading. It may take a few minutes to deploy.</p>
+                        </div>
+                    `;
+                });
+        }
+
+        function closeDocumentViewer() {
+            const viewer = document.getElementById('document-viewer');
+            viewer.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeDocumentViewer();
+        });
+
+        // Close modal on outside click
+        document.getElementById('document-viewer').addEventListener('click', (e) => {
+            if (e.target.id === 'document-viewer') closeDocumentViewer();
+        });
+    </script>
 </body>
 </html>
