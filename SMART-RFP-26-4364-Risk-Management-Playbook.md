@@ -26,7 +26,7 @@ This playbook details my proactive risk management approach.
 
 ## Risk Categories
 
-### Category1: Project Scope & Requirements
+### Category 1: Project Scope & Requirements
 
 ### Risk 1.1: Scope Creep During Implementation
 **Probability:** High  
@@ -42,17 +42,17 @@ This playbook details my proactive risk management approach.
 - Vendor using scope creep to increase revenue
 
 **Mitigation Strategies:**
-1. **Comprehensive Needs Assessment (Phase 2)**
+1. **Comprehensive Needs Assessment (Phase 1)**
    - Corporate ethnography reveals real requirements upfront
    - Service blueprints capture all user journeys
    - Shadow ERP identification prevents surprise needs
    
-2. **Detailed ERP RFP (Phase 3)**
+2. **Detailed ERP RFP (Phase 2)**
    - Clear, unambiguous requirements
    - Vendor penalties for non-delivery
    - Scope change process defined in contract
    
-3. **Implementation Partnership (Phase 6)**
+3. **Implementation Partnership (Phases 3-4)**
    - All vendor-proposed changes require my analysis
    - SMART only sees changes that I recommend
    - Change impact analysis (time, cost, benefit) before approval
@@ -123,7 +123,7 @@ This playbook details my proactive risk management approach.
 - Vendor testing only positive scenarios
 
 **Mitigation Strategies:**
-1. **Integration Architecture Design (Phase 5)**
+1. **Integration Architecture Design (Phase 2)**
    - I validate integration design before implementation
    - Comprehensive API documentation requirements
    - Data mapping specifications reviewed by SMART IT
@@ -134,7 +134,7 @@ This playbook details my proactive risk management approach.
    - Failure recovery testing: Graceful degradation, data consistency
    - Performance testing: Peak load, concurrent users
    
-3. **Vendor Selection Criteria (Phase 4)**
+3. **Vendor Selection Criteria (Phase 2)**
    - Proven integration experience with Trapeze
    - Proven integration experience with ADP
    - Integration case studies with references
@@ -214,12 +214,12 @@ This playbook details my proactive risk management approach.
    - Endurance testing: Sustained load over time
    - Performance SLA in vendor contract
    
-2. **Infrastructure Assessment (Phase 5)**
+2. **Infrastructure Assessment (Phase 2)**
    - I validate hardware/network sizing
    - SMART IT confirms infrastructure capacity
    - Cloud vs. on-premises evaluation
    
-3. **Phased Rollout (Months 17-24)**
+3. **Phased Rollout (Phases 3-4)**
    - Pilot deployment: Single department
    - Limited rollout: Multiple departments
    - Full rollout: All users
@@ -261,7 +261,7 @@ This playbook details my proactive risk management approach.
    - Role-based training (dispatcher, maintenance, finance, etc.)
    - Hands-on practice environment
    - Train-the-trainer: SMART super-users trained to train others
-   - Ongoing support during hypercare (Months 21-22)
+   - Ongoing support during hypercare (Phase 4)
    
 3. **Change Management Strategy (See Dedicated Playbook)**
    - Stakeholder communication plan
@@ -335,13 +335,13 @@ This playbook details my proactive risk management approach.
 - References not thoroughly checked
 
 **Mitigation Strategies:**
-1. **Rigorous Vendor Selection (Phase 4)**
+1. **Rigorous Vendor Selection (Phase 2)**
    - Require 3+ references (specifically transit agencies)
    - Contact references directly (not vendor-provided list)
    - Request demonstration of specific features
    - Require proof of successful integrations
    
-2. **Implementation Partnership Throughout Implementation**
+2. **Implementation Partnership Throughout (Phases 3-4)**
    - Vendor deliverables tested independently
    - I validate against contract requirements
    - No vendor deliverable accepted without my approval
@@ -388,7 +388,7 @@ This playbook details my proactive risk management approach.
    - I verify vendor staff expertise
    - Early warning if resources insufficient
    
-3. **Vendor Selection Criteria (Phase 4)**
+3. **Vendor Selection Criteria (Phase 2)**
    - Evaluate vendor capacity and workload
    - Require resource commitment letter
    - Check staff turnover rates
@@ -497,7 +497,7 @@ This playbook details my proactive risk management approach.
 **Description:** ERP project exceeds budget due to unforeseen issues.
 
 **Mitigation Strategy:**
-**Firm-Fixed Pricing Model ($434,500)**
+**Firm-Fixed Pricing Model ($1,942,500)**
 - No hourly billing for SMART
 - Payment tied to deliverables, not hours
 - All overrun costs absorbed by me

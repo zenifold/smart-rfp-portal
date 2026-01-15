@@ -58,7 +58,7 @@ As a recipient of FTA grants, SMART must ensure all ERP-related activities align
 
 ## Deliverable-Specific Compliance Mapping
 
-### Phase 2: Comprehensive Needs Assessment ($88,000)
+### Phase 1: Discovery & Assessment ($162,500)
 
 | FTA Requirement | Assessment Activity | Deliverable |
 |-----------------|-------------------|-------------|
@@ -67,7 +67,7 @@ As a recipient of FTA grants, SMART must ensure all ERP-related activities align
 | **DBE compliance review** | Assess current DBE tracking and reporting processes | DBE Process Review with recommendations for improvement |
 | **NTD reporting efficiency** | Analyze current NTD data collection and submission | NTD Process Assessment with optimization recommendations |
 
-### Phase 3: ERP RFP Development ($55,000)
+### Phase 2: Vendor Selection & Planning ($565,000)
 
 | FTA Requirement | RFP Component | Compliance Mechanism |
 |-----------------|----------------|---------------------|
@@ -76,7 +76,7 @@ As a recipient of FTA grants, SMART must ensure all ERP-related activities align
 | **Cost principle compliance** | Vendor cost proposal requirements | Cost proposals must follow FTA Circular 5010.1D principles |
 | **NTD data structure** | Data architecture requirements | ERP must support NTD reporting requirements |
 
-### Phase 4: Vendor Evaluation ($33,000)
+### Phase 2: Vendor Selection & Planning - Evaluation ($565,000)
 
 | FTA Requirement | Evaluation Criteria | Compliance Mechanism |
 |-----------------|-------------------|---------------------|
@@ -85,7 +85,7 @@ As a recipient of FTA grants, SMART must ensure all ERP-related activities align
 | **Financial management capabilities** | System functionality assessment | Verify FTA-required financial management features |
 | **Cost allowability** | Cost proposal review | I evaluate costs against FTA principles |
 
-### Phase 6: Implementation Partnership ($110,000)
+### Phase 3: Implementation & Training ($805,000)
 
 | FTA Requirement | Implementation Partner Activity | Compliance Mechanism |
 |-----------------|-------------------|---------------------|
@@ -95,51 +95,50 @@ As a recipient of FTA grants, SMART must ensure all ERP-related activities align
 | **NTD reporting** | Test NTD report generation | Verify NTD reports meet FTA specifications |
 | **Audit readiness** | Review internal controls and documentation | Ensure audit trail and documentation standards met |
 
+### Phase 4: Implementation Partner & Optimization ($380,000)
+- [ ] FTA-Compliant Contract Terms (review during vendor selection)
+- [ ] DBE Commitment Enforcement Clauses
+- [ ] FTA Reporting Requirements in Vendor Contract
+- [ ] Compliance Warranty and Remediation Terms
+
 ---
 
 ## Compliance Deliverables by Phase
 
-### Phase 1: Project Initiation ($11,000)
+### Phase 1: Discovery & Assessment - Deliverables ($162,500)
 - [ ] FTA Compliance Framework Document
 - [ ] Risk Assessment regarding FTA requirements
 - [ ] Compliance Success Criteria definition
 
-### Phase 2: Comprehensive Needs Assessment ($88,000)
+### Phase 2: Vendor Selection & Planning - Deliverables ($565,000)
 - [ ] Current System FTA Compliance Gap Analysis
 - [ ] Grant Fund Visibility Assessment
 - [ ] DBE Process Review
 - [ ] NTD Reporting Process Assessment
 - [ ] Recommendations for FTA compliance improvements
-
-### Phase 3: ERP RFP Development ($55,000)
 - [ ] FTA-Compliant RFP Document
 - [ ] DBE Participation Requirements
 - [ ] Procurement Methodology (FTA Circular 4220.1F compliant)
 - [ ] Vendor Evaluation Criteria (DBE-weighted)
 - [ ] Cost Principle Requirements (FTA Circular 5010.1D)
-
-### Phase 4: Vendor Evaluation ($33,000)
 - [ ] Vendor FTA Compliance Assessment
 - [ ] DBE Participation Plan Evaluation
 - [ ] Cost Proposal FTA Allowability Review
 - [ ] Financial Management Capability Assessment
 - [ ] Vendor Selection Justification Documentation
 
-### Phase 5: Contract Negotiation ($22,000)
-- [ ] FTA-Compliant Contract Terms
-- [ ] DBE Commitment Enforcement Clauses
-- [ ] FTA Reporting Requirements in Vendor Contract
-- [ ] Compliance Warranty and Remediation Terms
-
-### Phase 6: Implementation Partnership ($110,000)
+### Phase 3: Implementation & Training - Deliverables ($805,000)
 - [ ] Monthly FTA Compliance Status Reports
 - [ ] DBE Participation Monitoring Reports
 - [ ] Grant Fund Tracking Validation
 - [ ] NTD Report Generation Testing
 - [ ] Audit Trail Verification
 - [ ] Internal Controls Assessment
+
+### Phase 4: Implementation Partner & Optimization - Deliverables ($380,000)
 - [ ] FTA Readiness Review (pre-audit)
 - [ ] Post-Implementation Compliance Support (3 months)
+- [ ] Final Compliance Closeout Report
 
 ---
 

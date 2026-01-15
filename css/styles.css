@@ -846,6 +846,48 @@ body {
     }
 }
 
+/* Access Portal buttons mobile responsiveness */
+@media (max-width: 768px) {
+    .access-buttons {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .access-buttons button {
+        padding: 16px;
+    }
+    
+    .access-buttons button div {
+        align-items: center;
+    }
+}
+
+/* Key differentiators grid mobile responsiveness */
+@media (max-width: 768px) {
+    .notion-card[onclick] {
+        margin-bottom: 0;
+    }
+}
+
+/* About This Proposal section mobile responsiveness */
+@media (max-width: 768px) {
+    .notion-card[style*="margin-bottom: 32px;"] {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .notion-card[style*="margin-bottom: 32px;"] > div {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .notion-card[style*="margin-bottom: 32px;"] > div a {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
 /* ===================================
    Loading States
    =================================== */

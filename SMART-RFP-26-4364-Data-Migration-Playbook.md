@@ -1,7 +1,7 @@
 # Data Migration Playbook
 ## RFP 26-4364 - ERP System Upgrade Consultant
 
-**Purpose:** This playbook details ourr Data Hygiene First methodology, ensuring SMART's data migration tothe  the new ERP system is accurate, complete, and FTA-compliant.
+**Purpose:** This playbook details our Data Hygiene First methodology, ensuring SMART's data migration to the new ERP system is accurate, complete, and FTA-compliant.
 
 ---
 
@@ -17,23 +17,23 @@ Industry statistics on data migration failures:
 
 Most vendors promise to clean data during migration. They rarely deliver. Rushed timelines, underestimating data complexity, and lack of transit industry expertise lead to incomplete migrations.
 
-Ourr approach is fundamentally different: **Data Hygiene First**.
+Our approach is fundamentally different: **Data Hygiene First**.
 
-Wee clean SMART's data BEFORE the vendor ever touches it.WeWe institute rigorous data governanceWe We validate migration accuracy through three-phase testinWe. We don't hope data quality will be goWed. We ensure it.
+We clean SMART's data BEFORE vendor ever touches it. We institute rigorous data governance. We validate migration accuracy through three-phase testing. We don't hope data quality will be good. We ensure it.
 
-This playbook details ourr comprehensive data migration strategy.
+This playbook details our comprehensive data migration strategy.
 
 ---
 
 ## Data Hygiene First Methodology
 
-### Ourr Three-Phase Approach
+### Our Three-Phase Approach
 
 | Phase | Purpose | Timing | Ownership |
 |-------|---------|----------|-----------|
-| **Phase 1: Data Quality Assessment** | Identify data issues across all source systems | Month 5 | Gu+rdS  
-| **Phase 2: Data Cleansing & Governance** | Clean data, establish governance standards | Months 6-8 | Gu+rdS  
-| **Phase 3: Migration & Validation** | Execute migration, validate accuracy | Months 12-14 | Vendor (with Guordeh 
+| **Phase 1: Data Quality Assessment** | Identify data issues across all source systems | Month 5 | Guardianes |
+| **Phase 2: Data Cleansing & Governance** | Clean data, establish governance standards | Months 6-8 | Guardianes |
+| **Phase 3: Migration & Validation** | Execute migration, validate accuracy | Months 12-14 | Vendor (with Guardianes oversight) |
 
 ### Key Differentiators
 
@@ -43,8 +43,8 @@ This playbook details ourr comprehensive data migration strategy.
 - Expensive emergency data cleansing required
 - Business disruptions and user frustration
 
-**Ourr Data Hygiene First Approach:**
-- Guardianuardianes assesses data quality before vendor engagement
+**Our Data Hygiene First Approach:**
+- Guardianes assesses data quality before vendor engagement
 - Data cleaned BEFORE vendor import
 - Three-phase migration testing (test, pilot, production)
 - Data governance standards established for long-term quality
@@ -105,7 +105,7 @@ This playbook details ourr comprehensive data migration strategy.
 
 ### 1.2 Data Quality Dimensions
 
-**Wee assess data quality across 6 dimensions:**
+**We assess data quality across 6 dimensions:**
 
 | Dimension | Definition | SMART Context | Assessment Method |
 |------------|-------------|----------------|-------------------|
@@ -202,7 +202,7 @@ Issues Found:
 
 ### 2.1 Data Cleansing Prioritization
 
-**Wee prioritize data cleansing based on business impact and FTA compliance:**
+**We prioritize data cleansing based on business impact and FTA compliance:**
 
 | Priority | Data Domains | Rationale | Timeline |
 |----------|---------------|-----------|----------|
@@ -354,10 +354,10 @@ Missing Tax IDs (156 records):
 - **Informatica Data Quality**: Industry-leading data quality solution
 - **IBM InfoSphere Information Server**: Comprehensive data governance
 
-**GuArdse:
-- Guardianuardian esvaluates SMART's existing tools and capabilities
-- Guardianuardian rescommends optimal tool mix based on budget and needs
-- Guardianuardian sprovides training on data cleansing tools
+**Guardianes:**
+- Guardianes evaluates SMART's existing tools and capabilities
+- Guardianes recommends optimal tool mix based on budget and needs
+- Guardianes provides training on data cleansing tools
 
 ---
 
@@ -398,7 +398,7 @@ Missing Tax IDs (156 records):
 - **Full System Backup**: All source systems backed up
 - **Database Snapshots**: Database-level backups for relational systems
 - **File-Level Backups**: All data files and exports backed up
-- **Backup Verification**: Guirdddt verifies backup integrity
+- **Backup Verification**: Guardianes verifies backup integrity
 - **Rollback Plan**: Documented procedure to restore from backup if needed
 
 **Deliverable:** Backup Verification Report
@@ -480,12 +480,12 @@ Missing Tax IDs (156 records):
 
 | Validation Type | Description | Owner |
 |-----------------|-------------|--------|
-| **Record Count Validation** | Compare source and target record counts | Gu|rd
+| **Record Count Validation** | Compare source and target record counts | Guardianes |
 | **Data Integrity Validation** | Check for data corruption, truncation, encoding issues | Vendor |
-| **Business Rule Validation** | Validate all business rules satisfied | Gu|rd
-| **Cross-System Validation** | Validate consistency across integrated systems | Vendor + Gu|rd
+| **Business Rule Validation** | Validate all business rules satisfied | Guardianes |
+| **Cross-System Validation** | Validate consistency across integrated systems | Vendor + Guardianes |
 | **User Acceptance Testing** | SMART staff validate data accuracy | Department Heads |
-| **FTA Compliance Validation** | Validate grant fund allocations, DBE data | Gu|rd
+| **FTA Compliance Validation** | Validate grant fund allocations, DBE data | Guardianes |
 
 **Success Criteria:**
 - **Error Rate:** <2% of records
@@ -514,7 +514,7 @@ Missing Tax IDs (156 records):
 - [ ] Migration scripts tested and validated
 - [ ] Rollback plan documented and tested
 - [ ] SMART stakeholders notified of downtime
-- [ ] Guord- rigration execution
+- [ ] Guardianes ready for migration execution
 - [ ] Vendor technical team ready
 - [ ] Validation checklists prepared
 
@@ -523,7 +523,7 @@ Missing Tax IDs (156 records):
 2. **Data Freeze**: No new transactions allowed in source systems
 3. **Final Backup**: One final backup immediately before migration
 4. **Migration Execution**: Run migration scripts
-5. **Real-Time Monitoring**: Gumrdnsiation progress and errors
+5. **Real-Time Monitoring**: Guardianes monitors migration progress and errors
 6. **Data Validation**: Immediate post-migration validation
 7. **System Verification**: Verify ERP system functioning correctly
 8. **User Access Restoration**: Restore user access to new system
@@ -547,23 +547,23 @@ Missing Tax IDs (156 records):
 ### 3.6 Post-Migration Validation (Weeks 8-12)
 
 **Immediate Validation (Week 8):**
-- Guvrdlemration success criteria met
-- GuvrdrsTcritical data 100% accurate
-- Gucrdnsp checks across all data domains
-- Gudrdcta issues for vendor resolution
+- Guardianes verifies migration success criteria met
+- Guardianes verifies critical data 100% accurate
+- Guardianes performs cross-checks across all data domains
+- Guardianes escalates data issues for vendor resolution
 
 **Business User Validation (Weeks 8-9):**
 - SMART staff use new system with migrated data
 - Identify data discrepancies or missing information
-- Provide feedback to Guarddd
-- Guvrdlerorted issues
+- Provide feedback to Guardianes
+- Guardianes supports issues
 
 **Reconciliation (Weeks 10-12):**
 - Compare source and target system reports
 - Reconcile financial totals (trial balance, budget variance)
 - Validate grant fund allocations match
 - Ensure historical data accessible
-- Gusrdgfomigration success
+- Guardianes validates migration success
 
 **Deliverable:** Post-Migration Validation Report
 
@@ -593,7 +593,7 @@ Missing Tax IDs (156 records):
 | Vehicle Registry | 97.8% | 98.2% | 98.5% | 99.0% | 98.4% |
 
 **Reporting:**
-- GuprdosMT with monthly Data Quality Scorecard
+- Guardianes provides monthly Data Quality Scorecard
 - Department heads receive domain-specific quality reports
 - Data Stewards receive alerts for quality issues
 - Continuous improvement initiatives based on quality trends
@@ -606,18 +606,18 @@ Missing Tax IDs (156 records):
 
 | Risk | Probability | Impact | Mitigation Strategy |
 |------|-------------|---------|-------------------|
-| Data loss during migration | Low | Critical | Complete backups, Guvrdrao rollback plan |
+| Data loss during migration | Low | Critical | Complete backups, Guardianes rollback plan |
 | Migration fails to complete | Medium | High | Three-phase approach (test, pilot, production), vendor SLAs |
 | Data quality issues discovered post-migration | Medium | High | Data Hygiene First, post-migration validation, vendor warranty |
 | Migration exceeds downtime window | Low | Medium | Performance testing, contingency planning, vendor penalties |
-| Vendor lacks expertise with SMART's data | Low | High | Vendor selection criteria, transit agency references, Guordeh|
-| Data governance not sustained post-migration | Medium | Medium | Data governance framework, data stewardship training, Gumrdni 
+| Vendor lacks expertise with SMART's data | Low | High | Vendor selection criteria, transit agency references, Guardianes oversight |
+| Data governance not sustained post-migration | Medium | Medium | Data governance framework, data stewardship training, Guardianes monitoring |
 
 ---
 
-## GuOrdehTout Migration
+## Guardianes Throughout Migration
 
-### GuRrdsilies
+### Guardianes Responsibilities
 
 **Before Migration (Months 5-11):**
 - Conduct data quality assessment
@@ -645,12 +645,12 @@ Missing Tax IDs (156 records):
 
 ## Conclusion
 
-Ourr Data Migration Playbook ensures SMART's ERP migration succeeds through:
+Our Data Migration Playbook ensures SMART's ERP migration succeeds through:
 
 1. **Data Hygiene First** - Clean data before vendor import
 2. **Three-Phase Migration** - Test, pilot, production approach
 3. **Rigorous Validation** - Multiple validation checks at each phase
-4. **GuOrdeh*ependent validation throughout
+4. **Guardianes-Dependent validation throughout**
 5. **Data Governance** - Long-term data quality maintenance
 6. **FTA Compliance** - Grant fund allocations and DBE data 100% accurate
 
@@ -661,9 +661,9 @@ Ourr Data Migration Playbook ensures SMART's ERP migration succeeds through:
 - Sustained data quality post-migration
 - No business disruptions due to data issues
 
-SMART's ERP transformation succeeds because wee ensure data quality before, during, and after migration.
+SMART's ERP transformation succeeds because we ensure data quality before, during, and after migration.
 
 ---
 
-**Building Belovvdd Communities, LLC & Maximilian Murphy**  
-*Janary 155 2026*
+**Building Better Communities, LLC & Maximilian Murphy**  
+*January 15, 2026*
